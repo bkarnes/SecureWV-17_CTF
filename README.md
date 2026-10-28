@@ -49,7 +49,7 @@ Paranoia_CTF/
 - The repository root (this README) is assumed to be `/home/dude/Work/SecureWV-17_CTF`
 - **Note:** If your Docker setup requires root privileges, prepend `sudo` to the Docker commands; otherwise you can run them without `sudo`.
 
-### 0️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 # 1. Clone the project (replace <your‑username> with the GitHub owner)
