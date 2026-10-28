@@ -49,6 +49,21 @@ Paranoia_CTF/
 - The repository root (this README) is assumed to be `/home/dude/Work/SecureWV-17_CTF`
 - **Note:** If your Docker setup requires root privileges, prepend `sudo` to the Docker commands; otherwise you can run them without `sudo`.
 
+### 0️⃣ Clone the repository
+
+```bash
+# 1️⃣ Clone the project (replace <your‑username> with the GitHub owner)
+git clone https://github.com/bkarnes/SecureWV-17_CTF.git
+
+# 2️⃣ Change into the project directory
+cd SecureWV-17_CTF
+
+# 3️⃣ Verify you have the expected contents
+ls -l
+```
+
+After the repository is cloned and you are inside the project root, continue with the steps below for building and starting the Anomaly‑Machine containers.
+
 ### 1. Building and starting single machines:
 Each Anomaly‑Machine directory ships a ready‑made `.env` file containing the required flag variables, which will be read at the time of the docker compose up.
 
