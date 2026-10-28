@@ -157,6 +157,9 @@ Each Anomaly‑Machine (AM) contains two primary flags: a *user* flag written to
 
 ## Blue Team Challenges
 
+**All artifacts for each Blue Team challenge are located in the corresponding BT directory under an `artifacts/` folder.**
+
+
 | ID | Name | Description | CP | Category |
 |----|------|-------------|----|----------|
 | 15 | BT-01a | What IP address successfully authenticated after the brute-force attempts? | 25 | PROVISIONAL |
