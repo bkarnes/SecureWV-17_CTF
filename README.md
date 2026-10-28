@@ -101,6 +101,17 @@ Each Anomaly‑Machine (AM) contains two primary flags: a *user* flag written to
 
 
 
+### Port‑map reference
+| AM | Host ports | Service |
+|----|------------|---------|
+| AM‑01 | 80 (HTTP), 2222 (SSH) | Lobby terminal |
+| AM‑02 | 21 (FTP), 2223 (SSH), 8080 (HTTP), 30000-30009 (PASV) | Wellness Observation |
+| AM‑03 | 25 (SMTP), 80 (HTTP), 9001 (Status) | Network Junction |
+| AM‑04 | 80 (HTTP), 2220 (SSH), 3000 (API) | R&D Annex |
+| AM‑05 | 2225 (SSH), 8443 (HTTPS), 5672 (RabbitMQ) | The Archive |
+| AM‑06 | 2226 (SSH), 31337 (QUORUM terminal) | QUORUM Subsystem Alpha |
+| AM‑KoTH | 80 (HTTP), 2227 (SSH), 127.0.0.1:8081 (webhook) | QUORUM Core |
+
 ## Blue Team Challenges
 
 | ID | Name | Description | CP | Category |
@@ -138,14 +149,3 @@ Each Anomaly‑Machine (AM) contains two primary flags: a *user* flag written to
 | 51 | BT-08a | What encoding scheme is used in the outer layer? | 775 | IVORY |
 | 52 | BT-08b | What is the decryption key? | 800 | IVORY |
 | 53 | BT-08c | What is the content of the transmission? | 825 | IVORY |
-
-### Port‑map reference
-| AM | Host ports | Service |
-|----|------------|---------|
-| AM‑01 | 80 (HTTP), 2222 (SSH) | Lobby terminal |
-| AM‑02 | 21 (FTP), 2223 (SSH), 8080 (HTTP), 30000-30009 (PASV) | Wellness Observation |
-| AM‑03 | 25 (SMTP), 80 (HTTP), 9001 (Status) | Network Junction |
-| AM‑04 | 80 (HTTP), 2220 (SSH), 3000 (API) | R&D Annex |
-| AM‑05 | 2225 (SSH), 8443 (HTTPS), 5672 (RabbitMQ) | The Archive |
-| AM‑06 | 2226 (SSH), 31337 (QUORUM terminal) | QUORUM Subsystem Alpha |
-| AM‑KoTH | 80 (HTTP), 2227 (SSH), 127.0.0.1:8081 (webhook) | QUORUM Core |
