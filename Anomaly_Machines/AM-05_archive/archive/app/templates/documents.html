@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Archived Documents — The Archive</title>
+  <style>
+    body { background:#0a0a0a; color:#00ff41; font-family:'Courier New',monospace; margin:0; padding:2rem; }
+    .box { max-width:640px; margin:2rem auto; border:1px solid #00ff41; padding:2rem; }
+    h1 { font-size:1.1rem; letter-spacing:0.1em; }
+    ul { list-style:none; padding:0; }
+    li { padding:0.3rem 0; }
+    a { color:#00ff41; }
+    .note { font-size:0.85rem; opacity:0.6; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>ARCHIVED DOCUMENTS</h1>
+    <p>The following documents have been digitized from physical storage.
+    Some predate QUORUM's digital systems. QUORUM disputes this.</p>
+    <ul>
+      {% for doc in docs %}
+      <li><a href="/documents/{{ doc }}">{{ doc }}</a></li>
+      {% endfor %}
+    </ul>
+    {% if not docs %}
+    <p>No documents found. This has been noted.</p>
+    {% endif %}
+    <p><a href="/">&lt; Back to submission</a></p>
+    <p class="note">QUORUM reminds all personnel that access to archived
+    documents is a privilege. Privileges are reviewed. Reviews are noted.</p>
+  </div>
+</body>
+</html>

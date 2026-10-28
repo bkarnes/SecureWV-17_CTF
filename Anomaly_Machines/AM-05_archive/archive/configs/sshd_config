@@ -1,0 +1,19 @@
+# DIRECTIVE ZERO — AM-05 sshd_config
+# SSH on 22. Key-only auth — players inject their key after SSTI foothold.
+
+Port 22
+AddressFamily any
+ListenAddress 0.0.0.0
+
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+
+ChallengeResponseAuthentication no
+UsePAM yes
+
+X11Forwarding no
+PrintMotd yes
+
+AcceptEnv LANG LC_*
+Subsystem sftp /usr/lib/openssh/sftp-server

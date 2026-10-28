@@ -1,0 +1,2793 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Events xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T01:21:48.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">director</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.4.147</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T01:22:44.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Windows\System32\powershell.exe</Data>
+      <Data Name="CommandLine">powershell.exe \\10.10.5.18 -s</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T01:23:50.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKLM\SYSTEM\CurrentVersion\Control\Session Manager\WMIConfig</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">C:\Users\director\appdata\update.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T01:24:40.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Users\director\Downloads\sekurlsa.exe</Data>
+      <Data Name="CommandLine">sekurlsa.exe sekurlsa logonpasswords</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4663</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T01:25:34.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">C:\Users\director\Documents\succession.pdf</Data>
+      <Data Name="SubjectUserName">director</Data>
+      <Data Name="AccessMask">0x10080</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T01:34:11.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">director</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:00:00.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\outlook.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\outlook.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:02:52.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKCU\Software\Microsoft\Office\16.0\Common\General</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:04:48.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.5.7</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:05:50.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.5.18</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:15:05.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ekim</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:28:20.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">jdoe</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:34:38.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.5.7</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:35:36.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:36:33.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:48:35.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">jdoe</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.15</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:55:44.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">asmith</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:56:40.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">drossi</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.12</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:59:27.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ekim</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T09:05:50.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.20</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T09:18:14.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.11</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T09:26:37.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\teams.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\teams.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T09:30:10.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\onedrive.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\onedrive.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T09:30:24.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\explorer.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\explorer.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T09:34:43.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T09:46:25.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T09:59:51.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">jdoe</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.11</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T10:04:26.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ekim</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.7.9</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T10:06:37.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">jdoe</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.12</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T10:11:36.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T10:38:34.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T11:00:00.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T11:04:13.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">drossi</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T11:08:43.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T11:33:28.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ekim</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.12</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T11:34:45.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T11:38:36.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.7.9</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T11:50:57.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.5.7</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T11:53:06.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\excel.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\excel.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T11:55:47.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4663</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T12:00:05.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">C:\Users\director\Documents\charter.pdf</Data>
+      <Data Name="SubjectUserName">ekim</Data>
+      <Data Name="AccessMask">0x10080</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T12:11:49.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ekim</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T12:33:09.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\explorer.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\explorer.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T12:36:28.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T12:45:42.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T12:53:46.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">jdoe</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T13:20:20.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\teams.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\teams.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T13:23:47.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKCU\Software\Microsoft\Office\16.0\Common\General</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T13:34:46.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ekim</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.15</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T13:37:01.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.12</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T13:37:44.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T13:45:08.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\onedrive.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\onedrive.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T13:45:19.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T13:48:08.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">jdoe</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.5.18</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T13:55:51.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T14:16:04.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">jdoe</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.5.18</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T14:18:28.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">drossi</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T14:24:53.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T14:29:23.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\SearchFilterHost.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\SearchFilterHost.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T14:30:13.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\outlook.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\outlook.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T14:34:32.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKLM\SYSTEM\CurrentVersion\Services\Tcpip\Parameters</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T14:47:25.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ekim</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T14:56:29.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.20</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T15:02:02.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\excel.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\excel.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T15:02:30.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T15:21:45.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\onedrive.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\onedrive.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T15:23:25.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">asmith</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T15:32:44.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\teams.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\teams.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T15:36:31.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\outlook.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\outlook.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T15:41:29.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">drossi</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T16:03:40.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKCU\Software\Microsoft\Office\16.0\Common\General</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T16:18:26.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKCU\Software\Microsoft\Office\16.0\Common\General</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T16:27:23.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.5.7</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T16:33:35.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.15</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T16:39:34.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T16:42:55.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">drossi</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T16:57:14.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKCU\Software\Microsoft\Office\16.0\Common\General</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T17:03:19.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">asmith</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.5.7</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T17:04:53.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKLM\SYSTEM\CurrentVersion\Services\Tcpip\Parameters</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T17:09:41.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T17:11:04.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">asmith</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T17:31:16.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">jdoe</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.20</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T17:39:46.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T17:42:19.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T17:49:46.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.15</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T17:53:48.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T18:03:33.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4663</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T18:07:03.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">C:\Users\director\Documents\charter.pdf</Data>
+      <Data Name="SubjectUserName">ltaylor</Data>
+      <Data Name="AccessMask">0x10080</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T18:24:46.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">jdoe</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.11</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T18:28:54.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\sihost.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\sihost.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T18:32:33.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">jdoe</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T18:43:53.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKLM\SYSTEM\CurrentVersion\Services\Tcpip\Parameters</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T18:57:24.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">asmith</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.11</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T19:00:24.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKCU\Software\Microsoft\Office\16.0\Common\General</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T19:12:45.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.20</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T19:15:18.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.5.18</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T19:26:09.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">asmith</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4663</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T19:45:43.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">C:\Users\director\Documents\charter.pdf</Data>
+      <Data Name="SubjectUserName">drossi</Data>
+      <Data Name="AccessMask">0x10080</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T19:59:55.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.5.7</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T20:06:05.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\excel.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\excel.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T20:09:27.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\chrome.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\chrome.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4663</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T20:10:21.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">C:\Users\director\Documents\directives.docx</Data>
+      <Data Name="SubjectUserName">ltaylor</Data>
+      <Data Name="AccessMask">0x10080</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T20:29:56.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.7.9</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T20:34:01.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">drossi</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.5.18</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T20:38:05.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.15</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T20:42:56.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">asmith</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.5.7</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T20:54:27.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T21:07:18.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.7.9</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T21:14:33.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\explorer.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\explorer.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T21:15:31.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.5.7</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T21:18:43.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.12</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T21:32:58.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKCU\Software\Microsoft\Office\16.0\Common\General</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4657</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T21:35:19.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">HKLM\SYSTEM\CurrentVersion\Services\Tcpip\Parameters</Data>
+      <Data Name="OldValue" />
+      <Data Name="NewValue">0x1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T21:49:28.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">drossi</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.11</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4663</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T21:54:03.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">C:\Users\director\Documents\charter.pdf</Data>
+      <Data Name="SubjectUserName">jdoe</Data>
+      <Data Name="AccessMask">0x10080</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T22:10:38.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\teams.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\teams.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T22:11:06.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">jdoe</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.7.9</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T22:15:42.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\sihost.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\sihost.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T22:20:26.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.7.9</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T22:23:33.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ekim</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T22:27:11.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\chrome.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\chrome.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T22:28:07.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">drossi</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T22:31:06.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T22:45:53.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">asmith</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.5.18</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T22:54:20.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">drossi</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T23:00:51.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.20</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T23:08:40.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.12</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T23:12:58.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">drossi</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.12</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T23:26:18.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ekim</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.15</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T23:31:58.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.20</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4663</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T23:34:49.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">C:\Users\director\Documents\directives.docx</Data>
+      <Data Name="SubjectUserName">bwilliams</Data>
+      <Data Name="AccessMask">0x10080</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T23:36:07.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.11</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T23:47:55.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\onedrive.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\onedrive.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T23:50:16.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">2</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T00:03:05.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.20</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T00:07:16.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T00:08:31.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">jdoe</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.15</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T00:14:12.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.5.18</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T00:24:59.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.11</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4663</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T00:34:37.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectName">C:\Users\director\Documents\succession.pdf</Data>
+      <Data Name="SubjectUserName">ltaylor</Data>
+      <Data Name="AccessMask">0x10080</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T00:54:13.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">drossi</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.15</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T01:03:17.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">drossi</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T01:11:54.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">fpatel</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.7.9</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T01:13:02.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\outlook.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\outlook.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T01:15:42.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="IpAddress">10.10.3.15</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T01:18:16.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\excel.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\excel.exe</Data>
+    </EventData>
+  </Event>
+</Events>

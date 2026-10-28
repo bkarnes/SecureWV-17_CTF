@@ -1,0 +1,36 @@
+<?php
+// DIRECTIVE ZERO — AM-04 scriptz/log.php.BAK
+//
+// Backup copy of the Log class source. This is the gadget hint —
+// players who find this via the /scriptz/ directory listing see the
+// __destruct() file-write vulnerability and can craft the exploit.
+//
+// The class is intentionally left readable (a "backup" that should
+// have been removed).
+
+class Log
+{
+    public $filename = '';
+    public $data = '';
+
+    public function __construct()
+    {
+        $this->filename = '';
+        $this->data = '';
+    }
+
+    public function PrintLog()
+    {
+        $pre = "[LOG]";
+        $now = date('Y-m-d H:i:s');
+        $str = '$pre - $now - $this->data';
+        eval("\$str = \"$str\";");
+        echo $str;
+    }
+
+    public function __destruct()
+    {
+        file_put_contents($this->filename, $this->data, FILE_APPEND);
+    }
+}
+?>

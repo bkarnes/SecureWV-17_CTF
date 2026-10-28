@@ -1,0 +1,6 @@
+{
+  "BT-01a: What IP address successfully authenticated after the brute-force attempts?": "DZ{10.10.5.18}",
+  "BT-01b: What username was used to gain access?": "DZ{archivist}",
+  "BT-01c: How many failed attempts preceded the successful login?": "DZ{21}",
+  "BT-01d: What was the first command run after login?": "DZ{cat /etc/passwd}"
+}

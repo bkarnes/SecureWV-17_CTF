@@ -1,0 +1,20 @@
+# DIRECTIVE ZERO — AM-06 sshd_config
+# SSH on 22. Key-only auth — players get access after the crypto challenge
+# decrypts the analyst SSH key.
+
+Port 22
+AddressFamily any
+ListenAddress 0.0.0.0
+
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+
+ChallengeResponseAuthentication no
+UsePAM yes
+
+X11Forwarding no
+PrintMotd yes
+
+AcceptEnv LANG LC_*
+Subsystem sftp /usr/lib/openssh/sftp-server

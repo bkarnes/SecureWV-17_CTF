@@ -1,0 +1,4 @@
+# DIRECTIVE ZERO — AM-04 scriptz/.htaccess
+# Auth bypassed for this directory — allows browsing without Basic Auth.
+Satisfy any
+Options +Indexes

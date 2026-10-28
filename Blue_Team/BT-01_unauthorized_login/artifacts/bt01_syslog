@@ -1,0 +1,153 @@
+Aug 30 17:49:46 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 17:50:19 lobby-terminal sudo:  researcher : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 17:51:08 lobby-terminal dhclient[800]: DHCPACK from 10.10.0.1
+Aug 30 17:52:02 lobby-terminal dhclient[800]: DHCPACK from 10.10.0.1
+Aug 30 17:52:25 lobby-terminal CRON[9058]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 30 17:53:51 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 17:54:18 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 17:55:32 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 17:56:47 lobby-terminal CRON[9397]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 30 17:57:44 lobby-terminal CRON[3014]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 30 17:57:46 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 17:58:26 lobby-terminal systemd[1]: Cleaned up systemd journal entries.
+Aug 30 17:59:17 lobby-terminal CRON[7220]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 30 17:59:30 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 17:59:43 lobby-terminal rsyslogd: imuxsock lost 1 messages
+Aug 30 18:00:07 lobby-terminal systemd[1]: Reading cron configuration files...
+Aug 30 18:00:34 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 18:01:04 lobby-terminal CRON[8332]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 30 18:02:01 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 18:02:55 lobby-terminal CRON[8196]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 30 18:03:00 lobby-terminal CRON[3342]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 30 18:04:00 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 18:04:53 lobby-terminal rsyslogd: imuxsock lost 1 messages
+Aug 30 18:05:23 lobby-terminal sudo:  analyst : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 18:05:46 lobby-terminal systemd[1]: Reading cron configuration files...
+Aug 30 18:06:36 lobby-terminal CRON[8296]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 30 18:06:53 lobby-terminal systemd[1]: Cleaned up systemd journal entries.
+Aug 30 18:07:48 lobby-terminal systemd[1]: Reading cron configuration files...
+Aug 30 18:08:46 lobby-terminal dhclient[800]: DHCPACK from 10.10.0.1
+Aug 30 18:08:59 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 18:09:11 lobby-terminal sudo:  researcher : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 30 18:09:53 lobby-terminal sudo:  researcher : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 30 18:10:51 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 18:11:35 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 18:13:03 lobby-terminal CRON[6014]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 30 18:13:08 lobby-terminal CRON[8539]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 30 18:13:52 lobby-terminal systemd[1]: Stopped OpenBSD Secure Shell server.
+Aug 30 18:14:17 lobby-terminal systemd[1]: Reading cron configuration files...
+Aug 30 18:15:35 lobby-terminal systemd[1]: Cleaned up systemd journal entries.
+Aug 30 18:15:43 lobby-terminal systemd[1]: Stopped OpenBSD Secure Shell server.
+Aug 30 18:16:41 lobby-terminal sudo:  compliance : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 30 18:17:55 lobby-terminal systemd[1]: Reading cron configuration files...
+Aug 30 18:19:00 lobby-terminal sudo:  compliance : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 30 18:19:44 lobby-terminal systemd[1]: Stopped OpenBSD Secure Shell server.
+Aug 30 18:19:52 lobby-terminal rsyslogd: imuxsock lost 1 messages
+Aug 30 18:20:23 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 18:20:45 lobby-terminal CRON[4135]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 30 18:21:28 lobby-terminal systemd[1]: Stopped OpenBSD Secure Shell server.
+Aug 30 18:22:33 lobby-terminal systemd[1]: Stopped OpenBSD Secure Shell server.
+Aug 30 18:23:34 lobby-terminal CRON[3557]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 30 18:24:22 lobby-terminal CRON[8807]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 30 18:25:16 lobby-terminal sudo:  analyst : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 30 18:26:24 lobby-terminal CRON[1674]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 30 18:27:45 lobby-terminal sudo:  researcher : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 30 18:28:09 lobby-terminal systemd[1]: Reading cron configuration files...
+Aug 30 18:29:37 lobby-terminal systemd[1]: Stopped OpenBSD Secure Shell server.
+Aug 30 18:31:05 lobby-terminal CRON[8906]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 30 18:31:58 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 18:32:20 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 18:33:15 lobby-terminal sudo:  researcher : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 18:33:45 lobby-terminal sudo:  analyst : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 18:34:04 lobby-terminal systemd[1]: Reading cron configuration files...
+Aug 30 18:34:59 lobby-terminal dhclient[800]: DHCPACK from 10.10.0.1
+Aug 30 18:35:35 lobby-terminal sudo:  operator : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 18:36:30 lobby-terminal dhclient[800]: DHCPREQUEST on eth0 to 10.10.0.1 port 67
+Aug 30 18:36:32 lobby-terminal CRON[4454]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 30 18:37:06 lobby-terminal systemd[1]: Stopped OpenBSD Secure Shell server.
+Aug 30 18:37:44 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 18:38:00 lobby-terminal rsyslogd: imuxsock lost 1 messages
+Aug 30 18:38:59 lobby-terminal CRON[3822]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 30 18:40:05 lobby-terminal systemd[1]: Reading cron configuration files...
+Aug 30 18:41:24 lobby-terminal CRON[6806]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 30 18:41:46 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 18:43:07 lobby-terminal systemd[1]: Reading cron configuration files...
+Aug 30 18:44:07 lobby-terminal CRON[3777]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 30 18:44:21 lobby-terminal rsyslogd: imuxsock lost 1 messages
+Aug 30 18:45:26 lobby-terminal systemd[1]: Cleaned up systemd journal entries.
+Aug 30 18:46:12 lobby-terminal rsyslogd: imuxsock lost 1 messages
+Aug 30 18:47:30 lobby-terminal CRON[2791]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 30 18:47:53 lobby-terminal systemd[1]: Cleaned up systemd journal entries.
+Aug 30 18:48:23 lobby-terminal CRON[2367]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 30 18:49:09 lobby-terminal sudo:  compliance : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 30 18:49:58 lobby-terminal CRON[2762]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 30 18:51:01 lobby-terminal CRON[6465]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 30 18:51:53 lobby-terminal dhclient[800]: DHCPREQUEST on eth0 to 10.10.0.1 port 67
+Aug 30 18:52:36 lobby-terminal sudo:  archivist : TTY=pts/0 ; PWD=/home/archivist ; USER=root ; COMMAND=cat /etc/passwd
+Aug 30 18:53:01 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 18:53:03 lobby-terminal sudo:  archivist : TTY=pts/0 ; PWD=/home/archivist ; USER=root ; COMMAND=/bin/ls -la
+Aug 30 18:53:14 lobby-terminal sudo:  archivist : TTY=pts/0 ; PWD=/home/archivist ; USER=root ; COMMAND=/usr/bin/cat /etc/hostname
+Aug 30 18:54:20 lobby-terminal sudo:  compliance : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 18:54:33 lobby-terminal sudo:  researcher : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 18:54:42 lobby-terminal rsyslogd: imuxsock lost 1 messages
+Aug 30 18:55:41 lobby-terminal CRON[1396]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 30 18:56:58 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 18:57:57 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 18:58:37 lobby-terminal dhclient[800]: DHCPREQUEST on eth0 to 10.10.0.1 port 67
+Aug 30 18:59:20 lobby-terminal systemd[1]: Stopped OpenBSD Secure Shell server.
+Aug 30 18:59:44 lobby-terminal sudo:  researcher : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 30 19:00:19 lobby-terminal dhclient[800]: DHCPREQUEST on eth0 to 10.10.0.1 port 67
+Aug 30 19:01:32 lobby-terminal systemd[1]: Reading cron configuration files...
+Aug 30 19:02:21 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 19:02:33 lobby-terminal CRON[3323]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 30 19:03:27 lobby-terminal systemd[1]: Stopped OpenBSD Secure Shell server.
+Aug 30 19:03:41 lobby-terminal sudo:  operator : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 19:05:08 lobby-terminal systemd[1]: Cleaned up systemd journal entries.
+Aug 30 19:06:27 lobby-terminal CRON[3836]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 30 19:07:56 lobby-terminal CRON[3371]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 30 19:09:25 lobby-terminal CRON[1694]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 30 19:10:30 lobby-terminal CRON[8387]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 30 19:11:11 lobby-terminal dhclient[800]: DHCPREQUEST on eth0 to 10.10.0.1 port 67
+Aug 30 19:11:35 lobby-terminal CRON[7632]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 30 19:11:39 lobby-terminal CRON[5485]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 30 19:12:08 lobby-terminal sudo:  researcher : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 19:13:24 lobby-terminal dhclient[800]: DHCPACK from 10.10.0.1
+Aug 30 19:14:31 lobby-terminal rsyslogd: imuxsock lost 1 messages
+Aug 30 19:14:44 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 19:15:59 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 19:17:25 lobby-terminal sudo:  analyst : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 30 19:18:51 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 19:19:48 lobby-terminal systemd[1]: Stopped OpenBSD Secure Shell server.
+Aug 30 19:20:17 lobby-terminal rsyslogd: imuxsock lost 1 messages
+Aug 30 19:20:52 lobby-terminal systemd[1]: Reading cron configuration files...
+Aug 30 19:21:40 lobby-terminal rsyslogd: imuxsock lost 1 messages
+Aug 30 19:22:52 lobby-terminal CRON[9707]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 30 19:24:04 lobby-terminal systemd[1]: Cleaned up systemd journal entries.
+Aug 30 19:24:46 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 19:25:36 lobby-terminal systemd[1]: Stopped OpenBSD Secure Shell server.
+Aug 30 19:27:04 lobby-terminal CRON[2080]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 30 19:27:24 lobby-terminal CRON[8839]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 30 19:27:59 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 19:28:25 lobby-terminal systemd[1]: Stopped OpenBSD Secure Shell server.
+Aug 30 19:29:48 lobby-terminal CRON[2777]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 30 19:30:20 lobby-terminal sudo:  analyst : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 30 19:31:33 lobby-terminal systemd[1]: Cleaned up systemd journal entries.
+Aug 30 19:31:55 lobby-terminal systemd[1]: Cleaned up systemd journal entries.
+Aug 30 19:32:22 lobby-terminal dhclient[800]: DHCPACK from 10.10.0.1
+Aug 30 19:33:37 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 19:34:17 lobby-terminal systemd[1]: Reading cron configuration files...
+Aug 30 19:35:17 lobby-terminal systemd[1]: Started Regular background program processing daemon.
+Aug 30 19:36:21 lobby-terminal sudo:  analyst : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 30 19:36:57 lobby-terminal systemd[1]: Cleaned up systemd journal entries.
+Aug 30 19:37:41 lobby-terminal CRON[7452]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 30 19:37:52 lobby-terminal sudo:  analyst : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 30 19:38:34 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 19:39:16 lobby-terminal sudo:  compliance : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 30 19:39:36 lobby-terminal systemd[1]: Reading cron configuration files...
+Aug 30 19:40:29 lobby-terminal sudo:  analyst : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 30 19:40:33 lobby-terminal systemd[1]: Stopped OpenBSD Secure Shell server.
+Aug 30 19:41:21 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 19:41:55 lobby-terminal systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 30 19:42:00 lobby-terminal rsyslogd: imuxsock lost 1 messages
+Aug 30 19:42:23 lobby-terminal CRON[7938]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 30 19:43:18 lobby-terminal CRON[6581]: (root) CMD (/usr/lib/php/sessionclean)

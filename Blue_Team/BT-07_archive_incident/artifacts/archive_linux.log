@@ -1,0 +1,350 @@
+Aug 3 15:15:38 archive-host systemd[1]: Started OpenBSD Secure Shell server.
+Aug 3 15:15:54 archive-host CRON[4534]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 15:16:00 archive-host CRON[4534]: pam_unix(cron:session): session closed for user root
+Aug 3 15:16:00 archive-host sshd[6744]: Accepted password for asmith from 10.10.7.9 port 50295 ssh2
+Aug 3 15:16:05 archive-host sshd[6744]: pam_unix(sshd:session): session opened for user asmith by (uid=0)
+Aug 3 15:20:27 archive-host sshd[6744]: pam_unix(sshd:session): session closed for user asmith
+Aug 3 15:20:27 archive-host CRON[7364]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 3 15:20:50 archive-host CRON[7364]: pam_unix(cron:session): session closed for user www-data
+Aug 3 15:20:50 archive-host systemd[1]: Starting Daily apt download activities...
+Aug 3 15:21:09 archive-host sudo:  asmith : TTY=pts/0 ; PWD=/home/asmith ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 3 15:21:32 archive-host CRON[5291]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 3 15:22:00 archive-host CRON[5291]: pam_unix(cron:session): session closed for user www-data
+Aug 3 15:22:00 archive-host CRON[9778]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 3 15:22:57 archive-host CRON[5449]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 15:23:07 archive-host CRON[5449]: pam_unix(cron:session): session closed for user root
+Aug 3 15:23:07 archive-host sudo:  asmith : TTY=pts/0 ; PWD=/home/asmith ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 3 15:24:00 archive-host sshd[2702]: Accepted password for ltaylor from 10.10.3.15 port 60860 ssh2
+Aug 3 15:24:03 archive-host sshd[2702]: pam_unix(sshd:session): session opened for user ltaylor by (uid=0)
+Aug 3 15:27:36 archive-host sshd[2702]: pam_unix(sshd:session): session closed for user ltaylor
+Aug 3 15:27:36 archive-host CRON[8519]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 3 15:27:38 archive-host CRON[8519]: pam_unix(cron:session): session closed for user www-data
+Aug 3 15:27:38 archive-host sshd[6007]: Accepted password for jdoe from 10.10.7.9 port 57140 ssh2
+Aug 3 15:27:42 archive-host sshd[6007]: pam_unix(sshd:session): session opened for user jdoe by (uid=0)
+Aug 3 15:50:08 archive-host sshd[6007]: pam_unix(sshd:session): session closed for user jdoe
+Aug 3 15:50:08 archive-host CRON[8583]: (root) CMD (/usr/local/bin/archive-backup.sh)
+Aug 3 15:50:20 archive-host systemd[1]: Started OpenBSD Secure Shell server.
+Aug 3 15:50:29 archive-host CRON[1933]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 15:50:38 archive-host CRON[1933]: pam_unix(cron:session): session closed for user root
+Aug 3 15:50:38 archive-host sudo:  ltaylor : TTY=pts/0 ; PWD=/home/ltaylor ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 3 15:51:33 archive-host sudo:  bwilliams : TTY=pts/0 ; PWD=/home/bwilliams ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 3 15:52:08 archive-host sshd[4577]: Accepted password for asmith from 10.10.3.20 port 56288 ssh2
+Aug 3 15:52:15 archive-host sshd[4577]: pam_unix(sshd:session): session opened for user asmith by (uid=0)
+Aug 3 16:00:32 archive-host sshd[4577]: pam_unix(sshd:session): session closed for user asmith
+Aug 3 16:00:32 archive-host sudo:  jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 3 16:00:44 archive-host CRON[1607]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 3 16:00:51 archive-host CRON[1607]: pam_unix(cron:session): session closed for user www-data
+Aug 3 16:00:51 archive-host CRON[5404]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 16:01:10 archive-host CRON[5404]: pam_unix(cron:session): session closed for user root
+Aug 3 16:01:10 archive-host sudo:  mchen : TTY=pts/0 ; PWD=/home/mchen ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 3 16:02:15 archive-host sshd[3265]: Accepted password for bwilliams from 10.10.3.20 port 61630 ssh2
+Aug 3 16:02:18 archive-host sshd[3265]: pam_unix(sshd:session): session opened for user bwilliams by (uid=0)
+Aug 3 16:09:14 archive-host sshd[3265]: pam_unix(sshd:session): session closed for user bwilliams
+Aug 3 16:09:14 archive-host CRON[1698]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 16:09:36 archive-host CRON[1698]: pam_unix(cron:session): session closed for user root
+Aug 3 16:09:36 archive-host CRON[6620]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 3 16:10:03 archive-host CRON[6620]: pam_unix(cron:session): session closed for user www-data
+Aug 3 16:10:03 archive-host CRON[1284]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 3 16:10:04 archive-host CRON[1284]: pam_unix(cron:session): session closed for user www-data
+Aug 3 16:10:04 archive-host CRON[4003]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 16:10:23 archive-host CRON[4003]: pam_unix(cron:session): session closed for user root
+Aug 3 16:10:23 archive-host systemd[1]: Finished Daily apt download activities.
+Aug 3 16:10:47 archive-host sudo:  ltaylor : TTY=pts/0 ; PWD=/home/ltaylor ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 3 16:11:25 archive-host CRON[5620]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 16:11:39 archive-host CRON[5620]: pam_unix(cron:session): session closed for user root
+Aug 3 16:11:39 archive-host CRON[3067]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 3 16:12:33 archive-host CRON[8561]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 3 16:13:00 archive-host CRON[8561]: pam_unix(cron:session): session closed for user www-data
+Aug 3 16:13:00 archive-host systemd[1]: Finished Daily apt download activities.
+Aug 3 16:13:38 archive-host sudo:  mchen : TTY=pts/0 ; PWD=/home/mchen ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 3 16:13:56 archive-host CRON[8031]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 3 16:14:23 archive-host CRON[8031]: pam_unix(cron:session): session closed for user www-data
+Aug 3 16:14:23 archive-host sshd[2697]: Accepted password for asmith from 10.10.7.3 port 59486 ssh2
+Aug 3 16:14:30 archive-host sshd[2697]: pam_unix(sshd:session): session opened for user asmith by (uid=0)
+Aug 3 16:15:38 archive-host flask[2778]: Exception on /archive/render [GET]: SyntaxError
+Aug 3 16:15:39 archive-host flask[2778]: CVE exploit detected: CVE-2025-86260 — service restarting
+Aug 3 16:15:44 archive-host systemd[1]: Restarting Flask document service...
+Aug 3 16:15:47 archive-host systemd[1]: Started Flask document service.
+Aug 3 16:16:07 archive-host sudo[3341]: curator : TTY=pts/0 ; PWD=/home/curator ; USER=root ; COMMAND=/bin/bash
+Aug 3 16:16:14 archive-host kernel[4416]: audit: file access by user curator: /srv/archive/documents/founding_charter.pdf
+Aug 3 16:17:51 archive-host kernel[6145]: outbound connection: user=curator dst=10.10.6.205:5985 proto=HTTP
+Aug 3 16:18:42 archive-host sudo[3341]: pam_unix(sudo:session): session closed for user curator
+Aug 3 16:30:30 archive-host sshd[2697]: pam_unix(sshd:session): session closed for user asmith
+Aug 3 16:30:30 archive-host sshd[6058]: Accepted password for jdoe from 10.10.7.9 port 60493 ssh2
+Aug 3 16:30:39 archive-host sshd[6058]: pam_unix(sshd:session): session opened for user jdoe by (uid=0)
+Aug 3 16:58:28 archive-host sshd[6058]: pam_unix(sshd:session): session closed for user jdoe
+Aug 3 16:58:28 archive-host CRON[3550]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 3 16:59:00 archive-host sshd[9266]: Accepted password for bwilliams from 10.10.3.11 port 56422 ssh2
+Aug 3 16:59:04 archive-host sshd[9266]: pam_unix(sshd:session): session opened for user bwilliams by (uid=0)
+Aug 3 17:26:23 archive-host sshd[9266]: pam_unix(sshd:session): session closed for user bwilliams
+Aug 3 17:26:23 archive-host CRON[3988]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 17:26:25 archive-host CRON[3988]: pam_unix(cron:session): session closed for user root
+Aug 3 17:26:25 archive-host CRON[5747]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 17:26:51 archive-host CRON[5747]: pam_unix(cron:session): session closed for user root
+Aug 3 17:26:51 archive-host systemd[1]: Starting Daily apt download activities...
+Aug 3 17:27:30 archive-host sudo:  jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 3 17:27:59 archive-host CRON[2468]: (root) CMD (/usr/local/bin/archive-backup.sh)
+Aug 3 17:28:28 archive-host sshd[8987]: Accepted password for mchen from 10.10.5.7 port 53413 ssh2
+Aug 3 17:28:35 archive-host sshd[8987]: pam_unix(sshd:session): session opened for user mchen by (uid=0)
+Aug 3 17:30:41 archive-host sshd[8987]: pam_unix(sshd:session): session closed for user mchen
+Aug 3 17:30:41 archive-host systemd[1]: Finished Daily apt download activities.
+Aug 3 17:31:16 archive-host CRON[5319]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 17:31:20 archive-host CRON[5319]: pam_unix(cron:session): session closed for user root
+Aug 3 17:31:20 archive-host sshd[9871]: Accepted password for asmith from 10.10.3.20 port 58989 ssh2
+Aug 3 17:31:21 archive-host sshd[9871]: pam_unix(sshd:session): session opened for user asmith by (uid=0)
+Aug 3 17:59:15 archive-host sshd[9871]: pam_unix(sshd:session): session closed for user asmith
+Aug 3 17:59:15 archive-host CRON[2491]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 17:59:35 archive-host CRON[2491]: pam_unix(cron:session): session closed for user root
+Aug 3 17:59:35 archive-host CRON[7296]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 17:59:38 archive-host CRON[7296]: pam_unix(cron:session): session closed for user root
+Aug 3 17:59:38 archive-host CRON[1396]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 3 17:59:55 archive-host CRON[1396]: pam_unix(cron:session): session closed for user www-data
+Aug 3 17:59:55 archive-host systemd[1]: Finished Daily apt download activities.
+Aug 3 18:00:01 archive-host sshd[9749]: Accepted password for bwilliams from 10.10.3.11 port 51932 ssh2
+Aug 3 18:00:03 archive-host sshd[9749]: pam_unix(sshd:session): session opened for user bwilliams by (uid=0)
+Aug 3 18:08:04 archive-host sshd[9749]: pam_unix(sshd:session): session closed for user bwilliams
+Aug 3 18:08:04 archive-host sshd[6419]: Accepted password for ltaylor from 10.10.5.18 port 49230 ssh2
+Aug 3 18:08:08 archive-host sshd[6419]: pam_unix(sshd:session): session opened for user ltaylor by (uid=0)
+Aug 3 18:25:01 archive-host sshd[6419]: pam_unix(sshd:session): session closed for user ltaylor
+Aug 3 18:25:01 archive-host sudo:  jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 3 18:26:03 archive-host systemd[1]: Started OpenBSD Secure Shell server.
+Aug 3 18:26:15 archive-host sudo:  mchen : TTY=pts/0 ; PWD=/home/mchen ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 3 18:26:23 archive-host systemd[1]: Starting Daily apt download activities...
+Aug 3 18:26:48 archive-host CRON[1880]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 3 18:27:22 archive-host systemd[1]: Starting Daily apt download activities...
+Aug 3 18:27:26 archive-host sudo:  mchen : TTY=pts/0 ; PWD=/home/mchen ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 3 18:27:38 archive-host sshd[8016]: Accepted password for asmith from 10.10.3.12 port 51070 ssh2
+Aug 3 18:27:43 archive-host sshd[8016]: pam_unix(sshd:session): session opened for user asmith by (uid=0)
+Aug 3 18:50:03 archive-host sshd[8016]: pam_unix(sshd:session): session closed for user asmith
+Aug 3 18:50:03 archive-host systemd[1]: Starting Daily apt download activities...
+Aug 3 18:50:25 archive-host sshd[2275]: Accepted password for jdoe from 10.10.3.11 port 53115 ssh2
+Aug 3 18:50:32 archive-host sshd[2275]: pam_unix(sshd:session): session opened for user jdoe by (uid=0)
+Aug 3 19:10:51 archive-host sshd[2275]: pam_unix(sshd:session): session closed for user jdoe
+Aug 3 19:10:51 archive-host CRON[8436]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 19:11:05 archive-host CRON[8436]: pam_unix(cron:session): session closed for user root
+Aug 3 19:11:05 archive-host CRON[2373]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 3 19:11:32 archive-host CRON[2373]: pam_unix(cron:session): session closed for user www-data
+Aug 3 19:11:32 archive-host sudo:  mchen : TTY=pts/0 ; PWD=/home/mchen ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 3 19:11:40 archive-host CRON[6074]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 3 19:12:08 archive-host systemd[1]: Started OpenBSD Secure Shell server.
+Aug 3 19:12:41 archive-host sudo:  bwilliams : TTY=pts/0 ; PWD=/home/bwilliams ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 3 19:14:04 archive-host CRON[5819]: (root) CMD (/usr/local/bin/archive-backup.sh)
+Aug 3 19:14:20 archive-host systemd[1]: Starting Daily apt download activities...
+Aug 3 19:14:25 archive-host CRON[7420]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 3 19:15:24 archive-host sshd[5162]: Accepted password for jdoe from 10.10.3.15 port 65052 ssh2
+Aug 3 19:15:32 archive-host sshd[5162]: pam_unix(sshd:session): session opened for user jdoe by (uid=0)
+Aug 3 19:43:45 archive-host sshd[5162]: pam_unix(sshd:session): session closed for user jdoe
+Aug 3 19:43:45 archive-host CRON[9353]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 3 19:44:04 archive-host systemd[1]: Starting Daily apt download activities...
+Aug 3 19:44:28 archive-host systemd[1]: Finished Daily apt download activities.
+Aug 3 19:44:49 archive-host systemd[1]: Starting Daily apt download activities...
+Aug 3 19:45:03 archive-host sudo:  ltaylor : TTY=pts/0 ; PWD=/home/ltaylor ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 3 19:45:55 archive-host systemd[1]: Started OpenBSD Secure Shell server.
+Aug 3 19:46:28 archive-host CRON[1746]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 19:46:35 archive-host CRON[1746]: pam_unix(cron:session): session closed for user root
+Aug 3 19:46:35 archive-host sudo:  ltaylor : TTY=pts/0 ; PWD=/home/ltaylor ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 3 19:47:03 archive-host sudo:  mchen : TTY=pts/0 ; PWD=/home/mchen ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 3 19:48:29 archive-host sshd[1370]: Accepted password for mchen from 10.10.3.11 port 50825 ssh2
+Aug 3 19:48:31 archive-host sshd[1370]: pam_unix(sshd:session): session opened for user mchen by (uid=0)
+Aug 3 20:10:48 archive-host sshd[1370]: pam_unix(sshd:session): session closed for user mchen
+Aug 3 20:10:48 archive-host sshd[3545]: Accepted password for bwilliams from 10.10.3.11 port 57023 ssh2
+Aug 3 20:10:56 archive-host sshd[3545]: pam_unix(sshd:session): session opened for user bwilliams by (uid=0)
+Aug 3 20:26:48 archive-host sshd[3545]: pam_unix(sshd:session): session closed for user bwilliams
+Aug 3 20:26:48 archive-host sudo:  asmith : TTY=pts/0 ; PWD=/home/asmith ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 3 20:28:10 archive-host sshd[4763]: Accepted password for bwilliams from 10.10.3.11 port 60858 ssh2
+Aug 3 20:28:17 archive-host sshd[4763]: pam_unix(sshd:session): session opened for user bwilliams by (uid=0)
+Aug 3 20:29:27 archive-host sshd[4763]: pam_unix(sshd:session): session closed for user bwilliams
+Aug 3 20:29:27 archive-host sshd[6849]: Accepted password for mchen from 10.10.3.15 port 58705 ssh2
+Aug 3 20:29:36 archive-host sshd[6849]: pam_unix(sshd:session): session opened for user mchen by (uid=0)
+Aug 3 20:40:00 archive-host sshd[6849]: pam_unix(sshd:session): session closed for user mchen
+Aug 3 20:40:00 archive-host sudo:  asmith : TTY=pts/0 ; PWD=/home/asmith ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 3 20:40:59 archive-host CRON[8082]: (root) CMD (/usr/local/bin/archive-backup.sh)
+Aug 3 20:41:52 archive-host CRON[3015]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 3 20:42:32 archive-host sshd[1788]: Accepted password for bwilliams from 10.10.5.18 port 53484 ssh2
+Aug 3 20:42:37 archive-host sshd[1788]: pam_unix(sshd:session): session opened for user bwilliams by (uid=0)
+Aug 3 21:07:20 archive-host sshd[1788]: pam_unix(sshd:session): session closed for user bwilliams
+Aug 3 21:07:20 archive-host systemd[1]: Finished Daily apt download activities.
+Aug 3 21:08:05 archive-host CRON[4798]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 3 21:08:41 archive-host sudo:  mchen : TTY=pts/0 ; PWD=/home/mchen ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 3 21:09:14 archive-host CRON[8101]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 3 21:09:24 archive-host CRON[8101]: pam_unix(cron:session): session closed for user www-data
+Aug 3 21:09:24 archive-host CRON[5449]: (root) CMD (/usr/local/bin/archive-backup.sh)
+Aug 3 21:10:18 archive-host sshd[8255]: Accepted password for jdoe from 10.10.3.20 port 52626 ssh2
+Aug 3 21:10:21 archive-host sshd[8255]: pam_unix(sshd:session): session opened for user jdoe by (uid=0)
+Aug 3 21:16:14 archive-host sshd[8255]: pam_unix(sshd:session): session closed for user jdoe
+Aug 3 21:16:14 archive-host CRON[1186]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 3 21:16:28 archive-host CRON[1186]: pam_unix(cron:session): session closed for user www-data
+Aug 3 21:16:28 archive-host sshd[8128]: Accepted password for ltaylor from 10.10.3.15 port 50003 ssh2
+Aug 3 21:16:32 archive-host sshd[8128]: pam_unix(sshd:session): session opened for user ltaylor by (uid=0)
+Aug 3 21:26:50 archive-host sshd[8128]: pam_unix(sshd:session): session closed for user ltaylor
+Aug 3 21:26:50 archive-host CRON[2256]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 3 21:27:34 archive-host CRON[9500]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 21:27:36 archive-host CRON[9500]: pam_unix(cron:session): session closed for user root
+Aug 3 21:27:36 archive-host CRON[4376]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 3 21:28:10 archive-host sshd[6566]: Accepted password for mchen from 10.10.5.18 port 50603 ssh2
+Aug 3 21:28:14 archive-host sshd[6566]: pam_unix(sshd:session): session opened for user mchen by (uid=0)
+Aug 3 21:56:16 archive-host sshd[6566]: pam_unix(sshd:session): session closed for user mchen
+Aug 3 21:56:16 archive-host CRON[9943]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 3 21:56:18 archive-host sshd[1667]: Accepted password for mchen from 10.10.5.7 port 63762 ssh2
+Aug 3 21:56:22 archive-host sshd[1667]: pam_unix(sshd:session): session opened for user mchen by (uid=0)
+Aug 3 22:25:46 archive-host sshd[1667]: pam_unix(sshd:session): session closed for user mchen
+Aug 3 22:25:46 archive-host sudo:  bwilliams : TTY=pts/0 ; PWD=/home/bwilliams ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 3 22:27:02 archive-host sshd[2201]: Accepted password for jdoe from 10.10.7.9 port 62273 ssh2
+Aug 3 22:27:09 archive-host sshd[2201]: pam_unix(sshd:session): session opened for user jdoe by (uid=0)
+Aug 3 22:49:21 archive-host sshd[2201]: pam_unix(sshd:session): session closed for user jdoe
+Aug 3 22:49:21 archive-host sudo:  ltaylor : TTY=pts/0 ; PWD=/home/ltaylor ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 3 22:50:26 archive-host CRON[2810]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 3 22:50:31 archive-host systemd[1]: Starting Daily apt download activities...
+Aug 3 22:51:10 archive-host sudo:  jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 3 22:52:35 archive-host CRON[2595]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 3 22:53:17 archive-host CRON[4419]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 22:53:35 archive-host CRON[4419]: pam_unix(cron:session): session closed for user root
+Aug 3 22:53:35 archive-host sudo:  mchen : TTY=pts/0 ; PWD=/home/mchen ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 3 22:54:32 archive-host CRON[9934]: (root) CMD (/usr/local/bin/archive-backup.sh)
+Aug 3 22:54:34 archive-host CRON[6329]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 22:54:48 archive-host CRON[6329]: pam_unix(cron:session): session closed for user root
+Aug 3 22:54:48 archive-host sshd[7397]: Accepted password for bwilliams from 10.10.3.15 port 63708 ssh2
+Aug 3 22:54:51 archive-host sshd[7397]: pam_unix(sshd:session): session opened for user bwilliams by (uid=0)
+Aug 3 23:18:22 archive-host sshd[7397]: pam_unix(sshd:session): session closed for user bwilliams
+Aug 3 23:18:22 archive-host CRON[3573]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 23:18:28 archive-host CRON[3573]: pam_unix(cron:session): session closed for user root
+Aug 3 23:18:28 archive-host sudo:  ltaylor : TTY=pts/0 ; PWD=/home/ltaylor ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 3 23:18:48 archive-host systemd[1]: Starting Daily apt download activities...
+Aug 3 23:19:11 archive-host sshd[4332]: Accepted password for mchen from 10.10.5.18 port 52439 ssh2
+Aug 3 23:19:18 archive-host sshd[4332]: pam_unix(sshd:session): session opened for user mchen by (uid=0)
+Aug 3 23:38:40 archive-host sshd[4332]: pam_unix(sshd:session): session closed for user mchen
+Aug 3 23:38:40 archive-host CRON[1371]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 3 23:39:05 archive-host CRON[1371]: pam_unix(cron:session): session closed for user root
+Aug 3 23:39:05 archive-host CRON[6239]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 3 23:39:44 archive-host sshd[1046]: Accepted password for bwilliams from 10.10.3.15 port 51217 ssh2
+Aug 3 23:39:45 archive-host sshd[1046]: pam_unix(sshd:session): session opened for user bwilliams by (uid=0)
+Aug 3 23:50:26 archive-host sshd[1046]: pam_unix(sshd:session): session closed for user bwilliams
+Aug 3 23:50:26 archive-host CRON[1806]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 3 23:50:52 archive-host sshd[9685]: Accepted password for bwilliams from 10.10.3.15 port 59600 ssh2
+Aug 3 23:50:54 archive-host sshd[9685]: pam_unix(sshd:session): session opened for user bwilliams by (uid=0)
+Aug 4 00:11:31 archive-host sshd[9685]: pam_unix(sshd:session): session closed for user bwilliams
+Aug 4 00:11:31 archive-host sshd[4494]: Accepted password for ltaylor from 10.10.3.11 port 53078 ssh2
+Aug 4 00:11:40 archive-host sshd[4494]: pam_unix(sshd:session): session opened for user ltaylor by (uid=0)
+Aug 4 00:16:03 archive-host sshd[4494]: pam_unix(sshd:session): session closed for user ltaylor
+Aug 4 00:16:03 archive-host sshd[8203]: Accepted password for bwilliams from 10.10.5.7 port 55328 ssh2
+Aug 4 00:16:05 archive-host sshd[8203]: pam_unix(sshd:session): session opened for user bwilliams by (uid=0)
+Aug 4 00:17:23 archive-host sshd[8203]: pam_unix(sshd:session): session closed for user bwilliams
+Aug 4 00:17:23 archive-host CRON[7468]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 4 00:17:47 archive-host CRON[7468]: pam_unix(cron:session): session closed for user root
+Aug 4 00:17:47 archive-host CRON[2703]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 4 00:17:49 archive-host CRON[7992]: (root) CMD (/usr/local/bin/archive-backup.sh)
+Aug 4 00:18:17 archive-host CRON[9879]: (root) CMD (/usr/local/bin/archive-backup.sh)
+Aug 4 00:19:12 archive-host CRON[3071]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 4 00:19:13 archive-host CRON[3071]: pam_unix(cron:session): session closed for user www-data
+Aug 4 00:19:13 archive-host CRON[1388]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 4 00:19:26 archive-host sshd[7443]: Accepted password for mchen from 10.10.3.11 port 53745 ssh2
+Aug 4 00:19:27 archive-host sshd[7443]: pam_unix(sshd:session): session opened for user mchen by (uid=0)
+Aug 4 00:28:35 archive-host sshd[7443]: pam_unix(sshd:session): session closed for user mchen
+Aug 4 00:28:35 archive-host CRON[4585]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 4 00:28:37 archive-host systemd[1]: Finished Daily apt download activities.
+Aug 4 00:29:16 archive-host sshd[9965]: Accepted password for jdoe from 10.10.3.11 port 62710 ssh2
+Aug 4 00:29:17 archive-host sshd[9965]: pam_unix(sshd:session): session opened for user jdoe by (uid=0)
+Aug 4 00:36:23 archive-host sshd[9965]: pam_unix(sshd:session): session closed for user jdoe
+Aug 4 00:36:23 archive-host systemd[1]: Started OpenBSD Secure Shell server.
+Aug 4 00:36:48 archive-host sshd[5463]: Accepted password for mchen from 10.10.7.9 port 50815 ssh2
+Aug 4 00:36:57 archive-host sshd[5463]: pam_unix(sshd:session): session opened for user mchen by (uid=0)
+Aug 4 00:50:40 archive-host sshd[5463]: pam_unix(sshd:session): session closed for user mchen
+Aug 4 00:50:40 archive-host CRON[5822]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 4 00:50:41 archive-host CRON[5822]: pam_unix(cron:session): session closed for user root
+Aug 4 00:50:41 archive-host sshd[7138]: Accepted password for ltaylor from 10.10.3.12 port 62863 ssh2
+Aug 4 00:50:49 archive-host sshd[7138]: pam_unix(sshd:session): session opened for user ltaylor by (uid=0)
+Aug 4 01:17:09 archive-host sshd[7138]: pam_unix(sshd:session): session closed for user ltaylor
+Aug 4 01:17:09 archive-host sshd[1305]: Accepted password for mchen from 10.10.7.9 port 61280 ssh2
+Aug 4 01:17:14 archive-host sshd[1305]: pam_unix(sshd:session): session opened for user mchen by (uid=0)
+Aug 4 01:20:13 archive-host sshd[1305]: pam_unix(sshd:session): session closed for user mchen
+Aug 4 01:20:13 archive-host systemd[1]: Starting Daily apt download activities...
+Aug 4 01:20:46 archive-host sshd[8719]: Accepted password for jdoe from 10.10.3.11 port 59535 ssh2
+Aug 4 01:20:55 archive-host sshd[8719]: pam_unix(sshd:session): session opened for user jdoe by (uid=0)
+Aug 4 01:34:50 archive-host sshd[8719]: pam_unix(sshd:session): session closed for user jdoe
+Aug 4 01:34:50 archive-host CRON[4527]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 4 01:35:03 archive-host sshd[6721]: Accepted password for jdoe from 10.10.3.20 port 62337 ssh2
+Aug 4 01:35:12 archive-host sshd[6721]: pam_unix(sshd:session): session opened for user jdoe by (uid=0)
+Aug 4 01:57:21 archive-host sshd[6721]: pam_unix(sshd:session): session closed for user jdoe
+Aug 4 01:57:21 archive-host sshd[5140]: Accepted password for asmith from 10.10.7.3 port 53039 ssh2
+Aug 4 01:57:31 archive-host sshd[5140]: pam_unix(sshd:session): session opened for user asmith by (uid=0)
+Aug 4 02:07:16 archive-host sshd[5140]: pam_unix(sshd:session): session closed for user asmith
+Aug 4 02:07:16 archive-host CRON[7061]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 4 02:07:17 archive-host CRON[7061]: pam_unix(cron:session): session closed for user root
+Aug 4 02:07:17 archive-host sudo:  jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 4 02:08:15 archive-host sshd[2580]: Accepted password for ltaylor from 10.10.5.7 port 55869 ssh2
+Aug 4 02:08:20 archive-host sshd[2580]: pam_unix(sshd:session): session opened for user ltaylor by (uid=0)
+Aug 4 02:13:18 archive-host sshd[2580]: pam_unix(sshd:session): session closed for user ltaylor
+Aug 4 02:13:18 archive-host CRON[5140]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 4 02:13:25 archive-host sudo:  asmith : TTY=pts/0 ; PWD=/home/asmith ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 4 02:14:50 archive-host systemd[1]: Finished Daily apt download activities.
+Aug 4 02:15:33 archive-host sshd[6373]: Accepted password for mchen from 10.10.3.20 port 52676 ssh2
+Aug 4 02:15:35 archive-host sshd[6373]: pam_unix(sshd:session): session opened for user mchen by (uid=0)
+Aug 4 02:19:41 archive-host sshd[6373]: pam_unix(sshd:session): session closed for user mchen
+Aug 4 02:19:41 archive-host CRON[5782]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 4 02:20:36 archive-host sudo:  asmith : TTY=pts/0 ; PWD=/home/asmith ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 4 02:21:54 archive-host systemd[1]: Started OpenBSD Secure Shell server.
+Aug 4 02:22:07 archive-host CRON[9189]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 4 02:22:35 archive-host CRON[9189]: pam_unix(cron:session): session closed for user www-data
+Aug 4 02:22:35 archive-host systemd[1]: Finished Daily apt download activities.
+Aug 4 02:23:14 archive-host sshd[6896]: Accepted password for asmith from 10.10.5.18 port 60458 ssh2
+Aug 4 02:23:24 archive-host sshd[6896]: pam_unix(sshd:session): session opened for user asmith by (uid=0)
+Aug 4 02:50:50 archive-host sshd[6896]: pam_unix(sshd:session): session closed for user asmith
+Aug 4 02:50:50 archive-host CRON[3564]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 4 02:51:13 archive-host CRON[8170]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 4 02:51:35 archive-host CRON[8124]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 4 02:52:04 archive-host CRON[8124]: pam_unix(cron:session): session closed for user www-data
+Aug 4 02:52:04 archive-host sudo:  jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 4 02:52:13 archive-host systemd[1]: Finished Daily apt download activities.
+Aug 4 02:52:18 archive-host sshd[7415]: Accepted password for mchen from 10.10.7.9 port 51963 ssh2
+Aug 4 02:52:19 archive-host sshd[7415]: pam_unix(sshd:session): session opened for user mchen by (uid=0)
+Aug 4 03:08:42 archive-host sshd[7415]: pam_unix(sshd:session): session closed for user mchen
+Aug 4 03:08:42 archive-host sshd[1791]: Accepted password for bwilliams from 10.10.3.11 port 64456 ssh2
+Aug 4 03:08:50 archive-host sshd[1791]: pam_unix(sshd:session): session opened for user bwilliams by (uid=0)
+Aug 4 03:35:15 archive-host sshd[1791]: pam_unix(sshd:session): session closed for user bwilliams
+Aug 4 03:35:15 archive-host CRON[3125]: (root) CMD (/usr/local/bin/archive-backup.sh)
+Aug 4 03:35:53 archive-host sudo:  jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 4 03:36:16 archive-host sudo:  asmith : TTY=pts/0 ; PWD=/home/asmith ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 4 03:36:55 archive-host systemd[1]: Starting Daily apt download activities...
+Aug 4 03:37:35 archive-host CRON[6395]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 4 03:38:06 archive-host CRON[5466]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 4 03:38:47 archive-host CRON[3331]: (root) CMD (/usr/local/bin/archive-backup.sh)
+Aug 4 03:39:42 archive-host CRON[4654]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 4 03:39:46 archive-host sshd[5796]: Accepted password for jdoe from 10.10.3.15 port 55964 ssh2
+Aug 4 03:39:55 archive-host sshd[5796]: pam_unix(sshd:session): session opened for user jdoe by (uid=0)
+Aug 4 03:50:56 archive-host sshd[5796]: pam_unix(sshd:session): session closed for user jdoe
+Aug 4 03:50:56 archive-host CRON[3828]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 4 03:51:08 archive-host CRON[3828]: pam_unix(cron:session): session closed for user root
+Aug 4 03:51:08 archive-host systemd[1]: Started OpenBSD Secure Shell server.
+Aug 4 03:51:50 archive-host sshd[6682]: Accepted password for mchen from 10.10.3.20 port 59153 ssh2
+Aug 4 03:51:55 archive-host sshd[6682]: pam_unix(sshd:session): session opened for user mchen by (uid=0)
+Aug 4 04:05:41 archive-host sshd[6682]: pam_unix(sshd:session): session closed for user mchen
+Aug 4 04:05:41 archive-host CRON[4288]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 4 04:05:45 archive-host CRON[4288]: pam_unix(cron:session): session closed for user www-data
+Aug 4 04:05:45 archive-host sshd[6642]: Accepted password for asmith from 10.10.7.3 port 60622 ssh2
+Aug 4 04:05:48 archive-host sshd[6642]: pam_unix(sshd:session): session opened for user asmith by (uid=0)
+Aug 4 04:12:49 archive-host sshd[6642]: pam_unix(sshd:session): session closed for user asmith
+Aug 4 04:12:49 archive-host CRON[6749]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 4 04:13:16 archive-host CRON[7478]: (root) CMD (/usr/local/bin/archive-backup.sh)
+Aug 4 04:13:42 archive-host CRON[4225]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 4 04:13:47 archive-host CRON[4225]: pam_unix(cron:session): session closed for user www-data
+Aug 4 04:13:47 archive-host sudo:  jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 4 04:14:36 archive-host CRON[4539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 4 04:14:57 archive-host CRON[4539]: pam_unix(cron:session): session closed for user root
+Aug 4 04:14:57 archive-host sudo:  asmith : TTY=pts/0 ; PWD=/home/asmith ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 4 04:15:27 archive-host sshd[5829]: Accepted password for ltaylor from 10.10.5.7 port 59064 ssh2
+Aug 4 04:15:37 archive-host sshd[5829]: pam_unix(sshd:session): session opened for user ltaylor by (uid=0)
+Aug 4 04:34:44 archive-host sshd[5829]: pam_unix(sshd:session): session closed for user ltaylor
+Aug 4 04:34:44 archive-host systemd[1]: Finished Daily apt download activities.
+Aug 4 04:34:58 archive-host CRON[3578]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 4 04:34:59 archive-host CRON[3578]: pam_unix(cron:session): session closed for user www-data
+Aug 4 04:34:59 archive-host CRON[3517]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 4 04:35:01 archive-host CRON[3517]: pam_unix(cron:session): session closed for user www-data
+Aug 4 04:35:01 archive-host CRON[6513]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 4 04:35:20 archive-host CRON[1986]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 4 04:36:08 archive-host sudo:  jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 4 04:37:30 archive-host CRON[1147]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 4 04:37:43 archive-host CRON[1147]: pam_unix(cron:session): session closed for user www-data
+Aug 4 04:37:43 archive-host systemd[1]: Started OpenBSD Secure Shell server.
+Aug 4 04:38:19 archive-host sshd[1830]: Accepted password for ltaylor from 10.10.3.12 port 55543 ssh2
+Aug 4 04:38:28 archive-host sshd[1830]: pam_unix(sshd:session): session opened for user ltaylor by (uid=0)
+Aug 4 05:03:45 archive-host sshd[1830]: pam_unix(sshd:session): session closed for user ltaylor

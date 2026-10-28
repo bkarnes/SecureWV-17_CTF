@@ -1,0 +1,37 @@
+# DIRECTIVE ZERO — AM-04: R&D Annex
+# Publishes HTTP (80), SSH (2220), and API (3000) to the host.
+#
+# Flags are injected via env vars. Use generate_flags.sh at the
+# Anomaly_Machines/ root to mint per-event flags.
+#
+# The `test` profile is optional: `docker compose --profile test up`
+
+services:
+  am04-rd-annex:
+    build: .
+    image: dz-am04-rd-annex:latest
+    container_name: dz-am04-rd-annex
+    ports:
+      - "80:80"
+      - "2220:2220"
+      - "3000:3000"
+    environment:
+      - AM04_USER_FLAG=${AM04_USER_FLAG:-DZ{user_rd_annex_PLACEHOLDER}}
+      - AM04_ROOT_FLAG=${AM04_ROOT_FLAG:-DZ{root_rd_annex_PLACEHOLDER}}
+    restart: unless-stopped
+
+  test-runner:
+    profiles: ["test"]
+    build:
+      context: ../_test_runner
+    image: dz-test-runner:latest
+    container_name: dz-am04-test
+    network_mode: host
+    depends_on:
+      - am04-rd-annex
+    volumes:
+      - ../:/machines:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - MACHINES_ROOT=/machines
+    command: ["am-04", "localhost", "/machines/event_flags.json"]

@@ -1,0 +1,29 @@
+# DIRECTIVE ZERO — AM-03 junction7 Postfix config
+# Relaxed for the log-poisoning foothold to work — players inject PHP into
+# the mail log via SMTP from outside the container. In a real scenario
+# this would be locked down; here the permissiveness is the vulnerability.
+
+# Accept connections from any network (players connect via VPN/host)
+mynetworks = 0.0.0.0/0
+inet_interfaces = all
+
+# Permit relay from any host (the misconfiguration that enables the attack)
+# Postfix requires at least one rejection rule in relay restrictions; we
+# use permit_mynetworks (mynetworks = 0.0.0.0/0 = everything) then
+# reject_unauth_destination as the mandatory fallback.
+smtpd_recipient_restrictions = permit_mynetworks, reject_unauth_destination
+smtpd_relay_restrictions = permit_mynetworks, reject_unauth_destination
+
+# Disable strict address checking so PHP in RCPT TO is accepted
+strict_rfc821_envelopes = no
+
+# Log everything to /var/log/mail.log (the LFI target)
+maillog_file = /var/log/mail.log
+
+# Hostname
+myhostname = junction7
+myorigin = junction7
+
+# Accept any destination
+relay_domains = $mydestination, *
+smtpd_tls_security_level = none

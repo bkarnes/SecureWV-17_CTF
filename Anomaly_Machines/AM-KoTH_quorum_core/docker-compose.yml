@@ -1,0 +1,45 @@
+# DIRECTIVE ZERO — AM-KotH: QUORUM Core
+# Publishes HTTP (80) and SSH (2227) to the host.
+# Port 8081 (flag webhook) is internal-only — not published to players.
+# The scoring engine pushes rotated flags to port 8081 via the webhook.
+#
+# Env vars:
+#   KOTH_INITIAL_FLAG  — first flag value (rotated thereafter by the engine)
+#   KOTH_FLAG_SECRET   — shared secret for webhook auth
+#
+# The `test` profile is optional: `docker compose --profile test up`
+# also starts the dz-test-runner pointed at this AM.
+
+services:
+  koth-quorum-core:
+    build: .
+    image: dz-koth-quorum-core:latest
+    container_name: dz-koth-quorum-core
+    ports:
+      - "80:80"
+      - "2227:22"
+      # Port 8081 (webhook) is published to localhost only for testing.
+      # In production behind the VPN, the scoring engine reaches it on
+      # the Docker network directly (no host publish needed).
+      - "127.0.0.1:8081:8081"
+    environment:
+      - KOTH_INITIAL_FLAG=${KOTH_INITIAL_FLAG:-DZ{koth_initial_PLACEHOLDER}}
+      - KOTH_FLAG_SECRET=${KOTH_FLAG_SECRET:-changeme}
+    restart: unless-stopped
+
+  # ── Test runner (optional, --profile test) ──────────────────────────────
+  test-runner:
+    profiles: ["test"]
+    build:
+      context: ../_test_runner
+    image: dz-test-runner:latest
+    container_name: dz-koth-test
+    network_mode: host
+    depends_on:
+      - koth-quorum-core
+    volumes:
+      - ../:/machines:ro
+    environment:
+      - MACHINES_ROOT=/machines
+      - KOTH_FLAG_SECRET=${KOTH_FLAG_SECRET:-changeme}
+    command: ["am-koth", "localhost", "/machines/event_flags.json"]

@@ -1,0 +1,71 @@
+# DIRECTIVE ZERO — AM-03: Network Junction 7
+# Two-container topology: public routing node + isolated internal host.
+#
+# junction7 publishes SMTP (25), HTTP (80), and a custom routing status
+# service (9001) to the host. junction7-internal is on an isolated Docker
+# network — only reachable by pivoting through junction7.
+#
+# Flags are injected via env vars. Use generate_flags.sh at the
+# Anomaly_Machines/ root to mint per-event flags (AM-03 gets four: user,
+# root, internal-user, internal-root).
+
+services:
+  junction7:
+    build: ./junction7
+    image: dz-am03-junction7:latest
+    container_name: dz-am03-junction7
+    ports:
+      - "25:25"
+      - "80:80"
+      - "9001:9001"
+    networks:
+      junction_public:
+      junction_internal:
+    environment:
+      - AM03_USER_FLAG=${AM03_USER_FLAG:-DZ{user_junction7_PLACEHOLDER}}
+      - AM03_ROOT_FLAG=${AM03_ROOT_FLAG:-DZ{root_junction7_PLACEHOLDER}}
+    restart: unless-stopped
+
+  junction7-internal:
+    build: ./junction7-internal
+    image: dz-am03-internal:latest
+    container_name: dz-am03-internal
+    networks:
+      junction_internal:
+    environment:
+      - AM03_INTERNAL_USER_FLAG=${AM03_INTERNAL_USER_FLAG:-DZ{internal_user_junction7_PLACEHOLDER}}
+      - AM03_INTERNAL_ROOT_FLAG=${AM03_INTERNAL_ROOT_FLAG:-DZ{internal_root_junction7_PLACEHOLDER}}
+    restart: unless-stopped
+
+  # ── Test runner (optional, --profile test) ──────────────────────────────
+  test-runner:
+    profiles: ["test"]
+    build:
+      context: ../_test_runner
+    image: dz-test-runner:latest
+    container_name: dz-am03-test
+    network_mode: host
+    depends_on:
+      - junction7
+    volumes:
+      - ../:/machines:ro
+      # Docker socket — the test script uses `docker exec` to validate
+      # the two-container pivot (stages 5-8). The runner needs Docker CLI
+      # access to exec into the junction7 and junction7-internal containers.
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - MACHINES_ROOT=/machines
+    command: ["am-03", "localhost", "/machines/event_flags.json"]
+
+networks:
+  junction_public:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: "10.10.3.0/24"
+  junction_internal:
+    driver: bridge
+    internal: true
+    ipam:
+      config:
+        - subnet: "10.10.2.0/24"

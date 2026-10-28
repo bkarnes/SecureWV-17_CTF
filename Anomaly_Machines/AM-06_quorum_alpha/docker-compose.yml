@@ -1,0 +1,46 @@
+# DIRECTIVE ZERO — AM-06: QUORUM Subsystem Alpha
+# Publishes SSH (2226) and the QUORUM terminal (31337) to the host.
+#
+# Flags are injected via env vars. Event parameterization:
+#   BUFFER_SIZE — the vulnerable buffer size (changes overflow offset)
+#   CITIZEN_ID  — the crypto key derivation input (changes AES key)
+
+services:
+  am06-quorum-alpha:
+    build:
+      context: .
+      args:
+        - BUFFER_SIZE=${BUFFER_SIZE:-64}
+    image: dz-am06-quorum-alpha:latest
+    container_name: dz-am06-quorum-alpha
+    ports:
+      - "2226:22"
+      - "31337:31337"
+    environment:
+      - AM06_USER_FLAG=${AM06_USER_FLAG:-DZ{user_quorum_alpha_PLACEHOLDER}}
+      - AM06_ROOT_FLAG=${AM06_ROOT_FLAG:-DZ{root_quorum_alpha_PLACEHOLDER}}
+      - CITIZEN_ID=${CITIZEN_ID:-CTZ-0042-2087}
+    # setarch -R (ASLR disable) needs the personality syscall, which
+    # Docker's default seccomp profile restricts. Use unconfined seccomp.
+    security_opt:
+      - seccomp:unconfined
+    cap_add:
+      - SYS_ADMIN
+    restart: unless-stopped
+
+  # ── Test runner (optional, --profile test) ──────────────────────────────
+  test-runner:
+    profiles: ["test"]
+    build:
+      context: ../_test_runner
+    image: dz-test-runner:latest
+    container_name: dz-am06-test
+    network_mode: host
+    depends_on:
+      - am06-quorum-alpha
+    volumes:
+      - ../:/machines:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - MACHINES_ROOT=/machines
+    command: ["am-06", "localhost", "/machines/event_flags.json"]

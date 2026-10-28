@@ -1,0 +1,48 @@
+# DIRECTIVE ZERO — AM-01: The Lobby Terminal
+# Publishes HTTP (80) and SSH (22) to the host.
+#
+# Flags are injected via env vars. Use generate_flags.sh at the
+# Anomaly_Machines/ root to mint per-event flags, then set them here
+# (or via a .env file / compose override) before `docker compose up`.
+#
+# The `test` profile is optional: `docker compose --profile test up`
+# also starts the dz-test-runner pointed at this AM. Normal `up` skips it.
+
+services:
+  am01-lobby:
+    build: .
+    image: dz-am01-lobby:latest
+    container_name: dz-am01-lobby
+    ports:
+      - "80:80"
+      - "2222:22"
+    environment:
+      # Flags injected from env vars (set via shell, .env file, or compose
+      # override). Generate:  cd ../ && ./generate_flags.sh
+      # Then:    export AM01_USER_FLAG=...  AM01_ROOT_FLAG=...
+      # (or put them in a .env file next to this compose file).
+      - AM01_USER_FLAG=${AM01_USER_FLAG:-DZ{user_lobby_PLACEHOLDER}}
+      - AM01_ROOT_FLAG=${AM01_ROOT_FLAG:-DZ{root_lobby_PLACEHOLDER}}
+    restart: unless-stopped
+
+  # ── Test runner (optional, --profile test) ──────────────────────────────
+  # Builds the shared test runner from _test_runner/ and runs AM-01's
+  # exploit-chain assertions, then exits. The runner lives one level up
+  # so we use a relative build context.
+  test-runner:
+    profiles: ["test"]
+    build:
+      context: ../_test_runner
+    image: dz-test-runner:latest
+    container_name: dz-am01-test
+    network_mode: host
+    depends_on:
+      - am01-lobby
+    volumes:
+      # Mount the whole Anomaly_Machines dir so the runner can see
+      # AM-01_lobby_terminal/tests/test_am01.sh and event_flags.json.
+      - ../:/machines:ro
+    environment:
+      - MACHINES_ROOT=/machines
+      # Point the runner at the AM's host-published ports:
+    command: ["am-01", "localhost", "/machines/event_flags.json"]

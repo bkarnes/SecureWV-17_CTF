@@ -1,0 +1,43 @@
+# DIRECTIVE ZERO — AM-02: Wellness Observation Center
+# Publishes FTP (21), SSH (2223), and HTTP decoy (8080) to the host.
+#
+# Flags are injected via env vars. Use generate_flags.sh at the
+# Anomaly_Machines/ root to mint per-event flags, then set them here
+# (or via a .env file / compose override) before `docker compose up`.
+#
+# The `test` profile is optional: `docker compose --profile test up`
+# also starts the dz-test-runner pointed at this AM.
+
+services:
+  am02-wellness:
+    build: .
+    image: dz-am02-wellness:latest
+    container_name: dz-am02-wellness
+    ports:
+      - "21:21"
+      - "2223:22"
+      - "8080:8080"
+      # PASV range for vsftpd data connections (must match pasv_min/max in vsftpd.conf)
+      - "30000-30009:30000-30009"
+    environment:
+      # Flags injected from env vars (set via shell, .env file, or compose
+      # override). Generate:  cd ../ && ./generate_flags.sh
+      - AM02_USER_FLAG=${AM02_USER_FLAG:-DZ{user_wellness_PLACEHOLDER}}
+      - AM02_ROOT_FLAG=${AM02_ROOT_FLAG:-DZ{root_wellness_PLACEHOLDER}}
+    restart: unless-stopped
+
+  # ── Test runner (optional, --profile test) ──────────────────────────────
+  test-runner:
+    profiles: ["test"]
+    build:
+      context: ../_test_runner
+    image: dz-test-runner:latest
+    container_name: dz-am02-test
+    network_mode: host
+    depends_on:
+      - am02-wellness
+    volumes:
+      - ../:/machines:ro
+    environment:
+      - MACHINES_ROOT=/machines
+    command: ["am-02", "localhost", "/machines/event_flags.json"]

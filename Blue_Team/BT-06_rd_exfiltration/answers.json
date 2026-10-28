@@ -1,0 +1,6 @@
+{
+  "BT-06a: What vulnerability class was exploited for initial access?": "DZ{SQL injection}",
+  "BT-06b: How many files were exfiltrated?": "DZ{6}",
+  "BT-06c: What was the total size of exfiltrated data (bytes)?": "DZ{141497}",
+  "BT-06d: What IP received the exfiltrated data?": "DZ{10.10.4.29}"
+}

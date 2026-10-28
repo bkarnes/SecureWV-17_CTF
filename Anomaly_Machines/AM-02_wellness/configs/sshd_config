@@ -1,0 +1,20 @@
+# DIRECTIVE ZERO — AM-02 sshd_config
+# Key-only auth on :22. The wellness user has no password — the only way
+# in is the id_rsa private key stolen via anonymous FTP.
+
+Port 22
+AddressFamily any
+ListenAddress 0.0.0.0
+
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+
+ChallengeResponseAuthentication no
+UsePAM yes
+
+X11Forwarding no
+PrintMotd yes
+
+AcceptEnv LANG LC_*
+Subsystem sftp /usr/lib/openssh/sftp-server

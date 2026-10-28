@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The Archive — QUORUM Construct</title>
+  <style>
+    body { background:#0a0a0a; color:#00ff41; font-family:'Courier New',monospace; margin:0; padding:2rem; }
+    .box { max-width:640px; margin:2rem auto; border:1px solid #00ff41; padding:2rem; box-shadow:0 0 12px #00ff41; }
+    h1 { font-size:1.1rem; letter-spacing:0.1em; }
+    textarea { display:block; width:100%; margin:0.5rem 0; background:#111; color:#00ff41; border:1px solid #00ff41; padding:0.5rem; font-family:inherit; }
+    button { margin-top:1rem; padding:0.5rem 2rem; background:#00ff41; color:#0a0a0a; border:none; cursor:pointer; font-family:inherit; }
+    .note { font-size:0.85rem; opacity:0.6; }
+    a { color:#00ff41; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>QUORUM CONSTRUCT — THE ARCHIVE</h1>
+    <p>Physical document storage, digitized. Records predate QUORUM.
+    QUORUM disputes this.</p>
+    <p>Access is restricted to CRIMSON clearance and above.
+    Your clearance has been verified. Proceed.</p>
+
+    <h2>Document Submission</h2>
+    <p>Submit document text for rendering and archival processing.</p>
+    <form method="post" action="/upload">
+      <textarea name="content" rows="10" placeholder="Enter document text for processing..."></textarea>
+      <button type="submit">Process Document</button>
+    </form>
+
+    <p><a href="/documents">Browse Archived Documents</a></p>
+
+    <p class="note">QUORUM reminds all personnel that archived documents
+    are historical artifacts. Historical accuracy is not guaranteed.
+    Discrepancies have been noted. They will continue to be noted.</p>
+  </div>
+</body>
+</html>

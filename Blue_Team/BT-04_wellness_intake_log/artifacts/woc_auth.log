@@ -1,0 +1,571 @@
+Aug 27 16:00:26 woc-terminal sudo:  clinician1 : TTY=pts/0 ; PWD=/home/clinician1 ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 27 16:01:06 woc-terminal CRON[9015]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 16:01:29 woc-terminal CRON[9015]: pam_unix(cron:session): session closed for user root
+Aug 27 16:01:29 woc-terminal CRON[1057]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 16:01:43 woc-terminal CRON[1057]: pam_unix(cron:session): session closed for user www-data
+Aug 27 16:01:43 woc-terminal sshd[7975]: Failed password for admin-liason from 10.10.7.9 port 61721 ssh2
+Aug 27 16:02:10 woc-terminal sshd[1381]: Failed password for invalid user admin from 10.10.7.9 port 64286 ssh2
+Aug 27 16:02:22 woc-terminal Starting Daily apt download activities...
+Aug 27 16:02:35 woc-terminal sshd[6215]: Connection from 10.10.3.12 port 53707
+Aug 27 16:02:38 woc-terminal sshd[6215]: Accepted password for nurse-b from 10.10.3.12 port 53707 ssh2
+Aug 27 16:02:42 woc-terminal sshd[6215]: pam_unix(sshd:session): session opened for user nurse-b by (uid=0)
+Aug 27 16:31:53 woc-terminal sshd[6215]: pam_unix(sshd:session): session closed for user nurse-b
+Aug 27 16:31:53 woc-terminal sudo:  records-clerk : TTY=pts/0 ; PWD=/home/records-clerk ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 27 16:32:53 woc-terminal sshd[6005]: Connection from 10.10.3.12 port 61534
+Aug 27 16:32:57 woc-terminal sshd[6005]: Accepted password for clinician2 from 10.10.3.12 port 61534 ssh2
+Aug 27 16:33:03 woc-terminal sshd[6005]: pam_unix(sshd:session): session opened for user clinician2 by (uid=0)
+Aug 27 16:54:16 woc-terminal sshd[6005]: pam_unix(sshd:session): session closed for user clinician2
+Aug 27 16:54:16 woc-terminal sshd[6992]: Connection from 10.10.3.20 port 59541
+Aug 27 16:54:21 woc-terminal sshd[6992]: Accepted password for nurse-a from 10.10.3.20 port 59541 ssh2
+Aug 27 16:54:27 woc-terminal sshd[6992]: pam_unix(sshd:session): session opened for user nurse-a by (uid=0)
+Aug 27 16:56:21 woc-terminal sshd[6992]: pam_unix(sshd:session): session closed for user nurse-a
+Aug 27 16:56:21 woc-terminal sshd[1471]: Failed password for invalid user root from 10.10.3.20 port 63940 ssh2
+Aug 27 16:56:26 woc-terminal sshd[3202]: Failed password for clinician1 from 10.10.7.9 port 51255 ssh2
+Aug 27 16:56:51 woc-terminal sudo:  intake-coord : TTY=pts/0 ; PWD=/home/intake-coord ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 27 16:57:15 woc-terminal Starting Daily apt download activities...
+Aug 27 16:57:40 woc-terminal sshd[9242]: Connection from 10.10.3.11 port 64113
+Aug 27 16:57:43 woc-terminal sshd[9242]: Accepted password for intake-coord from 10.10.3.11 port 64113 ssh2
+Aug 27 16:57:44 woc-terminal sshd[9242]: pam_unix(sshd:session): session opened for user intake-coord by (uid=0)
+Aug 27 17:19:00 woc-terminal sshd[9242]: pam_unix(sshd:session): session closed for user intake-coord
+Aug 27 17:19:00 woc-terminal sshd[3172]: Failed password for invalid user test from 10.10.7.9 port 64411 ssh2
+Aug 27 17:19:03 woc-terminal sudo:  intake-coord : TTY=pts/0 ; PWD=/home/intake-coord ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 27 17:20:01 woc-terminal sshd[1201]: Connection from 10.10.7.9 port 60801
+Aug 27 17:20:03 woc-terminal sshd[1201]: Accepted password for admin-liason from 10.10.7.9 port 60801 ssh2
+Aug 27 17:20:04 woc-terminal sshd[1201]: pam_unix(sshd:session): session opened for user admin-liason by (uid=0)
+Aug 27 17:37:22 woc-terminal sshd[1201]: pam_unix(sshd:session): session closed for user admin-liason
+Aug 27 17:37:22 woc-terminal sshd[5859]: Connection from 10.10.3.20 port 64276
+Aug 27 17:37:25 woc-terminal sshd[5859]: Accepted password for intake-coord from 10.10.3.20 port 64276 ssh2
+Aug 27 17:37:34 woc-terminal sshd[5859]: pam_unix(sshd:session): session opened for user intake-coord by (uid=0)
+Aug 27 17:38:57 woc-terminal sshd[5859]: pam_unix(sshd:session): session closed for user intake-coord
+Aug 27 17:38:57 woc-terminal sudo:  clinician2 : TTY=pts/0 ; PWD=/home/clinician2 ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 27 17:39:22 woc-terminal CRON[1702]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 17:39:52 woc-terminal CRON[1702]: pam_unix(cron:session): session closed for user www-data
+Aug 27 17:39:52 woc-terminal sshd[1466]: Connection from 10.10.7.9 port 56961
+Aug 27 17:39:54 woc-terminal sshd[1466]: Accepted password for nurse-a from 10.10.7.9 port 56961 ssh2
+Aug 27 17:40:00 woc-terminal sshd[1466]: pam_unix(sshd:session): session opened for user nurse-a by (uid=0)
+Aug 27 18:00:26 woc-terminal sshd[1466]: pam_unix(sshd:session): session closed for user nurse-a
+Aug 27 18:00:26 woc-terminal CRON[2055]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 18:00:55 woc-terminal CRON[2055]: pam_unix(cron:session): session closed for user root
+Aug 27 18:00:55 woc-terminal sshd[5665]: Failed password for invalid user test from 10.10.5.18 port 49518 ssh2
+Aug 27 18:00:56 woc-terminal CRON[9836]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 18:01:21 woc-terminal CRON[9836]: pam_unix(cron:session): session closed for user www-data
+Aug 27 18:01:21 woc-terminal sshd[8242]: Failed password for invalid user root from 10.10.3.11 port 51885 ssh2
+Aug 27 18:01:25 woc-terminal CRON[8018]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 18:01:33 woc-terminal CRON[8018]: pam_unix(cron:session): session closed for user www-data
+Aug 27 18:01:33 woc-terminal sshd[5896]: Failed password for clinician2 from 10.10.7.3 port 58279 ssh2
+Aug 27 18:01:45 woc-terminal sshd[5817]: Failed password for invalid user root from 10.10.3.15 port 62558 ssh2
+Aug 27 18:02:03 woc-terminal CRON[4896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 18:02:26 woc-terminal CRON[4896]: pam_unix(cron:session): session closed for user root
+Aug 27 18:02:26 woc-terminal sshd[5368]: Failed password for clinician2 from 10.10.3.20 port 64584 ssh2
+Aug 27 18:02:29 woc-terminal sshd[4769]: Failed password for invalid user test from 10.10.7.3 port 61020 ssh2
+Aug 27 18:02:45 woc-terminal pam_unix(sudo:session): session closed for user root
+Aug 27 18:03:10 woc-terminal sshd[3289]: Failed password for invalid user guest from 10.10.7.3 port 63458 ssh2
+Aug 27 18:03:22 woc-terminal pam_unix(sudo:session): session closed for user root
+Aug 27 18:03:45 woc-terminal sshd[3714]: Connection from 10.10.3.12 port 65447
+Aug 27 18:03:49 woc-terminal sshd[3714]: Accepted password for clinician1 from 10.10.3.12 port 65447 ssh2
+Aug 27 18:03:58 woc-terminal sshd[3714]: pam_unix(sshd:session): session opened for user clinician1 by (uid=0)
+Aug 27 18:12:00 woc-terminal sshd[3714]: pam_unix(sshd:session): session closed for user clinician1
+Aug 27 18:12:00 woc-terminal CRON[9813]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 18:12:30 woc-terminal CRON[9813]: pam_unix(cron:session): session closed for user root
+Aug 27 18:12:30 woc-terminal Starting Daily apt download activities...
+Aug 27 18:12:34 woc-terminal sshd[1420]: Connection from 10.10.7.9 port 63662
+Aug 27 18:12:36 woc-terminal sshd[1420]: Accepted password for clinician1 from 10.10.7.9 port 63662 ssh2
+Aug 27 18:12:42 woc-terminal sshd[1420]: pam_unix(sshd:session): session opened for user clinician1 by (uid=0)
+Aug 27 18:32:00 woc-terminal sshd[1420]: pam_unix(sshd:session): session closed for user clinician1
+Aug 27 18:32:00 woc-terminal sudo:  clinician2 : TTY=pts/0 ; PWD=/home/clinician2 ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Aug 27 18:32:49 woc-terminal CRON[5224]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 18:33:04 woc-terminal CRON[5224]: pam_unix(cron:session): session closed for user www-data
+Aug 27 18:33:04 woc-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 27 18:33:15 woc-terminal sshd[3598]: Connection from 10.10.5.7 port 58635
+Aug 27 18:33:17 woc-terminal sshd[3598]: Accepted password for nurse-b from 10.10.5.7 port 58635 ssh2
+Aug 27 18:33:19 woc-terminal sshd[3598]: pam_unix(sshd:session): session opened for user nurse-b by (uid=0)
+Aug 27 18:53:07 woc-terminal sshd[3598]: pam_unix(sshd:session): session closed for user nurse-b
+Aug 27 18:53:07 woc-terminal sudo:  admin-liason : TTY=pts/0 ; PWD=/home/admin-liason ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Aug 27 18:53:17 woc-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 27 18:53:58 woc-terminal CRON[5868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 18:54:00 woc-terminal CRON[5868]: pam_unix(cron:session): session closed for user root
+Aug 27 18:54:00 woc-terminal sshd[7070]: Failed password for clinician2 from 10.10.3.12 port 55956 ssh2
+Aug 27 18:54:06 woc-terminal CRON[8329]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 18:54:07 woc-terminal CRON[8329]: pam_unix(cron:session): session closed for user www-data
+Aug 27 18:54:07 woc-terminal CRON[2263]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 18:54:34 woc-terminal CRON[2263]: pam_unix(cron:session): session closed for user www-data
+Aug 27 18:54:34 woc-terminal sudo:  nurse-a : TTY=pts/0 ; PWD=/home/nurse-a ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 27 18:55:03 woc-terminal sudo:  nurse-a : TTY=pts/0 ; PWD=/home/nurse-a ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 27 18:55:20 woc-terminal CRON[1207]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 18:55:21 woc-terminal CRON[1207]: pam_unix(cron:session): session closed for user www-data
+Aug 27 18:55:21 woc-terminal sshd[5742]: Connection from 10.10.7.3 port 58645
+Aug 27 18:55:26 woc-terminal sshd[5742]: Accepted password for clinician1 from 10.10.7.3 port 58645 ssh2
+Aug 27 18:55:35 woc-terminal sshd[5742]: pam_unix(sshd:session): session opened for user clinician1 by (uid=0)
+Aug 27 19:00:48 woc-terminal sshd[5742]: pam_unix(sshd:session): session closed for user clinician1
+Aug 27 19:00:48 woc-terminal sudo:  clinician1 : TTY=pts/0 ; PWD=/home/clinician1 ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 27 19:01:25 woc-terminal CRON[6009]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 19:01:43 woc-terminal CRON[6009]: pam_unix(cron:session): session closed for user root
+Aug 27 19:01:43 woc-terminal CRON[9605]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 19:02:00 woc-terminal CRON[9605]: pam_unix(cron:session): session closed for user www-data
+Aug 27 19:02:00 woc-terminal Finished Daily apt download activities.
+Aug 27 19:02:16 woc-terminal sshd[7902]: Connection from 10.10.7.3 port 65198
+Aug 27 19:02:20 woc-terminal sshd[7902]: Accepted password for intake-coord from 10.10.7.3 port 65198 ssh2
+Aug 27 19:02:29 woc-terminal sshd[7902]: pam_unix(sshd:session): session opened for user intake-coord by (uid=0)
+Aug 27 19:27:22 woc-terminal sshd[7902]: pam_unix(sshd:session): session closed for user intake-coord
+Aug 27 19:27:22 woc-terminal CRON[7361]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 19:27:31 woc-terminal CRON[7361]: pam_unix(cron:session): session closed for user root
+Aug 27 19:27:31 woc-terminal sshd[4078]: Failed password for clinician2 from 10.10.7.9 port 60997 ssh2
+Aug 27 19:27:52 woc-terminal sshd[8525]: Connection from 10.10.5.18 port 56613
+Aug 27 19:27:55 woc-terminal sshd[8525]: Accepted password for records-clerk from 10.10.5.18 port 56613 ssh2
+Aug 27 19:28:01 woc-terminal sshd[8525]: pam_unix(sshd:session): session opened for user records-clerk by (uid=0)
+Aug 27 19:36:23 woc-terminal sshd[8525]: pam_unix(sshd:session): session closed for user records-clerk
+Aug 27 19:36:23 woc-terminal Finished Daily apt download activities.
+Aug 27 19:36:51 woc-terminal sshd[5965]: Connection from 10.10.7.3 port 58186
+Aug 27 19:36:52 woc-terminal sshd[5965]: Accepted password for nurse-a from 10.10.7.3 port 58186 ssh2
+Aug 27 19:36:56 woc-terminal sshd[5965]: pam_unix(sshd:session): session opened for user nurse-a by (uid=0)
+Aug 27 20:00:26 woc-terminal sshd[2798]: Connection from 10.10.6.142 port 62756
+Aug 27 20:00:29 woc-terminal sshd[2798]: Accepted password for woc-observer from 10.10.6.142 port 62756 ssh2
+Aug 27 20:00:30 woc-terminal sshd[2798]: pam_unix(sshd:session): session opened for user woc-observer by (uid=0)
+Aug 27 20:00:34 woc-terminal sudo:  woc-observer : TTY=pts/0 ; PWD=/home/woc-observer ; USER=root ; COMMAND=/usr/bin/find / -perm -4000 -type f 2>/dev/null
+Aug 27 20:01:01 woc-terminal sudo:  woc-observer : TTY=pts/0 ; PWD=/home/woc-observer ; USER=root ; COMMAND=/usr/bin/ssh 10.10.2.87
+Aug 27 20:04:05 woc-terminal sshd[5965]: pam_unix(sshd:session): session closed for user nurse-a
+Aug 27 20:04:05 woc-terminal Starting Daily apt download activities...
+Aug 27 20:04:25 woc-terminal sudo:  intake-coord : TTY=pts/0 ; PWD=/home/intake-coord ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 27 20:04:56 woc-terminal CRON[7898]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 20:05:07 woc-terminal CRON[7898]: pam_unix(cron:session): session closed for user www-data
+Aug 27 20:05:07 woc-terminal sshd[3303]: Connection from 10.10.5.7 port 61170
+Aug 27 20:05:09 woc-terminal sshd[3303]: Accepted password for nurse-a from 10.10.5.7 port 61170 ssh2
+Aug 27 20:05:13 woc-terminal sshd[3303]: pam_unix(sshd:session): session opened for user nurse-a by (uid=0)
+Aug 27 20:08:44 woc-terminal sshd[3303]: pam_unix(sshd:session): session closed for user nurse-a
+Aug 27 20:08:44 woc-terminal sudo:  nurse-a : TTY=pts/0 ; PWD=/home/nurse-a ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 27 20:08:45 woc-terminal sshd[2798]: pam_unix(sshd:session): session closed for user woc-observer
+Aug 27 20:09:28 woc-terminal CRON[9661]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 20:09:50 woc-terminal CRON[9661]: pam_unix(cron:session): session closed for user root
+Aug 27 20:09:50 woc-terminal sshd[1948]: Failed password for nurse-a from 10.10.3.12 port 52349 ssh2
+Aug 27 20:10:17 woc-terminal CRON[6734]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 20:10:46 woc-terminal CRON[6734]: pam_unix(cron:session): session closed for user root
+Aug 27 20:10:46 woc-terminal CRON[1092]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 20:10:47 woc-terminal CRON[1092]: pam_unix(cron:session): session closed for user www-data
+Aug 27 20:10:47 woc-terminal CRON[1000]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 20:10:56 woc-terminal CRON[1000]: pam_unix(cron:session): session closed for user www-data
+Aug 27 20:10:56 woc-terminal sudo:  intake-coord : TTY=pts/0 ; PWD=/home/intake-coord ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 27 20:10:57 woc-terminal Starting Daily apt download activities...
+Aug 27 20:11:22 woc-terminal CRON[1553]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 20:11:24 woc-terminal CRON[1553]: pam_unix(cron:session): session closed for user www-data
+Aug 27 20:11:24 woc-terminal CRON[3854]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 20:11:36 woc-terminal CRON[3854]: pam_unix(cron:session): session closed for user www-data
+Aug 27 20:11:36 woc-terminal CRON[4080]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 20:11:51 woc-terminal CRON[4080]: pam_unix(cron:session): session closed for user root
+Aug 27 20:11:51 woc-terminal sudo:  nurse-a : TTY=pts/0 ; PWD=/home/nurse-a ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 27 20:12:09 woc-terminal sshd[2265]: Failed password for nurse-b from 10.10.3.11 port 61571 ssh2
+Aug 27 20:12:18 woc-terminal CRON[2818]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 20:12:26 woc-terminal CRON[2818]: pam_unix(cron:session): session closed for user root
+Aug 27 20:12:26 woc-terminal sshd[6612]: Failed password for invalid user admin from 10.10.7.3 port 62865 ssh2
+Aug 27 20:12:46 woc-terminal CRON[1381]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 20:13:16 woc-terminal CRON[1381]: pam_unix(cron:session): session closed for user www-data
+Aug 27 20:13:16 woc-terminal Starting Cleanup of Temporary Directories...
+Aug 27 20:13:20 woc-terminal pam_unix(sudo:session): session closed for user root
+Aug 27 20:13:41 woc-terminal sshd[5611]: Failed password for invalid user ubuntu from 10.10.3.20 port 55924 ssh2
+Aug 27 20:13:52 woc-terminal sshd[5016]: Failed password for nurse-b from 10.10.3.15 port 61966 ssh2
+Aug 27 20:14:10 woc-terminal sshd[4074]: Failed password for invalid user root from 10.10.7.9 port 64649 ssh2
+Aug 27 20:14:28 woc-terminal CRON[5933]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 20:14:36 woc-terminal CRON[5933]: pam_unix(cron:session): session closed for user root
+Aug 27 20:14:36 woc-terminal CRON[3693]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 20:14:58 woc-terminal CRON[3693]: pam_unix(cron:session): session closed for user www-data
+Aug 27 20:14:58 woc-terminal sshd[6523]: Failed password for nurse-b from 10.10.5.7 port 63815 ssh2
+Aug 27 20:15:21 woc-terminal sshd[6667]: Failed password for nurse-b from 10.10.5.7 port 51201 ssh2
+Aug 27 20:15:37 woc-terminal CRON[5887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 20:16:02 woc-terminal CRON[5887]: pam_unix(cron:session): session closed for user root
+Aug 27 20:16:02 woc-terminal sshd[4659]: Connection from 10.10.7.3 port 61982
+Aug 27 20:16:06 woc-terminal sshd[4659]: Accepted password for clinician1 from 10.10.7.3 port 61982 ssh2
+Aug 27 20:16:13 woc-terminal sshd[4659]: pam_unix(sshd:session): session opened for user clinician1 by (uid=0)
+Aug 27 20:29:48 woc-terminal sshd[4659]: pam_unix(sshd:session): session closed for user clinician1
+Aug 27 20:29:48 woc-terminal sshd[4632]: Connection from 10.10.7.3 port 52084
+Aug 27 20:29:53 woc-terminal sshd[4632]: Accepted password for intake-coord from 10.10.7.3 port 52084 ssh2
+Aug 27 20:29:59 woc-terminal sshd[4632]: pam_unix(sshd:session): session opened for user intake-coord by (uid=0)
+Aug 27 20:49:34 woc-terminal sshd[4632]: pam_unix(sshd:session): session closed for user intake-coord
+Aug 27 20:49:34 woc-terminal CRON[6497]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 20:49:46 woc-terminal CRON[6497]: pam_unix(cron:session): session closed for user www-data
+Aug 27 20:49:46 woc-terminal sudo:  clinician2 : TTY=pts/0 ; PWD=/home/clinician2 ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 27 20:50:38 woc-terminal sshd[8002]: Connection from 10.10.7.9 port 57790
+Aug 27 20:50:42 woc-terminal sshd[8002]: Accepted password for admin-liason from 10.10.7.9 port 57790 ssh2
+Aug 27 20:50:47 woc-terminal sshd[8002]: pam_unix(sshd:session): session opened for user admin-liason by (uid=0)
+Aug 27 20:54:14 woc-terminal sshd[8002]: pam_unix(sshd:session): session closed for user admin-liason
+Aug 27 20:54:14 woc-terminal sshd[9756]: Failed password for clinician2 from 10.10.3.20 port 60599 ssh2
+Aug 27 20:54:26 woc-terminal CRON[5127]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 20:54:46 woc-terminal CRON[5127]: pam_unix(cron:session): session closed for user root
+Aug 27 20:54:46 woc-terminal Starting Daily apt download activities...
+Aug 27 20:54:57 woc-terminal sshd[6111]: Failed password for invalid user admin from 10.10.3.11 port 62692 ssh2
+Aug 27 20:55:10 woc-terminal Finished Daily apt download activities.
+Aug 27 20:55:18 woc-terminal CRON[4408]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 20:55:32 woc-terminal CRON[4408]: pam_unix(cron:session): session closed for user www-data
+Aug 27 20:55:32 woc-terminal sshd[4816]: Connection from 10.10.3.12 port 60112
+Aug 27 20:55:34 woc-terminal sshd[4816]: Accepted password for admin-liason from 10.10.3.12 port 60112 ssh2
+Aug 27 20:55:36 woc-terminal sshd[4816]: pam_unix(sshd:session): session opened for user admin-liason by (uid=0)
+Aug 27 21:15:05 woc-terminal sshd[4816]: pam_unix(sshd:session): session closed for user admin-liason
+Aug 27 21:15:05 woc-terminal Starting Daily apt download activities...
+Aug 27 21:15:29 woc-terminal sshd[8315]: Failed password for admin-liason from 10.10.3.20 port 61166 ssh2
+Aug 27 21:15:49 woc-terminal CRON[9378]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 21:15:59 woc-terminal CRON[9378]: pam_unix(cron:session): session closed for user root
+Aug 27 21:15:59 woc-terminal sshd[8961]: Connection from 10.10.7.3 port 50474
+Aug 27 21:16:04 woc-terminal sshd[8961]: Accepted password for clinician1 from 10.10.7.3 port 50474 ssh2
+Aug 27 21:16:11 woc-terminal sshd[8961]: pam_unix(sshd:session): session opened for user clinician1 by (uid=0)
+Aug 27 21:27:40 woc-terminal sshd[8961]: pam_unix(sshd:session): session closed for user clinician1
+Aug 27 21:27:40 woc-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 27 21:28:12 woc-terminal CRON[3700]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 21:28:19 woc-terminal CRON[3700]: pam_unix(cron:session): session closed for user www-data
+Aug 27 21:28:19 woc-terminal sshd[6093]: Connection from 10.10.3.12 port 65491
+Aug 27 21:28:21 woc-terminal sshd[6093]: Accepted password for nurse-b from 10.10.3.12 port 65491 ssh2
+Aug 27 21:28:23 woc-terminal sshd[6093]: pam_unix(sshd:session): session opened for user nurse-b by (uid=0)
+Aug 27 21:46:26 woc-terminal sshd[6093]: pam_unix(sshd:session): session closed for user nurse-b
+Aug 27 21:46:26 woc-terminal CRON[3979]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 21:46:35 woc-terminal CRON[3979]: pam_unix(cron:session): session closed for user root
+Aug 27 21:46:35 woc-terminal sshd[2697]: Connection from 10.10.3.20 port 60783
+Aug 27 21:46:38 woc-terminal sshd[2697]: Accepted password for nurse-b from 10.10.3.20 port 60783 ssh2
+Aug 27 21:46:40 woc-terminal sshd[2697]: pam_unix(sshd:session): session opened for user nurse-b by (uid=0)
+Aug 27 22:15:19 woc-terminal sshd[2697]: pam_unix(sshd:session): session closed for user nurse-b
+Aug 27 22:15:19 woc-terminal sshd[9627]: Failed password for invalid user admin from 10.10.7.9 port 63231 ssh2
+Aug 27 22:15:35 woc-terminal CRON[2080]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 22:15:50 woc-terminal CRON[2080]: pam_unix(cron:session): session closed for user www-data
+Aug 27 22:15:50 woc-terminal CRON[8515]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 22:16:20 woc-terminal CRON[8515]: pam_unix(cron:session): session closed for user www-data
+Aug 27 22:16:20 woc-terminal sshd[7366]: Connection from 10.10.3.11 port 53441
+Aug 27 22:16:25 woc-terminal sshd[7366]: Accepted password for intake-coord from 10.10.3.11 port 53441 ssh2
+Aug 27 22:16:29 woc-terminal sshd[7366]: pam_unix(sshd:session): session opened for user intake-coord by (uid=0)
+Aug 27 22:34:49 woc-terminal sshd[7366]: pam_unix(sshd:session): session closed for user intake-coord
+Aug 27 22:34:49 woc-terminal CRON[6486]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 22:35:03 woc-terminal CRON[6486]: pam_unix(cron:session): session closed for user root
+Aug 27 22:35:03 woc-terminal sshd[6995]: Connection from 10.10.3.12 port 60491
+Aug 27 22:35:07 woc-terminal sshd[6995]: Accepted password for nurse-a from 10.10.3.12 port 60491 ssh2
+Aug 27 22:35:08 woc-terminal sshd[6995]: pam_unix(sshd:session): session opened for user nurse-a by (uid=0)
+Aug 27 22:43:43 woc-terminal sshd[6995]: pam_unix(sshd:session): session closed for user nurse-a
+Aug 27 22:43:43 woc-terminal CRON[5545]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 22:43:50 woc-terminal CRON[5545]: pam_unix(cron:session): session closed for user root
+Aug 27 22:43:50 woc-terminal sudo:  nurse-b : TTY=pts/0 ; PWD=/home/nurse-b ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Aug 27 22:44:37 woc-terminal sudo:  clinician1 : TTY=pts/0 ; PWD=/home/clinician1 ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Aug 27 22:44:47 woc-terminal sshd[9867]: Failed password for invalid user admin from 10.10.5.18 port 62544 ssh2
+Aug 27 22:44:50 woc-terminal sshd[8830]: Failed password for clinician1 from 10.10.3.15 port 54903 ssh2
+Aug 27 22:45:20 woc-terminal CRON[7742]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 22:45:25 woc-terminal CRON[7742]: pam_unix(cron:session): session closed for user root
+Aug 27 22:45:25 woc-terminal sshd[7116]: Failed password for invalid user admin from 10.10.7.9 port 63445 ssh2
+Aug 27 22:45:39 woc-terminal sshd[8298]: Connection from 10.10.3.20 port 62766
+Aug 27 22:45:44 woc-terminal sshd[8298]: Accepted password for nurse-b from 10.10.3.20 port 62766 ssh2
+Aug 27 22:45:51 woc-terminal sshd[8298]: pam_unix(sshd:session): session opened for user nurse-b by (uid=0)
+Aug 27 23:00:44 woc-terminal sshd[8298]: pam_unix(sshd:session): session closed for user nurse-b
+Aug 27 23:00:44 woc-terminal sshd[3938]: Failed password for invalid user test from 10.10.3.12 port 53537 ssh2
+Aug 27 23:01:04 woc-terminal CRON[6041]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 23:01:19 woc-terminal CRON[6041]: pam_unix(cron:session): session closed for user www-data
+Aug 27 23:01:19 woc-terminal CRON[7388]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 23:01:26 woc-terminal CRON[7388]: pam_unix(cron:session): session closed for user root
+Aug 27 23:01:26 woc-terminal sshd[8896]: Failed password for clinician2 from 10.10.5.7 port 62669 ssh2
+Aug 27 23:01:36 woc-terminal CRON[9946]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 23:01:54 woc-terminal CRON[9946]: pam_unix(cron:session): session closed for user root
+Aug 27 23:01:54 woc-terminal sshd[4013]: Failed password for intake-coord from 10.10.5.7 port 59055 ssh2
+Aug 27 23:02:18 woc-terminal sshd[6380]: Failed password for invalid user root from 10.10.5.18 port 49443 ssh2
+Aug 27 23:02:31 woc-terminal CRON[8887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 23:03:00 woc-terminal CRON[8887]: pam_unix(cron:session): session closed for user root
+Aug 27 23:03:00 woc-terminal CRON[5761]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 23:03:03 woc-terminal CRON[5761]: pam_unix(cron:session): session closed for user www-data
+Aug 27 23:03:03 woc-terminal sudo:  nurse-b : TTY=pts/0 ; PWD=/home/nurse-b ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 27 23:03:30 woc-terminal CRON[9918]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 23:03:54 woc-terminal CRON[9918]: pam_unix(cron:session): session closed for user www-data
+Aug 27 23:03:54 woc-terminal sshd[7354]: Connection from 10.10.7.3 port 59904
+Aug 27 23:03:55 woc-terminal sshd[7354]: Accepted password for records-clerk from 10.10.7.3 port 59904 ssh2
+Aug 27 23:03:59 woc-terminal sshd[7354]: pam_unix(sshd:session): session opened for user records-clerk by (uid=0)
+Aug 27 23:28:29 woc-terminal sshd[7354]: pam_unix(sshd:session): session closed for user records-clerk
+Aug 27 23:28:29 woc-terminal sshd[7139]: Connection from 10.10.3.12 port 61952
+Aug 27 23:28:32 woc-terminal sshd[7139]: Accepted password for nurse-a from 10.10.3.12 port 61952 ssh2
+Aug 27 23:28:42 woc-terminal sshd[7139]: pam_unix(sshd:session): session opened for user nurse-a by (uid=0)
+Aug 27 23:39:30 woc-terminal sshd[7139]: pam_unix(sshd:session): session closed for user nurse-a
+Aug 27 23:39:30 woc-terminal sshd[5604]: Connection from 10.10.5.18 port 60241
+Aug 27 23:39:35 woc-terminal sshd[5604]: Accepted password for nurse-a from 10.10.5.18 port 60241 ssh2
+Aug 27 23:39:38 woc-terminal sshd[5604]: pam_unix(sshd:session): session opened for user nurse-a by (uid=0)
+Aug 27 23:59:22 woc-terminal sshd[5604]: pam_unix(sshd:session): session closed for user nurse-a
+Aug 27 23:59:22 woc-terminal Finished Daily apt download activities.
+Aug 27 23:59:53 woc-terminal sshd[5761]: Failed password for invalid user guest from 10.10.3.11 port 59812 ssh2
+Aug 28 00:00:06 woc-terminal sshd[3394]: Connection from 10.10.5.18 port 60396
+Aug 28 00:00:10 woc-terminal sshd[3394]: Accepted password for records-clerk from 10.10.5.18 port 60396 ssh2
+Aug 28 00:00:13 woc-terminal sshd[3394]: pam_unix(sshd:session): session opened for user records-clerk by (uid=0)
+Aug 28 00:21:07 woc-terminal sshd[3394]: pam_unix(sshd:session): session closed for user records-clerk
+Aug 28 00:21:07 woc-terminal sudo:  clinician2 : TTY=pts/0 ; PWD=/home/clinician2 ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 28 00:21:15 woc-terminal sshd[7191]: Connection from 10.10.5.18 port 56480
+Aug 28 00:21:18 woc-terminal sshd[7191]: Accepted password for records-clerk from 10.10.5.18 port 56480 ssh2
+Aug 28 00:21:25 woc-terminal sshd[7191]: pam_unix(sshd:session): session opened for user records-clerk by (uid=0)
+Aug 28 00:51:01 woc-terminal sshd[7191]: pam_unix(sshd:session): session closed for user records-clerk
+Aug 28 00:51:01 woc-terminal CRON[6506]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 00:51:11 woc-terminal CRON[6506]: pam_unix(cron:session): session closed for user www-data
+Aug 28 00:51:11 woc-terminal CRON[7976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 28 00:51:20 woc-terminal CRON[7976]: pam_unix(cron:session): session closed for user root
+Aug 28 00:51:20 woc-terminal sshd[9748]: Connection from 10.10.3.12 port 51114
+Aug 28 00:51:22 woc-terminal sshd[9748]: Accepted password for clinician1 from 10.10.3.12 port 51114 ssh2
+Aug 28 00:51:32 woc-terminal sshd[9748]: pam_unix(sshd:session): session opened for user clinician1 by (uid=0)
+Aug 28 01:04:51 woc-terminal sshd[9748]: pam_unix(sshd:session): session closed for user clinician1
+Aug 28 01:04:51 woc-terminal sshd[5879]: Failed password for invalid user guest from 10.10.3.12 port 57167 ssh2
+Aug 28 01:04:54 woc-terminal sudo:  clinician1 : TTY=pts/0 ; PWD=/home/clinician1 ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 28 01:05:04 woc-terminal CRON[2766]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 01:05:23 woc-terminal CRON[2766]: pam_unix(cron:session): session closed for user www-data
+Aug 28 01:05:23 woc-terminal sshd[9092]: Failed password for clinician1 from 10.10.7.3 port 64884 ssh2
+Aug 28 01:05:30 woc-terminal CRON[8214]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 01:05:46 woc-terminal CRON[8214]: pam_unix(cron:session): session closed for user www-data
+Aug 28 01:05:46 woc-terminal CRON[2847]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 28 01:06:14 woc-terminal CRON[2847]: pam_unix(cron:session): session closed for user root
+Aug 28 01:06:14 woc-terminal pam_unix(sudo:session): session closed for user root
+Aug 28 01:06:26 woc-terminal sudo:  clinician2 : TTY=pts/0 ; PWD=/home/clinician2 ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 28 01:07:12 woc-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 28 01:07:53 woc-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 28 01:08:19 woc-terminal sshd[8625]: Failed password for intake-coord from 10.10.3.12 port 63255 ssh2
+Aug 28 01:08:44 woc-terminal CRON[4970]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 01:09:02 woc-terminal CRON[4970]: pam_unix(cron:session): session closed for user www-data
+Aug 28 01:09:02 woc-terminal Finished Daily apt download activities.
+Aug 28 01:09:34 woc-terminal sshd[6658]: Failed password for invalid user root from 10.10.7.3 port 59723 ssh2
+Aug 28 01:09:51 woc-terminal CRON[9972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 28 01:10:03 woc-terminal CRON[9972]: pam_unix(cron:session): session closed for user root
+Aug 28 01:10:03 woc-terminal sshd[7195]: Connection from 10.10.5.7 port 63294
+Aug 28 01:10:07 woc-terminal sshd[7195]: Accepted password for intake-coord from 10.10.5.7 port 63294 ssh2
+Aug 28 01:10:12 woc-terminal sshd[7195]: pam_unix(sshd:session): session opened for user intake-coord by (uid=0)
+Aug 28 01:23:06 woc-terminal sshd[7195]: pam_unix(sshd:session): session closed for user intake-coord
+Aug 28 01:23:06 woc-terminal CRON[1503]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 01:23:28 woc-terminal CRON[1503]: pam_unix(cron:session): session closed for user www-data
+Aug 28 01:23:28 woc-terminal sshd[3177]: Connection from 10.10.5.18 port 63061
+Aug 28 01:23:29 woc-terminal sshd[3177]: Accepted password for clinician1 from 10.10.5.18 port 63061 ssh2
+Aug 28 01:23:39 woc-terminal sshd[3177]: pam_unix(sshd:session): session opened for user clinician1 by (uid=0)
+Aug 28 01:47:12 woc-terminal sshd[3177]: pam_unix(sshd:session): session closed for user clinician1
+Aug 28 01:47:12 woc-terminal sshd[9525]: Failed password for intake-coord from 10.10.3.12 port 64481 ssh2
+Aug 28 01:47:31 woc-terminal sshd[8803]: Connection from 10.10.3.12 port 51068
+Aug 28 01:47:33 woc-terminal sshd[8803]: Accepted password for intake-coord from 10.10.3.12 port 51068 ssh2
+Aug 28 01:47:36 woc-terminal sshd[8803]: pam_unix(sshd:session): session opened for user intake-coord by (uid=0)
+Aug 28 02:13:23 woc-terminal sshd[8803]: pam_unix(sshd:session): session closed for user intake-coord
+Aug 28 02:13:23 woc-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 28 02:13:44 woc-terminal CRON[6516]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 02:14:11 woc-terminal CRON[6516]: pam_unix(cron:session): session closed for user www-data
+Aug 28 02:14:11 woc-terminal sshd[3013]: Failed password for invalid user ubuntu from 10.10.5.7 port 61516 ssh2
+Aug 28 02:14:21 woc-terminal CRON[3626]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 02:14:27 woc-terminal CRON[3626]: pam_unix(cron:session): session closed for user www-data
+Aug 28 02:14:27 woc-terminal Starting Daily apt download activities...
+Aug 28 02:14:35 woc-terminal sshd[4814]: Connection from 10.10.3.15 port 64335
+Aug 28 02:14:36 woc-terminal sshd[4814]: Accepted password for admin-liason from 10.10.3.15 port 64335 ssh2
+Aug 28 02:14:41 woc-terminal sshd[4814]: pam_unix(sshd:session): session opened for user admin-liason by (uid=0)
+Aug 28 02:29:13 woc-terminal sshd[4814]: pam_unix(sshd:session): session closed for user admin-liason
+Aug 28 02:29:13 woc-terminal sshd[4345]: Failed password for invalid user ubuntu from 10.10.3.15 port 58654 ssh2
+Aug 28 02:29:32 woc-terminal CRON[9452]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 28 02:29:33 woc-terminal CRON[9452]: pam_unix(cron:session): session closed for user root
+Aug 28 02:29:33 woc-terminal sshd[3498]: Connection from 10.10.7.9 port 56757
+Aug 28 02:29:35 woc-terminal sshd[3498]: Accepted password for admin-liason from 10.10.7.9 port 56757 ssh2
+Aug 28 02:29:36 woc-terminal sshd[3498]: pam_unix(sshd:session): session opened for user admin-liason by (uid=0)
+Aug 28 02:55:50 woc-terminal sshd[3498]: pam_unix(sshd:session): session closed for user admin-liason
+Aug 28 02:55:50 woc-terminal sshd[3581]: Connection from 10.10.3.20 port 49586
+Aug 28 02:55:52 woc-terminal sshd[3581]: Accepted password for admin-liason from 10.10.3.20 port 49586 ssh2
+Aug 28 02:55:56 woc-terminal sshd[3581]: pam_unix(sshd:session): session opened for user admin-liason by (uid=0)
+Aug 28 03:23:33 woc-terminal sshd[3581]: pam_unix(sshd:session): session closed for user admin-liason
+Aug 28 03:23:33 woc-terminal CRON[3057]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 03:23:57 woc-terminal CRON[3057]: pam_unix(cron:session): session closed for user www-data
+Aug 28 03:23:57 woc-terminal sshd[2698]: Connection from 10.10.5.7 port 57226
+Aug 28 03:24:01 woc-terminal sshd[2698]: Accepted password for clinician1 from 10.10.5.7 port 57226 ssh2
+Aug 28 03:24:10 woc-terminal sshd[2698]: pam_unix(sshd:session): session opened for user clinician1 by (uid=0)
+Aug 28 03:29:54 woc-terminal sshd[2698]: pam_unix(sshd:session): session closed for user clinician1
+Aug 28 03:29:54 woc-terminal CRON[2109]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 28 03:30:10 woc-terminal CRON[2109]: pam_unix(cron:session): session closed for user root
+Aug 28 03:30:10 woc-terminal CRON[2886]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 28 03:30:21 woc-terminal CRON[2886]: pam_unix(cron:session): session closed for user root
+Aug 28 03:30:21 woc-terminal Starting Daily apt download activities...
+Aug 28 03:30:25 woc-terminal CRON[9897]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 03:30:26 woc-terminal CRON[9897]: pam_unix(cron:session): session closed for user www-data
+Aug 28 03:30:26 woc-terminal CRON[7158]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 03:30:52 woc-terminal CRON[7158]: pam_unix(cron:session): session closed for user www-data
+Aug 28 03:30:52 woc-terminal Starting Cleanup of Temporary Directories...
+Aug 28 03:30:58 woc-terminal pam_unix(sudo:session): session closed for user root
+Aug 28 03:31:04 woc-terminal pam_unix(sudo:session): session closed for user root
+Aug 28 03:31:11 woc-terminal sshd[2918]: Failed password for nurse-b from 10.10.5.7 port 61547 ssh2
+Aug 28 03:31:12 woc-terminal sshd[5759]: Failed password for nurse-a from 10.10.3.11 port 55086 ssh2
+Aug 28 03:31:15 woc-terminal CRON[9475]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 28 03:31:30 woc-terminal CRON[9475]: pam_unix(cron:session): session closed for user root
+Aug 28 03:31:30 woc-terminal sudo:  admin-liason : TTY=pts/0 ; PWD=/home/admin-liason ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Aug 28 03:31:39 woc-terminal sudo:  admin-liason : TTY=pts/0 ; PWD=/home/admin-liason ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 28 03:31:50 woc-terminal sudo:  clinician1 : TTY=pts/0 ; PWD=/home/clinician1 ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Aug 28 03:32:42 woc-terminal sshd[4335]: Failed password for invalid user guest from 10.10.5.7 port 53378 ssh2
+Aug 28 03:32:50 woc-terminal sudo:  admin-liason : TTY=pts/0 ; PWD=/home/admin-liason ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 28 03:33:47 woc-terminal sshd[2901]: Connection from 10.10.3.12 port 52184
+Aug 28 03:33:50 woc-terminal sshd[2901]: Accepted password for records-clerk from 10.10.3.12 port 52184 ssh2
+Aug 28 03:33:56 woc-terminal sshd[2901]: pam_unix(sshd:session): session opened for user records-clerk by (uid=0)
+Aug 28 03:51:15 woc-terminal sshd[2901]: pam_unix(sshd:session): session closed for user records-clerk
+Aug 28 03:51:15 woc-terminal sshd[3449]: Connection from 10.10.5.18 port 64581
+Aug 28 03:51:17 woc-terminal sshd[3449]: Accepted password for nurse-b from 10.10.5.18 port 64581 ssh2
+Aug 28 03:51:21 woc-terminal sshd[3449]: pam_unix(sshd:session): session opened for user nurse-b by (uid=0)
+Aug 28 04:01:42 woc-terminal sshd[3449]: pam_unix(sshd:session): session closed for user nurse-b
+Aug 28 04:01:42 woc-terminal sudo:  nurse-b : TTY=pts/0 ; PWD=/home/nurse-b ; USER=root ; COMMAND=/bin/systemctl restart cron
+Aug 28 04:02:34 woc-terminal sudo:  clinician1 : TTY=pts/0 ; PWD=/home/clinician1 ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 28 04:02:56 woc-terminal CRON[5319]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 04:03:17 woc-terminal CRON[5319]: pam_unix(cron:session): session closed for user www-data
+Aug 28 04:03:17 woc-terminal sudo:  clinician1 : TTY=pts/0 ; PWD=/home/clinician1 ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Aug 28 04:03:25 woc-terminal CRON[2123]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 28 04:03:43 woc-terminal CRON[2123]: pam_unix(cron:session): session closed for user root
+Aug 28 04:03:43 woc-terminal sudo:  nurse-a : TTY=pts/0 ; PWD=/home/nurse-a ; USER=root ; COMMAND=/bin/systemctl restart cron
+Aug 28 04:04:37 woc-terminal sshd[9019]: Failed password for nurse-a from 10.10.3.15 port 58289 ssh2
+Aug 28 04:04:45 woc-terminal sshd[1768]: Failed password for intake-coord from 10.10.7.9 port 63994 ssh2
+Aug 28 04:05:07 woc-terminal sshd[8673]: Failed password for nurse-b from 10.10.3.11 port 64757 ssh2
+Aug 28 04:05:14 woc-terminal sudo:  clinician2 : TTY=pts/0 ; PWD=/home/clinician2 ; USER=root ; COMMAND=/bin/systemctl restart cron
+Aug 28 04:05:35 woc-terminal sshd[3822]: Failed password for intake-coord from 10.10.3.20 port 49891 ssh2
+Aug 28 04:06:04 woc-terminal sshd[8773]: Failed password for clinician1 from 10.10.7.9 port 54440 ssh2
+Aug 28 04:06:06 woc-terminal pam_unix(sudo:session): session closed for user root
+Aug 28 04:06:26 woc-terminal sshd[4178]: Failed password for invalid user root from 10.10.5.18 port 60470 ssh2
+Aug 28 04:06:27 woc-terminal sshd[8131]: Failed password for invalid user guest from 10.10.3.20 port 59980 ssh2
+Aug 28 04:06:45 woc-terminal sudo:  nurse-b : TTY=pts/0 ; PWD=/home/nurse-b ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 28 04:06:57 woc-terminal sshd[4673]: Connection from 10.10.3.11 port 50130
+Aug 28 04:06:58 woc-terminal sshd[4673]: Accepted password for records-clerk from 10.10.3.11 port 50130 ssh2
+Aug 28 04:07:08 woc-terminal sshd[4673]: pam_unix(sshd:session): session opened for user records-clerk by (uid=0)
+Aug 28 04:35:26 woc-terminal sshd[4673]: pam_unix(sshd:session): session closed for user records-clerk
+Aug 28 04:35:26 woc-terminal CRON[9277]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 04:35:38 woc-terminal CRON[9277]: pam_unix(cron:session): session closed for user www-data
+Aug 28 04:35:38 woc-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 28 04:35:58 woc-terminal pam_unix(sudo:session): session closed for user root
+Aug 28 04:36:06 woc-terminal CRON[5381]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 04:36:32 woc-terminal CRON[5381]: pam_unix(cron:session): session closed for user www-data
+Aug 28 04:36:32 woc-terminal CRON[8053]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 28 04:36:39 woc-terminal CRON[8053]: pam_unix(cron:session): session closed for user root
+Aug 28 04:36:39 woc-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 28 04:37:16 woc-terminal sshd[5406]: Failed password for nurse-b from 10.10.3.12 port 51876 ssh2
+Aug 28 04:37:19 woc-terminal sshd[1664]: Failed password for invalid user ubuntu from 10.10.7.9 port 56032 ssh2
+Aug 28 04:37:31 woc-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 28 04:38:16 woc-terminal sshd[5898]: Connection from 10.10.3.11 port 60563
+Aug 28 04:38:19 woc-terminal sshd[5898]: Accepted password for intake-coord from 10.10.3.11 port 60563 ssh2
+Aug 28 04:38:28 woc-terminal sshd[5898]: pam_unix(sshd:session): session opened for user intake-coord by (uid=0)
+Aug 28 04:40:03 woc-terminal sshd[5898]: pam_unix(sshd:session): session closed for user intake-coord
+Aug 28 04:40:03 woc-terminal sshd[6589]: Failed password for invalid user root from 10.10.3.20 port 53294 ssh2
+Aug 28 04:40:23 woc-terminal sshd[2577]: Connection from 10.10.3.15 port 52449
+Aug 28 04:40:26 woc-terminal sshd[2577]: Accepted password for clinician1 from 10.10.3.15 port 52449 ssh2
+Aug 28 04:40:28 woc-terminal sshd[2577]: pam_unix(sshd:session): session opened for user clinician1 by (uid=0)
+Aug 28 05:01:43 woc-terminal sshd[2577]: pam_unix(sshd:session): session closed for user clinician1
+Aug 28 05:01:43 woc-terminal sshd[9678]: Failed password for nurse-a from 10.10.3.11 port 53242 ssh2
+Aug 28 05:01:48 woc-terminal sshd[4814]: Connection from 10.10.3.11 port 52703
+Aug 28 05:01:53 woc-terminal sshd[4814]: Accepted password for admin-liason from 10.10.3.11 port 52703 ssh2
+Aug 28 05:01:57 woc-terminal sshd[4814]: pam_unix(sshd:session): session opened for user admin-liason by (uid=0)
+Aug 28 05:30:56 woc-terminal sshd[4814]: pam_unix(sshd:session): session closed for user admin-liason
+Aug 28 05:30:56 woc-terminal sshd[4860]: Failed password for invalid user test from 10.10.3.11 port 64319 ssh2
+Aug 28 05:31:00 woc-terminal sshd[6284]: Connection from 10.10.3.11 port 59925
+Aug 28 05:31:05 woc-terminal sshd[6284]: Accepted password for clinician1 from 10.10.3.11 port 59925 ssh2
+Aug 28 05:31:08 woc-terminal sshd[6284]: pam_unix(sshd:session): session opened for user clinician1 by (uid=0)
+Aug 28 05:46:59 woc-terminal sshd[6284]: pam_unix(sshd:session): session closed for user clinician1
+Aug 28 05:46:59 woc-terminal sudo:  nurse-a : TTY=pts/0 ; PWD=/home/nurse-a ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 28 05:47:38 woc-terminal sudo:  clinician2 : TTY=pts/0 ; PWD=/home/clinician2 ; USER=root ; COMMAND=/bin/systemctl restart cron
+Aug 28 05:48:23 woc-terminal CRON[8731]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 05:48:49 woc-terminal CRON[8731]: pam_unix(cron:session): session closed for user www-data
+Aug 28 05:48:49 woc-terminal Finished Daily apt download activities.
+Aug 28 05:49:06 woc-terminal sshd[4237]: Failed password for admin-liason from 10.10.3.11 port 49989 ssh2
+Aug 28 05:49:24 woc-terminal CRON[8896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 28 05:49:50 woc-terminal CRON[8896]: pam_unix(cron:session): session closed for user root
+Aug 28 05:49:50 woc-terminal CRON[3503]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 28 05:49:54 woc-terminal CRON[3503]: pam_unix(cron:session): session closed for user root
+Aug 28 05:49:54 woc-terminal sshd[3165]: Failed password for invalid user root from 10.10.7.9 port 56458 ssh2
+Aug 28 05:50:12 woc-terminal sshd[4386]: Connection from 10.10.5.18 port 55891
+Aug 28 05:50:16 woc-terminal sshd[4386]: Accepted password for nurse-b from 10.10.5.18 port 55891 ssh2
+Aug 28 05:50:18 woc-terminal sshd[4386]: pam_unix(sshd:session): session opened for user nurse-b by (uid=0)
+Aug 28 06:16:51 woc-terminal sshd[4386]: pam_unix(sshd:session): session closed for user nurse-b
+Aug 28 06:16:51 woc-terminal CRON[5764]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 06:17:10 woc-terminal CRON[5764]: pam_unix(cron:session): session closed for user www-data
+Aug 28 06:17:10 woc-terminal Starting Daily apt download activities...
+Aug 28 06:17:42 woc-terminal sudo:  records-clerk : TTY=pts/0 ; PWD=/home/records-clerk ; USER=root ; COMMAND=/bin/systemctl restart cron
+Aug 28 06:17:49 woc-terminal sshd[1134]: Connection from 10.10.3.15 port 61662
+Aug 28 06:17:50 woc-terminal sshd[1134]: Accepted password for nurse-b from 10.10.3.15 port 61662 ssh2
+Aug 28 06:17:57 woc-terminal sshd[1134]: pam_unix(sshd:session): session opened for user nurse-b by (uid=0)
+Aug 28 06:47:50 woc-terminal sshd[1134]: pam_unix(sshd:session): session closed for user nurse-b
+Aug 28 06:47:50 woc-terminal sshd[4753]: Failed password for nurse-a from 10.10.3.15 port 58555 ssh2
+Aug 28 06:48:07 woc-terminal sshd[2376]: Failed password for clinician1 from 10.10.3.11 port 60534 ssh2
+Aug 28 06:48:29 woc-terminal sudo:  admin-liason : TTY=pts/0 ; PWD=/home/admin-liason ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 28 06:49:28 woc-terminal Starting Cleanup of Temporary Directories...
+Aug 28 06:50:00 woc-terminal sudo:  records-clerk : TTY=pts/0 ; PWD=/home/records-clerk ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 28 06:50:11 woc-terminal sudo:  admin-liason : TTY=pts/0 ; PWD=/home/admin-liason ; USER=root ; COMMAND=/usr/bin/journalctl --since today
+Aug 28 06:50:55 woc-terminal sshd[3488]: Connection from 10.10.3.20 port 63268
+Aug 28 06:50:56 woc-terminal sshd[3488]: Accepted password for nurse-a from 10.10.3.20 port 63268 ssh2
+Aug 28 06:51:06 woc-terminal sshd[3488]: pam_unix(sshd:session): session opened for user nurse-a by (uid=0)
+Aug 28 07:16:07 woc-terminal sshd[3488]: pam_unix(sshd:session): session closed for user nurse-a
+Aug 28 07:16:07 woc-terminal CRON[3608]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 07:16:08 woc-terminal CRON[3608]: pam_unix(cron:session): session closed for user www-data
+Aug 28 07:16:08 woc-terminal Finished Daily apt download activities.
+Aug 28 07:16:52 woc-terminal sshd[9580]: Connection from 10.10.3.12 port 62573
+Aug 28 07:16:53 woc-terminal sshd[9580]: Accepted password for admin-liason from 10.10.3.12 port 62573 ssh2
+Aug 28 07:17:02 woc-terminal sshd[9580]: pam_unix(sshd:session): session opened for user admin-liason by (uid=0)
+Aug 28 07:20:09 woc-terminal sshd[9580]: pam_unix(sshd:session): session closed for user admin-liason
+Aug 28 07:20:09 woc-terminal sudo:  intake-coord : TTY=pts/0 ; PWD=/home/intake-coord ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Aug 28 07:20:17 woc-terminal sudo:  clinician2 : TTY=pts/0 ; PWD=/home/clinician2 ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Aug 28 07:21:15 woc-terminal sshd[8430]: Connection from 10.10.5.18 port 58503
+Aug 28 07:21:20 woc-terminal sshd[8430]: Accepted password for clinician1 from 10.10.5.18 port 58503 ssh2
+Aug 28 07:21:25 woc-terminal sshd[8430]: pam_unix(sshd:session): session opened for user clinician1 by (uid=0)
+Aug 28 07:28:14 woc-terminal sshd[8430]: pam_unix(sshd:session): session closed for user clinician1
+Aug 28 07:28:14 woc-terminal sshd[5311]: Connection from 10.10.5.7 port 62044
+Aug 28 07:28:16 woc-terminal sshd[5311]: Accepted password for admin-liason from 10.10.5.7 port 62044 ssh2
+Aug 28 07:28:24 woc-terminal sshd[5311]: pam_unix(sshd:session): session opened for user admin-liason by (uid=0)
+Aug 28 07:44:00 woc-terminal sshd[5311]: pam_unix(sshd:session): session closed for user admin-liason
+Aug 28 07:44:00 woc-terminal sshd[1649]: Failed password for nurse-a from 10.10.3.15 port 50362 ssh2
+Aug 28 07:44:04 woc-terminal Starting Cleanup of Temporary Directories...
+Aug 28 07:44:29 woc-terminal sshd[5956]: Connection from 10.10.7.3 port 61739
+Aug 28 07:44:33 woc-terminal sshd[5956]: Accepted password for intake-coord from 10.10.7.3 port 61739 ssh2
+Aug 28 07:44:39 woc-terminal sshd[5956]: pam_unix(sshd:session): session opened for user intake-coord by (uid=0)
+Aug 28 07:51:20 woc-terminal sshd[5956]: pam_unix(sshd:session): session closed for user intake-coord
+Aug 28 07:51:20 woc-terminal CRON[7267]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 07:51:23 woc-terminal CRON[7267]: pam_unix(cron:session): session closed for user www-data
+Aug 28 07:51:23 woc-terminal Finished Daily apt download activities.
+Aug 28 07:51:48 woc-terminal pam_unix(sudo:session): session closed for user root
+Aug 28 07:52:23 woc-terminal CRON[8971]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 07:52:30 woc-terminal CRON[8971]: pam_unix(cron:session): session closed for user www-data
+Aug 28 07:52:30 woc-terminal CRON[2444]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 07:52:33 woc-terminal CRON[2444]: pam_unix(cron:session): session closed for user www-data
+Aug 28 07:52:33 woc-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 28 07:53:05 woc-terminal CRON[8539]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 07:53:23 woc-terminal CRON[8539]: pam_unix(cron:session): session closed for user www-data
+Aug 28 07:53:23 woc-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 28 07:53:35 woc-terminal sudo:  intake-coord : TTY=pts/0 ; PWD=/home/intake-coord ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 28 07:53:54 woc-terminal CRON[5196]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 28 07:54:10 woc-terminal CRON[5196]: pam_unix(cron:session): session closed for user root
+Aug 28 07:54:10 woc-terminal CRON[8524]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 07:54:26 woc-terminal CRON[8524]: pam_unix(cron:session): session closed for user www-data
+Aug 28 07:54:26 woc-terminal CRON[5537]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 07:54:41 woc-terminal CRON[5537]: pam_unix(cron:session): session closed for user www-data
+Aug 28 07:54:41 woc-terminal sshd[9077]: Connection from 10.10.3.20 port 57662
+Aug 28 07:54:42 woc-terminal sshd[9077]: Accepted password for nurse-a from 10.10.3.20 port 57662 ssh2
+Aug 28 07:54:51 woc-terminal sshd[9077]: pam_unix(sshd:session): session opened for user nurse-a by (uid=0)
+Aug 28 07:55:52 woc-terminal sshd[9077]: pam_unix(sshd:session): session closed for user nurse-a
+Aug 28 07:55:52 woc-terminal sshd[2411]: Connection from 10.10.5.18 port 51608
+Aug 28 07:55:57 woc-terminal sshd[2411]: Accepted password for clinician1 from 10.10.5.18 port 51608 ssh2
+Aug 28 07:56:07 woc-terminal sshd[2411]: pam_unix(sshd:session): session opened for user clinician1 by (uid=0)
+Aug 28 08:25:03 woc-terminal sshd[2411]: pam_unix(sshd:session): session closed for user clinician1
+Aug 28 08:25:03 woc-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 28 08:25:41 woc-terminal sshd[1624]: Connection from 10.10.3.11 port 53250
+Aug 28 08:25:43 woc-terminal sshd[1624]: Accepted password for clinician2 from 10.10.3.11 port 53250 ssh2
+Aug 28 08:25:49 woc-terminal sshd[1624]: pam_unix(sshd:session): session opened for user clinician2 by (uid=0)
+Aug 28 08:32:48 woc-terminal sshd[1624]: pam_unix(sshd:session): session closed for user clinician2
+Aug 28 08:32:48 woc-terminal sshd[2852]: Failed password for records-clerk from 10.10.7.3 port 65320 ssh2
+Aug 28 08:33:17 woc-terminal sudo:  admin-liason : TTY=pts/0 ; PWD=/home/admin-liason ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 28 08:33:51 woc-terminal CRON[9881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 28 08:34:07 woc-terminal CRON[9881]: pam_unix(cron:session): session closed for user root
+Aug 28 08:34:07 woc-terminal sshd[2200]: Failed password for invalid user guest from 10.10.5.18 port 63423 ssh2
+Aug 28 08:34:24 woc-terminal sshd[4640]: Connection from 10.10.3.15 port 56701
+Aug 28 08:34:26 woc-terminal sshd[4640]: Accepted password for nurse-b from 10.10.3.15 port 56701 ssh2
+Aug 28 08:34:34 woc-terminal sshd[4640]: pam_unix(sshd:session): session opened for user nurse-b by (uid=0)
+Aug 28 09:00:42 woc-terminal sshd[4640]: pam_unix(sshd:session): session closed for user nurse-b
+Aug 28 09:00:42 woc-terminal CRON[3480]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 09:00:54 woc-terminal CRON[3480]: pam_unix(cron:session): session closed for user www-data
+Aug 28 09:00:54 woc-terminal sshd[3119]: Connection from 10.10.3.15 port 57373
+Aug 28 09:00:57 woc-terminal sshd[3119]: Accepted password for clinician2 from 10.10.3.15 port 57373 ssh2
+Aug 28 09:01:04 woc-terminal sshd[3119]: pam_unix(sshd:session): session opened for user clinician2 by (uid=0)
+Aug 28 09:11:34 woc-terminal sshd[3119]: pam_unix(sshd:session): session closed for user clinician2
+Aug 28 09:11:34 woc-terminal sudo:  nurse-b : TTY=pts/0 ; PWD=/home/nurse-b ; USER=root ; COMMAND=/bin/systemctl status ssh
+Aug 28 09:12:14 woc-terminal Starting Daily apt download activities...
+Aug 28 09:12:44 woc-terminal Starting Daily apt download activities...
+Aug 28 09:12:50 woc-terminal CRON[8955]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 09:13:07 woc-terminal CRON[8955]: pam_unix(cron:session): session closed for user www-data
+Aug 28 09:13:07 woc-terminal CRON[9615]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 09:13:17 woc-terminal CRON[9615]: pam_unix(cron:session): session closed for user www-data
+Aug 28 09:13:17 woc-terminal sshd[6216]: Connection from 10.10.5.7 port 54655
+Aug 28 09:13:22 woc-terminal sshd[6216]: Accepted password for records-clerk from 10.10.5.7 port 54655 ssh2
+Aug 28 09:13:31 woc-terminal sshd[6216]: pam_unix(sshd:session): session opened for user records-clerk by (uid=0)
+Aug 28 09:33:15 woc-terminal sshd[6216]: pam_unix(sshd:session): session closed for user records-clerk
+Aug 28 09:33:15 woc-terminal sudo:  records-clerk : TTY=pts/0 ; PWD=/home/records-clerk ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 28 09:33:23 woc-terminal sshd[1444]: Failed password for admin-liason from 10.10.5.7 port 62774 ssh2
+Aug 28 09:33:51 woc-terminal sshd[3019]: Connection from 10.10.3.11 port 51655
+Aug 28 09:33:56 woc-terminal sshd[3019]: Accepted password for admin-liason from 10.10.3.11 port 51655 ssh2
+Aug 28 09:34:00 woc-terminal sshd[3019]: pam_unix(sshd:session): session opened for user admin-liason by (uid=0)
+Aug 28 09:58:38 woc-terminal sshd[3019]: pam_unix(sshd:session): session closed for user admin-liason
+Aug 28 09:58:38 woc-terminal Starting Cleanup of Temporary Directories...
+Aug 28 09:59:18 woc-terminal Starting Daily apt download activities...
+Aug 28 09:59:44 woc-terminal Finished Daily apt download activities.
+Aug 28 10:00:18 woc-terminal sshd[5037]: Connection from 10.10.7.9 port 58385
+Aug 28 10:00:22 woc-terminal sshd[5037]: Accepted password for nurse-b from 10.10.7.9 port 58385 ssh2
+Aug 28 10:00:30 woc-terminal sshd[5037]: pam_unix(sshd:session): session opened for user nurse-b by (uid=0)
+Aug 28 10:22:26 woc-terminal sshd[5037]: pam_unix(sshd:session): session closed for user nurse-b
+Aug 28 10:22:26 woc-terminal CRON[3598]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 28 10:22:47 woc-terminal CRON[3598]: pam_unix(cron:session): session closed for user www-data

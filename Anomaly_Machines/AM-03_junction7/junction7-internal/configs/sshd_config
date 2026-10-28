@@ -1,0 +1,21 @@
+# DIRECTIVE ZERO — AM-03 junction7-internal sshd_config
+# SSH on non-standard port 34483 (matching the source WinterMute box).
+# Key-only auth — players get a shell by injecting their SSH key via the
+# Struts RCE, then SSH in for a proper TTY.
+
+Port 34483
+AddressFamily any
+ListenAddress 0.0.0.0
+
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+
+ChallengeResponseAuthentication no
+UsePAM yes
+
+X11Forwarding no
+PrintMotd yes
+
+AcceptEnv LANG LC_*
+Subsystem sftp /usr/lib/openssh/sftp-server

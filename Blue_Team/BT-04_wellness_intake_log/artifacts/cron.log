@@ -1,0 +1,143 @@
+Aug 27 16:00:26 woc-terminal CRON[8514]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 16:00:29 woc-terminal CRON[8514]: pam_unix(cron:session): session closed for user root
+Aug 27 16:00:29 woc-terminal CRON[8034]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 27 16:01:19 woc-terminal CRON[9109]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 27 16:02:02 woc-terminal CRON[6213]: (root) CMD (/etc/cron.hourly/woc-sync)
+Aug 27 16:02:32 woc-terminal CRON[9619]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 16:02:41 woc-terminal CRON[9619]: pam_unix(cron:session): session closed for user root
+Aug 27 16:02:41 woc-terminal CRON[8482]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 27 16:03:25 woc-terminal CRON[7320]: (root) CMD (/etc/cron.hourly/woc-sync)
+Aug 27 16:03:37 woc-terminal CRON[3005]: (root) CMD (/etc/cron.hourly/woc-sync)
+Aug 27 16:04:13 woc-terminal CRON[1759]: pam_unix(cron:session): session opened for user ntp by (uid=0)
+Aug 27 16:04:24 woc-terminal CRON[1759]: pam_unix(cron:session): session closed for user ntp
+Aug 27 16:04:24 woc-terminal CRON[4942]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:04:50 woc-terminal CRON[2825]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:05:10 woc-terminal CRON[2147]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 27 16:05:25 woc-terminal CRON[4450]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:06:07 woc-terminal CRON[6923]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 27 16:06:58 woc-terminal CRON[3208]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:07:31 woc-terminal CRON[1]: (root) MAILTO set to root
+Aug 27 16:07:42 woc-terminal CRON[7621]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:08:17 woc-terminal CRON[8500]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:09:08 woc-terminal CRON[1528]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:09:13 woc-terminal CRON[4935]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:09:57 woc-terminal modprobe: FATAL: Module cpufreq not found
+Aug 27 16:09:59 woc-terminal CRON[5483]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:10:02 woc-terminal CRON[1620]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 27 16:10:53 woc-terminal CRON[7924]: pam_unix(cron:session): session opened for user ntp by (uid=0)
+Aug 27 16:10:56 woc-terminal CRON[7924]: pam_unix(cron:session): session closed for user ntp
+Aug 27 16:10:56 woc-terminal CRON[4710]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:11:33 woc-terminal CRON[2333]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:11:35 woc-terminal CRON[3534]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:11:46 woc-terminal CRON[4757]: (root) CMD (/etc/cron.hourly/woc-sync)
+Aug 27 16:12:23 woc-terminal CRON[3084]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:13:18 woc-terminal CRON[7530]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:14:01 woc-terminal modprobe: FATAL: Module cpufreq not found
+Aug 27 16:14:12 woc-terminal CRON[8819]: (root) CMD (/etc/cron.hourly/woc-sync)
+Aug 27 16:14:36 woc-terminal modprobe: FATAL: Module cpufreq not found
+Aug 27 16:16:01 woc-terminal modprobe: FATAL: Module cpufreq not found
+Aug 27 16:17:02 woc-terminal CRON[3096]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:17:19 woc-terminal CRON[7486]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 16:17:21 woc-terminal CRON[7486]: pam_unix(cron:session): session closed for user www-data
+Aug 27 16:17:21 woc-terminal CRON[2096]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:17:53 woc-terminal CRON[8256]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:18:13 woc-terminal CRON[1383]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 16:18:29 woc-terminal CRON[1383]: pam_unix(cron:session): session closed for user www-data
+Aug 27 16:18:29 woc-terminal CRON[9410]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 27 16:19:19 woc-terminal CRON[1124]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 16:19:44 woc-terminal CRON[1124]: pam_unix(cron:session): session closed for user root
+Aug 27 16:19:44 woc-terminal modprobe: FATAL: Module cpufreq not found
+Aug 27 16:19:57 woc-terminal CRON[4552]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 27 16:20:02 woc-terminal CRON[1]: (root) MAILTO set to root
+Aug 27 16:20:59 woc-terminal modprobe: FATAL: Module cpufreq not found
+Aug 27 16:21:06 woc-terminal CRON[5867]: (root) CMD (/etc/cron.hourly/woc-sync)
+Aug 27 16:21:37 woc-terminal CRON[5864]: pam_unix(cron:session): session opened for user ntp by (uid=0)
+Aug 27 16:21:55 woc-terminal CRON[5864]: pam_unix(cron:session): session closed for user ntp
+Aug 27 16:21:55 woc-terminal CRON[1]: (root) MAILTO set to root
+Aug 27 16:23:11 woc-terminal CRON[7757]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:23:29 woc-terminal CRON[2094]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:24:16 woc-terminal CRON[2493]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:25:01 woc-terminal CRON[1632]: (root) CMD (/etc/cron.hourly/woc-sync)
+Aug 27 16:25:08 woc-terminal CRON[4149]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:25:31 woc-terminal CRON[9894]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:26:13 woc-terminal CRON[2148]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 16:26:18 woc-terminal CRON[2148]: pam_unix(cron:session): session closed for user www-data
+Aug 27 16:26:18 woc-terminal CRON[9633]: (root) CMD (/etc/cron.hourly/woc-sync)
+Aug 27 16:27:04 woc-terminal CRON[2761]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 27 16:27:56 woc-terminal CRON[6061]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:28:25 woc-terminal CRON[6245]: pam_unix(cron:session): session opened for user ntp by (uid=0)
+Aug 27 16:28:51 woc-terminal CRON[6245]: pam_unix(cron:session): session closed for user ntp
+Aug 27 16:28:51 woc-terminal CRON[7469]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 27 16:29:19 woc-terminal modprobe: FATAL: Module cpufreq not found
+Aug 27 16:29:48 woc-terminal CRON[9982]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 27 16:30:13 woc-terminal CRON[6311]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 16:30:22 woc-terminal CRON[6311]: pam_unix(cron:session): session closed for user www-data
+Aug 27 16:30:22 woc-terminal CRON[9856]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:31:17 woc-terminal CRON[6330]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:31:37 woc-terminal CRON[2158]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 27 16:31:47 woc-terminal CRON[5085]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:32:19 woc-terminal CRON[8972]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:32:21 woc-terminal (root) CMD (/usr/local/bin/woc-backup.sh)
+Aug 27 16:33:00 woc-terminal CRON[1274]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:33:37 woc-terminal CRON[5339]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:34:10 woc-terminal CRON[4405]: (root) CMD (/etc/cron.hourly/woc-sync)
+Aug 27 16:34:29 woc-terminal CRON[8172]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:35:06 woc-terminal CRON[8131]: pam_unix(cron:session): session opened for user ntp by (uid=0)
+Aug 27 16:35:07 woc-terminal CRON[8131]: pam_unix(cron:session): session closed for user ntp
+Aug 27 16:35:07 woc-terminal CRON[4154]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 27 16:36:07 woc-terminal CRON[7686]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 27 16:36:20 woc-terminal CRON[4925]: (root) CMD (/etc/cron.hourly/woc-sync)
+Aug 27 16:37:19 woc-terminal CRON[1067]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:37:45 woc-terminal CRON[8198]: pam_unix(cron:session): session opened for user ntp by (uid=0)
+Aug 27 16:37:48 woc-terminal CRON[8198]: pam_unix(cron:session): session closed for user ntp
+Aug 27 16:37:48 woc-terminal CRON[3670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 27 16:37:58 woc-terminal CRON[3670]: pam_unix(cron:session): session closed for user root
+Aug 27 16:37:58 woc-terminal CRON[3656]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:38:22 woc-terminal modprobe: FATAL: Module cpufreq not found
+Aug 27 16:38:33 woc-terminal CRON[1664]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:38:51 woc-terminal CRON[8214]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 27 16:39:07 woc-terminal CRON[6757]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:39:12 woc-terminal CRON[1100]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:40:12 woc-terminal CRON[8815]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 27 16:40:35 woc-terminal CRON[8815]: pam_unix(cron:session): session closed for user www-data
+Aug 27 16:40:35 woc-terminal CRON[7276]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:41:26 woc-terminal CRON[1]: (root) MAILTO set to root
+Aug 27 16:42:23 woc-terminal CRON[7413]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 27 16:43:08 woc-terminal CRON[2842]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:43:32 woc-terminal CRON[5097]: (root) CMD (/etc/cron.hourly/woc-sync)
+Aug 27 16:43:45 woc-terminal CRON[1]: (root) MAILTO set to root
+Aug 27 16:43:50 woc-terminal CRON[3017]: (root) CMD (/etc/cron.hourly/woc-sync)
+Aug 27 16:44:37 woc-terminal CRON[1]: (root) MAILTO set to root
+Aug 27 16:44:40 woc-terminal CRON[8261]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:45:00 woc-terminal CRON[9156]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:45:21 woc-terminal CRON[3337]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 27 16:46:03 woc-terminal CRON[4151]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:46:30 woc-terminal CRON[4292]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:47:08 woc-terminal CRON[5585]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 27 16:47:23 woc-terminal CRON[7241]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:48:15 woc-terminal (root) CMD (/usr/local/bin/woc-backup.sh)
+Aug 27 16:48:22 woc-terminal CRON[8042]: (root) CMD (/etc/cron.hourly/woc-sync)
+Aug 27 16:48:23 woc-terminal CRON[8770]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:48:52 woc-terminal CRON[9421]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 27 16:49:46 woc-terminal CRON[8787]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Aug 27 16:50:20 woc-terminal (root) CMD (/usr/local/bin/woc-backup.sh)
+Aug 27 16:51:04 woc-terminal CRON[3834]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:51:50 woc-terminal CRON[3773]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 27 16:51:51 woc-terminal modprobe: FATAL: Module cpufreq not found
+Aug 27 16:52:12 woc-terminal modprobe: FATAL: Module cpufreq not found
+Aug 27 16:52:32 woc-terminal CRON[5557]: (root) CMD (/usr/lib/php/sessionclean)
+Aug 27 16:53:15 woc-terminal CRON[8333]: pam_unix(cron:session): session opened for user ntp by (uid=0)
+Aug 27 16:53:25 woc-terminal CRON[8333]: pam_unix(cron:session): session closed for user ntp
+Aug 27 16:53:25 woc-terminal CRON[4514]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 27 16:54:05 woc-terminal CRON[7343]: pam_unix(cron:session): session opened for user ntp by (uid=0)
+Aug 27 16:54:24 woc-terminal CRON[7343]: pam_unix(cron:session): session closed for user ntp
+Aug 27 16:54:24 woc-terminal (root) CMD (/usr/local/bin/woc-backup.sh)
+Aug 27 16:54:27 woc-terminal CRON[7717]: (root) CMD (/usr/local/bin/woc-health-check.sh)
+Aug 27 16:55:13 woc-terminal CRON[8723]: (root) CMD (/etc/cron.daily/apt-compat)
+Aug 27 16:55:21 woc-terminal CRON[4313]: (root) CMD (/usr/local/bin/routing_updater.sh)
+Aug 27 20:03:26 woc-terminal CRON[3457]: pam_unix(cron:session): session opened for user woc-observer by (uid=0)
+Aug 27 20:03:28 woc-terminal crontab[3457]: (user woc-observer) BEGIN EDIT (/var/spool/cron/crontabs/woc-observer)
+Aug 27 20:03:29 woc-terminal crontab[3457]: (user woc-observer) END EDIT (/var/spool/cron/crontabs/woc-observer)
+Aug 27 20:03:32 woc-terminal CRON[3457]: pam_unix(cron:session): session closed for user woc-observer
+Aug 27 20:03:32 woc-terminal CRON[4189]: (woc-observer) CMD (wget -q -O- http://10.10.5.219/update)
+Aug 27 20:03:32 woc-terminal crontab[3457]: installed crontab for woc-observer: */15 * * * * woc-observer wget -q -O- http://10.10.5.219/update

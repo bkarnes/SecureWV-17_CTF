@@ -1,0 +1,593 @@
+Aug 30 17:49:46 lobby-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 30 17:50:31 lobby-terminal CRON[7482]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 17:50:47 lobby-terminal CRON[7482]: pam_unix(cron:session): session closed for user root
+Aug 30 17:50:47 lobby-terminal sudo:  operator : TTY=pts/1 ; PWD=/home/operator ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 17:51:17 lobby-terminal sshd[1003]: Connection from 10.10.5.7 port 50668
+Aug 30 17:51:19 lobby-terminal sshd[1003]: Accepted password for researcher from 10.10.5.7 port 50668 ssh2
+Aug 30 17:51:29 lobby-terminal sshd[1003]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 17:57:58 lobby-terminal sshd[1003]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 17:57:58 lobby-terminal message repeated 3 times: [ Session started for user root. ]
+Aug 30 17:58:16 lobby-terminal sshd[1005]: Failed password for compliance from 10.10.3.11 port 50137 ssh2
+Aug 30 17:58:20 lobby-terminal sshd[1006]: Connection from 10.10.7.9 port 56962
+Aug 30 17:58:22 lobby-terminal sshd[1006]: Accepted password for archivist from 10.10.7.9 port 56962 ssh2
+Aug 30 17:58:29 lobby-terminal sshd[1006]: pam_unix(sshd:session): session opened for user archivist by (uid=0)
+Aug 30 18:03:25 lobby-terminal sshd[1006]: pam_unix(sshd:session): session closed for user archivist
+Aug 30 18:03:25 lobby-terminal CRON[2240]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 18:03:32 lobby-terminal CRON[2240]: pam_unix(cron:session): session closed for user root
+Aug 30 18:03:32 lobby-terminal sshd[1008]: Failed password for analyst from 10.10.7.3 port 60363 ssh2
+Aug 30 18:03:38 lobby-terminal sshd[1009]: Connection from 10.10.3.11 port 52632
+Aug 30 18:03:43 lobby-terminal sshd[1009]: Accepted password for compliance from 10.10.3.11 port 52632 ssh2
+Aug 30 18:03:45 lobby-terminal sshd[1009]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 18:09:30 lobby-terminal sshd[1009]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 18:09:30 lobby-terminal CRON[3826]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 18:09:44 lobby-terminal CRON[3826]: pam_unix(cron:session): session closed for user root
+Aug 30 18:09:44 lobby-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 30 18:10:02 lobby-terminal sshd[1012]: Connection from 10.10.3.11 port 63723
+Aug 30 18:10:03 lobby-terminal sshd[1012]: Accepted password for operator from 10.10.3.11 port 63723 ssh2
+Aug 30 18:10:11 lobby-terminal sshd[1012]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Aug 30 18:12:30 lobby-terminal sshd[1012]: pam_unix(sshd:session): session closed for user operator
+Aug 30 18:12:30 lobby-terminal sshd[1013]: Failed password for invalid user user from 10.10.3.15 port 51212 ssh2
+Aug 30 18:12:50 lobby-terminal sshd[1014]: Connection from 10.10.3.12 port 65535
+Aug 30 18:12:55 lobby-terminal sshd[1014]: Accepted password for compliance from 10.10.3.12 port 65535 ssh2
+Aug 30 18:12:59 lobby-terminal sshd[1014]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 18:21:43 lobby-terminal sshd[1014]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 18:21:43 lobby-terminal sshd[1015]: Failed password for operator from 10.10.5.7 port 53689 ssh2
+Aug 30 18:22:10 lobby-terminal Finished Daily apt download activities.
+Aug 30 18:22:13 lobby-terminal sshd[1017]: Failed password for compliance from 10.10.7.3 port 65129 ssh2
+Aug 30 18:22:27 lobby-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 30 18:22:52 lobby-terminal message repeated 3 times: [ Session started for user root. ]
+Aug 30 18:23:01 lobby-terminal CRON[4106]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 18:23:10 lobby-terminal CRON[4106]: pam_unix(cron:session): session closed for user root
+Aug 30 18:23:10 lobby-terminal CRON[9568]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 18:23:16 lobby-terminal CRON[9568]: pam_unix(cron:session): session closed for user www-data
+Aug 30 18:23:16 lobby-terminal sshd[1022]: Connection from 10.10.3.12 port 58137
+Aug 30 18:23:20 lobby-terminal sshd[1022]: Accepted password for compliance from 10.10.3.12 port 58137 ssh2
+Aug 30 18:23:25 lobby-terminal sshd[1022]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 18:25:09 lobby-terminal sshd[1022]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 18:25:09 lobby-terminal sudo:  analyst : TTY=pts/1 ; PWD=/home/analyst ; USER=root ; COMMAND=/bin/journalctl -u sshd
+Aug 30 18:25:48 lobby-terminal CRON[4702]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 18:26:00 lobby-terminal CRON[4702]: pam_unix(cron:session): session closed for user www-data
+Aug 30 18:26:00 lobby-terminal sshd[1025]: Connection from 10.10.7.3 port 63253
+Aug 30 18:26:03 lobby-terminal sshd[1025]: Accepted password for archivist from 10.10.7.3 port 63253 ssh2
+Aug 30 18:26:04 lobby-terminal sshd[1025]: pam_unix(sshd:session): session opened for user archivist by (uid=0)
+Aug 30 18:30:01 lobby-terminal sshd[1025]: pam_unix(sshd:session): session closed for user archivist
+Aug 30 18:30:01 lobby-terminal sshd[1026]: Failed password for analyst from 10.10.3.11 port 52039 ssh2
+Aug 30 18:30:23 lobby-terminal Starting Daily apt download activities...
+Aug 30 18:30:49 lobby-terminal sudo:  researcher : TTY=pts/1 ; PWD=/home/researcher ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 18:31:15 lobby-terminal sshd[1029]: Failed password for analyst from 10.10.3.12 port 52507 ssh2
+Aug 30 18:31:44 lobby-terminal sshd[1030]: Connection from 10.10.5.7 port 59827
+Aug 30 18:31:45 lobby-terminal sshd[1030]: Accepted password for compliance from 10.10.5.7 port 59827 ssh2
+Aug 30 18:31:51 lobby-terminal sshd[1030]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 18:38:20 lobby-terminal sshd[1030]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 18:38:20 lobby-terminal sshd[1031]: Connection from 10.10.7.3 port 60466
+Aug 30 18:38:24 lobby-terminal sshd[1031]: Accepted password for analyst from 10.10.7.3 port 60466 ssh2
+Aug 30 18:38:34 lobby-terminal sshd[1031]: pam_unix(sshd:session): session opened for user analyst by (uid=0)
+Aug 30 18:43:04 lobby-terminal sshd[1031]: pam_unix(sshd:session): session closed for user analyst
+Aug 30 18:43:04 lobby-terminal pam_unix(sudo:session): session closed for user root
+Aug 30 18:43:29 lobby-terminal sshd[1033]: Connection from 10.10.3.11 port 55659
+Aug 30 18:43:33 lobby-terminal sshd[1033]: Accepted password for archivist from 10.10.3.11 port 55659 ssh2
+Aug 30 18:43:39 lobby-terminal sshd[1033]: pam_unix(sshd:session): session opened for user archivist by (uid=0)
+Aug 30 18:49:24 lobby-terminal sshd[1033]: pam_unix(sshd:session): session closed for user archivist
+Aug 30 18:49:24 lobby-terminal Finished Daily apt download activities.
+Aug 30 18:49:43 lobby-terminal Starting Daily apt download activities...
+Aug 30 18:49:46 lobby-terminal sshd[2259]: Connection from 10.10.5.18 port 63521
+Aug 30 18:49:49 lobby-terminal sshd[2259]: Failed password for jenkins from 10.10.5.18 port 63521 ssh2
+Aug 30 18:49:58 lobby-terminal CRON[3393]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 18:49:58 lobby-terminal sshd[2260]: Failed password for invalid user ftp from 10.10.5.18 port 63521 ssh2
+Aug 30 18:50:09 lobby-terminal sshd[2261]: Failed password for daemon from 10.10.5.18 port 63521 ssh2
+Aug 30 18:50:21 lobby-terminal sshd[2262]: Failed password for nginx from 10.10.5.18 port 63521 ssh2
+Aug 30 18:50:26 lobby-terminal CRON[3393]: pam_unix(cron:session): session closed for user www-data
+Aug 30 18:50:26 lobby-terminal CRON[9557]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 18:50:27 lobby-terminal sshd[2263]: Failed password for root from 10.10.5.18 port 63521 ssh2
+Aug 30 18:50:40 lobby-terminal sshd[2264]: Failed password for invalid user bin from 10.10.5.18 port 63521 ssh2
+Aug 30 18:50:54 lobby-terminal sshd[2265]: Failed password for invalid user bin from 10.10.5.18 port 63521 ssh2
+Aug 30 18:50:56 lobby-terminal CRON[9557]: pam_unix(cron:session): session closed for user www-data
+Aug 30 18:50:56 lobby-terminal Finished Daily apt download activities.
+Aug 30 18:51:00 lobby-terminal sshd[2266]: Failed password for git from 10.10.5.18 port 63521 ssh2
+Aug 30 18:51:15 lobby-terminal sshd[2267]: Failed password for www-data from 10.10.5.18 port 63521 ssh2
+Aug 30 18:51:23 lobby-terminal CRON[5190]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 18:51:23 lobby-terminal sshd[2268]: Failed password for invalid user ubuntu from 10.10.5.18 port 63521 ssh2
+Aug 30 18:51:31 lobby-terminal sshd[2269]: Failed password for invalid user mysql from 10.10.5.18 port 63521 ssh2
+Aug 30 18:51:39 lobby-terminal CRON[5190]: pam_unix(cron:session): session closed for user www-data
+Aug 30 18:51:39 lobby-terminal CRON[9848]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 18:51:40 lobby-terminal sshd[2270]: Failed password for www-data from 10.10.5.18 port 63521 ssh2
+Aug 30 18:51:43 lobby-terminal sshd[2271]: Failed password for mysql from 10.10.5.18 port 63521 ssh2
+Aug 30 18:51:44 lobby-terminal CRON[9848]: pam_unix(cron:session): session closed for user www-data
+Aug 30 18:51:44 lobby-terminal sshd[1041]: Failed password for invalid user admin from 10.10.3.12 port 54412 ssh2
+Aug 30 18:51:48 lobby-terminal sshd[2272]: Failed password for mysql from 10.10.5.18 port 63521 ssh2
+Aug 30 18:51:54 lobby-terminal sshd[2273]: Failed password for invalid user bin from 10.10.5.18 port 63521 ssh2
+Aug 30 18:51:57 lobby-terminal CRON[3456]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 18:52:02 lobby-terminal sshd[2274]: Failed password for invalid user bin from 10.10.5.18 port 63521 ssh2
+Aug 30 18:52:11 lobby-terminal CRON[3456]: pam_unix(cron:session): session closed for user www-data
+Aug 30 18:52:11 lobby-terminal CRON[1843]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 18:52:13 lobby-terminal sshd[2275]: Failed password for invalid user jenkins from 10.10.5.18 port 63521 ssh2
+Aug 30 18:52:15 lobby-terminal sshd[2276]: Failed password for redis from 10.10.5.18 port 63521 ssh2
+Aug 30 18:52:17 lobby-terminal sshd[2277]: Failed password for invalid user su from 10.10.5.18 port 63521 ssh2
+Aug 30 18:52:22 lobby-terminal sshd[2278]: Failed password for root from 10.10.5.18 port 63521 ssh2
+Aug 30 18:52:24 lobby-terminal sshd[2279]: Failed password for invalid user bin from 10.10.5.18 port 63521 ssh2
+Aug 30 18:52:33 lobby-terminal CRON[1843]: pam_unix(cron:session): session closed for user www-data
+Aug 30 18:52:33 lobby-terminal CRON[1386]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 18:52:34 lobby-terminal sshd[2280]: Accepted password for archivist from 10.10.5.18 port 63521 ssh2
+Aug 30 18:52:35 lobby-terminal sshd[2280]: pam_unix(sshd:session): session opened for user archivist by (uid=0)
+Aug 30 18:52:44 lobby-terminal CRON[1386]: pam_unix(cron:session): session closed for user www-data
+Aug 30 18:52:44 lobby-terminal Finished Daily apt download activities.
+Aug 30 18:52:46 lobby-terminal sshd[1046]: Failed password for operator from 10.10.5.7 port 62981 ssh2
+Aug 30 18:52:58 lobby-terminal sudo:  operator : TTY=pts/1 ; PWD=/home/operator ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Aug 30 18:53:27 lobby-terminal pam_unix(sudo:session): session closed for user root
+Aug 30 18:53:47 lobby-terminal Finished Daily apt download activities.
+Aug 30 18:54:06 lobby-terminal CRON[5849]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 18:54:19 lobby-terminal CRON[5849]: pam_unix(cron:session): session closed for user root
+Aug 30 18:54:19 lobby-terminal sshd[1051]: Failed password for invalid user user from 10.10.5.18 port 63642 ssh2
+Aug 30 18:54:21 lobby-terminal sshd[1052]: Connection from 10.10.3.11 port 58448
+Aug 30 18:54:23 lobby-terminal sshd[1052]: Accepted password for analyst from 10.10.3.11 port 58448 ssh2
+Aug 30 18:54:26 lobby-terminal sshd[1052]: pam_unix(sshd:session): session opened for user analyst by (uid=0)
+Aug 30 18:56:16 lobby-terminal sshd[1052]: pam_unix(sshd:session): session closed for user analyst
+Aug 30 18:56:16 lobby-terminal message repeated 3 times: [ Session started for user root. ]
+Aug 30 18:56:23 lobby-terminal Finished Daily apt download activities.
+Aug 30 18:56:43 lobby-terminal Starting Daily apt download activities...
+Aug 30 18:57:11 lobby-terminal sshd[1056]: Failed password for archivist from 10.10.3.20 port 55180 ssh2
+Aug 30 18:57:37 lobby-terminal sshd[1057]: Failed password for invalid user mysql from 10.10.3.12 port 57327 ssh2
+Aug 30 18:57:46 lobby-terminal CRON[2083]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 18:58:01 lobby-terminal CRON[2083]: pam_unix(cron:session): session closed for user root
+Aug 30 18:58:01 lobby-terminal CRON[2718]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 18:58:20 lobby-terminal CRON[2718]: pam_unix(cron:session): session closed for user www-data
+Aug 30 18:58:20 lobby-terminal Starting Cleanup of Temporary Directories...
+Aug 30 18:58:52 lobby-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 30 18:59:23 lobby-terminal message repeated 3 times: [ Session started for user root. ]
+Aug 30 18:59:49 lobby-terminal CRON[5539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 19:00:10 lobby-terminal CRON[5539]: pam_unix(cron:session): session closed for user root
+Aug 30 19:00:10 lobby-terminal sshd[1064]: Failed password for invalid user daemon from 10.10.3.11 port 56873 ssh2
+Aug 30 19:00:20 lobby-terminal CRON[7752]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 19:00:33 lobby-terminal CRON[7752]: pam_unix(cron:session): session closed for user www-data
+Aug 30 19:00:33 lobby-terminal CRON[7046]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 19:00:49 lobby-terminal CRON[7046]: pam_unix(cron:session): session closed for user www-data
+Aug 30 19:00:49 lobby-terminal CRON[8419]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 19:00:59 lobby-terminal CRON[8419]: pam_unix(cron:session): session closed for user www-data
+Aug 30 19:00:59 lobby-terminal CRON[9408]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 19:01:09 lobby-terminal CRON[9408]: pam_unix(cron:session): session closed for user root
+Aug 30 19:01:09 lobby-terminal sshd[1069]: Connection from 10.10.3.11 port 63741
+Aug 30 19:01:11 lobby-terminal sshd[1069]: Accepted password for compliance from 10.10.3.11 port 63741 ssh2
+Aug 30 19:01:21 lobby-terminal sshd[1069]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 19:03:34 lobby-terminal sshd[1069]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 19:03:34 lobby-terminal sshd[1070]: Connection from 10.10.3.11 port 55133
+Aug 30 19:03:37 lobby-terminal sshd[1070]: Accepted password for operator from 10.10.3.11 port 55133 ssh2
+Aug 30 19:03:39 lobby-terminal sshd[1070]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Aug 30 19:06:21 lobby-terminal sshd[1070]: pam_unix(sshd:session): session closed for user operator
+Aug 30 19:06:21 lobby-terminal CRON[1638]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 19:06:49 lobby-terminal CRON[1638]: pam_unix(cron:session): session closed for user www-data
+Aug 30 19:06:49 lobby-terminal CRON[6340]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 19:07:02 lobby-terminal CRON[6340]: pam_unix(cron:session): session closed for user root
+Aug 30 19:07:02 lobby-terminal sshd[1073]: Failed password for invalid user daemon from 10.10.7.3 port 56634 ssh2
+Aug 30 19:07:19 lobby-terminal pam_unix(sudo:session): session closed for user root
+Aug 30 19:07:36 lobby-terminal sshd[1075]: Connection from 10.10.3.15 port 51615
+Aug 30 19:07:37 lobby-terminal sshd[1075]: Accepted password for researcher from 10.10.3.15 port 51615 ssh2
+Aug 30 19:07:47 lobby-terminal sshd[1075]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 19:15:23 lobby-terminal sshd[1075]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 19:15:23 lobby-terminal sudo:  operator : TTY=pts/1 ; PWD=/home/operator ; USER=root ; COMMAND=/bin/journalctl -u sshd
+Aug 30 19:15:37 lobby-terminal sshd[1077]: Connection from 10.10.3.11 port 49877
+Aug 30 19:15:41 lobby-terminal sshd[1077]: Accepted password for archivist from 10.10.3.11 port 49877 ssh2
+Aug 30 19:15:51 lobby-terminal sshd[1077]: pam_unix(sshd:session): session opened for user archivist by (uid=0)
+Aug 30 19:17:38 lobby-terminal sshd[1077]: pam_unix(sshd:session): session closed for user archivist
+Aug 30 19:17:38 lobby-terminal message repeated 3 times: [ Session started for user root. ]
+Aug 30 19:18:22 lobby-terminal CRON[1079]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 19:18:47 lobby-terminal CRON[1079]: pam_unix(cron:session): session closed for user www-data
+Aug 30 19:18:47 lobby-terminal Finished Daily apt download activities.
+Aug 30 19:19:23 lobby-terminal message repeated 3 times: [ Session started for user root. ]
+Aug 30 19:19:44 lobby-terminal CRON[9284]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 19:20:10 lobby-terminal CRON[9284]: pam_unix(cron:session): session closed for user www-data
+Aug 30 19:20:10 lobby-terminal sudo:  researcher : TTY=pts/1 ; PWD=/home/researcher ; USER=root ; COMMAND=/bin/journalctl -u sshd
+Aug 30 19:20:25 lobby-terminal sshd[1084]: Failed password for compliance from 10.10.5.7 port 59391 ssh2
+Aug 30 19:20:40 lobby-terminal CRON[3965]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 19:21:06 lobby-terminal CRON[3965]: pam_unix(cron:session): session closed for user www-data
+Aug 30 19:21:06 lobby-terminal sshd[1086]: Failed password for invalid user postgres from 10.10.5.18 port 51124 ssh2
+Aug 30 19:21:14 lobby-terminal pam_unix(sudo:session): session closed for user root
+Aug 30 19:21:58 lobby-terminal sudo:  researcher : TTY=pts/1 ; PWD=/home/researcher ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 19:22:54 lobby-terminal sshd[1089]: Failed password for invalid user guest from 10.10.3.15 port 65012 ssh2
+Aug 30 19:23:06 lobby-terminal CRON[4743]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 19:23:35 lobby-terminal CRON[4743]: pam_unix(cron:session): session closed for user root
+Aug 30 19:23:35 lobby-terminal CRON[8354]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 19:23:51 lobby-terminal CRON[8354]: pam_unix(cron:session): session closed for user root
+Aug 30 19:23:51 lobby-terminal CRON[6552]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 19:23:57 lobby-terminal CRON[6552]: pam_unix(cron:session): session closed for user root
+Aug 30 19:23:57 lobby-terminal sshd[1093]: Failed password for researcher from 10.10.7.9 port 58610 ssh2
+Aug 30 19:24:10 lobby-terminal CRON[1312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 19:24:39 lobby-terminal CRON[1312]: pam_unix(cron:session): session closed for user root
+Aug 30 19:24:39 lobby-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 30 19:24:50 lobby-terminal Finished Daily apt download activities.
+Aug 30 19:24:54 lobby-terminal sshd[1097]: Failed password for invalid user nginx from 10.10.3.11 port 59506 ssh2
+Aug 30 19:25:01 lobby-terminal sshd[1098]: Connection from 10.10.3.20 port 58821
+Aug 30 19:25:06 lobby-terminal sshd[1098]: Accepted password for compliance from 10.10.3.20 port 58821 ssh2
+Aug 30 19:25:13 lobby-terminal sshd[1098]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 19:32:18 lobby-terminal sshd[1098]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 19:32:18 lobby-terminal message repeated 3 times: [ Session started for user root. ]
+Aug 30 19:32:50 lobby-terminal sudo:  analyst : TTY=pts/1 ; PWD=/home/analyst ; USER=root ; COMMAND=/bin/systemctl restart ssh
+Aug 30 19:33:23 lobby-terminal sshd[1101]: Failed password for invalid user su from 10.10.7.3 port 51116 ssh2
+Aug 30 19:33:33 lobby-terminal message repeated 3 times: [ Session started for user root. ]
+Aug 30 19:34:13 lobby-terminal CRON[7513]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 19:34:33 lobby-terminal CRON[7513]: pam_unix(cron:session): session closed for user root
+Aug 30 19:34:33 lobby-terminal sshd[1104]: Failed password for operator from 10.10.5.7 port 64712 ssh2
+Aug 30 19:34:49 lobby-terminal sshd[1105]: Failed password for invalid user guest from 10.10.5.7 port 54196 ssh2
+Aug 30 19:34:55 lobby-terminal CRON[1149]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 19:35:24 lobby-terminal CRON[1149]: pam_unix(cron:session): session closed for user www-data
+Aug 30 19:35:24 lobby-terminal sshd[1107]: Connection from 10.10.3.15 port 61477
+Aug 30 19:35:25 lobby-terminal sshd[1107]: Accepted password for researcher from 10.10.3.15 port 61477 ssh2
+Aug 30 19:35:30 lobby-terminal sshd[1107]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 19:42:56 lobby-terminal sshd[1107]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 19:42:56 lobby-terminal sshd[1108]: Failed password for invalid user admin from 10.10.3.12 port 62371 ssh2
+Aug 30 19:43:15 lobby-terminal pam_unix(sudo:session): session closed for user root
+Aug 30 19:43:38 lobby-terminal sudo:  analyst : TTY=pts/1 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 19:44:14 lobby-terminal Starting Cleanup of Temporary Directories...
+Aug 30 19:44:57 lobby-terminal CRON[3026]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 19:44:59 lobby-terminal CRON[3026]: pam_unix(cron:session): session closed for user www-data
+Aug 30 19:44:59 lobby-terminal CRON[2553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 19:45:27 lobby-terminal CRON[2553]: pam_unix(cron:session): session closed for user root
+Aug 30 19:45:27 lobby-terminal sshd[1114]: Failed password for analyst from 10.10.7.9 port 56143 ssh2
+Aug 30 19:45:44 lobby-terminal CRON[9071]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 19:45:46 lobby-terminal CRON[9071]: pam_unix(cron:session): session closed for user www-data
+Aug 30 19:45:46 lobby-terminal sshd[1116]: Failed password for operator from 10.10.7.9 port 60600 ssh2
+Aug 30 19:45:58 lobby-terminal sshd[1117]: Failed password for invalid user ubuntu from 10.10.7.9 port 59465 ssh2
+Aug 30 19:46:16 lobby-terminal sudo:  compliance : TTY=pts/1 ; PWD=/home/compliance ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 19:46:56 lobby-terminal sshd[1119]: Connection from 10.10.3.20 port 58238
+Aug 30 19:47:00 lobby-terminal sshd[1119]: Accepted password for researcher from 10.10.3.20 port 58238 ssh2
+Aug 30 19:47:02 lobby-terminal sshd[1119]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 19:49:34 lobby-terminal sshd[1119]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 19:49:34 lobby-terminal sshd[1120]: Connection from 10.10.3.11 port 58959
+Aug 30 19:49:39 lobby-terminal sshd[1120]: Accepted password for operator from 10.10.3.11 port 58959 ssh2
+Aug 30 19:49:43 lobby-terminal sshd[1120]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Aug 30 19:54:09 lobby-terminal sshd[1120]: pam_unix(sshd:session): session closed for user operator
+Aug 30 19:54:09 lobby-terminal CRON[6579]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 19:54:23 lobby-terminal CRON[6579]: pam_unix(cron:session): session closed for user www-data
+Aug 30 19:54:23 lobby-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 30 19:54:32 lobby-terminal CRON[9365]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 19:54:36 lobby-terminal CRON[9365]: pam_unix(cron:session): session closed for user root
+Aug 30 19:54:36 lobby-terminal sudo:  compliance : TTY=pts/1 ; PWD=/home/compliance ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Aug 30 19:54:48 lobby-terminal CRON[5281]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 19:55:15 lobby-terminal CRON[5281]: pam_unix(cron:session): session closed for user www-data
+Aug 30 19:55:15 lobby-terminal pam_unix(sudo:session): session closed for user root
+Aug 30 19:55:41 lobby-terminal CRON[3869]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 19:55:50 lobby-terminal CRON[3869]: pam_unix(cron:session): session closed for user root
+Aug 30 19:55:50 lobby-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 30 19:56:00 lobby-terminal CRON[4761]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 19:56:19 lobby-terminal CRON[4761]: pam_unix(cron:session): session closed for user root
+Aug 30 19:56:19 lobby-terminal sshd[1130]: Connection from 10.10.3.20 port 49977
+Aug 30 19:56:22 lobby-terminal sshd[1130]: Accepted password for researcher from 10.10.3.20 port 49977 ssh2
+Aug 30 19:56:25 lobby-terminal sshd[1130]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 20:04:44 lobby-terminal sshd[1130]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 20:04:44 lobby-terminal sshd[1131]: Connection from 10.10.3.11 port 56152
+Aug 30 20:04:49 lobby-terminal sshd[1131]: Accepted password for operator from 10.10.3.11 port 56152 ssh2
+Aug 30 20:04:59 lobby-terminal sshd[1131]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Aug 30 20:07:43 lobby-terminal sshd[1131]: pam_unix(sshd:session): session closed for user operator
+Aug 30 20:07:43 lobby-terminal sshd[1132]: Connection from 10.10.5.18 port 59873
+Aug 30 20:07:48 lobby-terminal sshd[1132]: Accepted password for operator from 10.10.5.18 port 59873 ssh2
+Aug 30 20:07:55 lobby-terminal sshd[1132]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Aug 30 20:13:49 lobby-terminal sshd[1132]: pam_unix(sshd:session): session closed for user operator
+Aug 30 20:13:49 lobby-terminal CRON[7669]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 20:14:04 lobby-terminal CRON[7669]: pam_unix(cron:session): session closed for user www-data
+Aug 30 20:14:04 lobby-terminal sshd[1134]: Connection from 10.10.7.9 port 59720
+Aug 30 20:14:05 lobby-terminal sshd[1134]: Accepted password for operator from 10.10.7.9 port 59720 ssh2
+Aug 30 20:14:13 lobby-terminal sshd[1134]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Aug 30 20:20:38 lobby-terminal sshd[1134]: pam_unix(sshd:session): session closed for user operator
+Aug 30 20:20:38 lobby-terminal Starting Cleanup of Temporary Directories...
+Aug 30 20:21:16 lobby-terminal sshd[1136]: Connection from 10.10.5.7 port 63323
+Aug 30 20:21:17 lobby-terminal sshd[1136]: Accepted password for compliance from 10.10.5.7 port 63323 ssh2
+Aug 30 20:21:27 lobby-terminal sshd[1136]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 20:28:35 lobby-terminal sshd[1136]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 20:28:35 lobby-terminal CRON[6300]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 20:29:00 lobby-terminal CRON[6300]: pam_unix(cron:session): session closed for user www-data
+Aug 30 20:29:00 lobby-terminal Starting Cleanup of Temporary Directories...
+Aug 30 20:29:27 lobby-terminal sshd[1139]: Failed password for compliance from 10.10.5.7 port 50122 ssh2
+Aug 30 20:29:37 lobby-terminal sshd[1140]: Connection from 10.10.3.20 port 64897
+Aug 30 20:29:38 lobby-terminal sshd[1140]: Accepted password for analyst from 10.10.3.20 port 64897 ssh2
+Aug 30 20:29:41 lobby-terminal sshd[1140]: pam_unix(sshd:session): session opened for user analyst by (uid=0)
+Aug 30 20:33:06 lobby-terminal sshd[1140]: pam_unix(sshd:session): session closed for user analyst
+Aug 30 20:33:06 lobby-terminal CRON[5858]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 20:33:07 lobby-terminal CRON[5858]: pam_unix(cron:session): session closed for user www-data
+Aug 30 20:33:07 lobby-terminal message repeated 3 times: [ Session started for user root. ]
+Aug 30 20:33:49 lobby-terminal sshd[1143]: Failed password for invalid user www-data from 10.10.3.15 port 63959 ssh2
+Aug 30 20:34:02 lobby-terminal CRON[2233]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 20:34:08 lobby-terminal CRON[2233]: pam_unix(cron:session): session closed for user root
+Aug 30 20:34:08 lobby-terminal sshd[1145]: Connection from 10.10.3.12 port 50786
+Aug 30 20:34:11 lobby-terminal sshd[1145]: Accepted password for researcher from 10.10.3.12 port 50786 ssh2
+Aug 30 20:34:16 lobby-terminal sshd[1145]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 20:41:39 lobby-terminal sshd[1145]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 20:41:39 lobby-terminal sshd[1146]: Connection from 10.10.3.20 port 60328
+Aug 30 20:41:40 lobby-terminal sshd[1146]: Accepted password for operator from 10.10.3.20 port 60328 ssh2
+Aug 30 20:41:46 lobby-terminal sshd[1146]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Aug 30 20:45:27 lobby-terminal sshd[1146]: pam_unix(sshd:session): session closed for user operator
+Aug 30 20:45:27 lobby-terminal CRON[4851]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 20:45:52 lobby-terminal CRON[4851]: pam_unix(cron:session): session closed for user root
+Aug 30 20:45:52 lobby-terminal sshd[1148]: Connection from 10.10.7.3 port 64953
+Aug 30 20:45:56 lobby-terminal sshd[1148]: Accepted password for archivist from 10.10.7.3 port 64953 ssh2
+Aug 30 20:46:04 lobby-terminal sshd[1148]: pam_unix(sshd:session): session opened for user archivist by (uid=0)
+Aug 30 20:48:09 lobby-terminal sshd[1148]: pam_unix(sshd:session): session closed for user archivist
+Aug 30 20:48:09 lobby-terminal Finished Daily apt download activities.
+Aug 30 20:48:43 lobby-terminal sudo:  researcher : TTY=pts/1 ; PWD=/home/researcher ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Aug 30 20:48:45 lobby-terminal CRON[9840]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 20:49:13 lobby-terminal CRON[9840]: pam_unix(cron:session): session closed for user www-data
+Aug 30 20:49:13 lobby-terminal CRON[1884]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 20:49:19 lobby-terminal CRON[1884]: pam_unix(cron:session): session closed for user www-data
+Aug 30 20:49:19 lobby-terminal Starting Daily apt download activities...
+Aug 30 20:49:44 lobby-terminal sshd[1154]: Connection from 10.10.3.11 port 53360
+Aug 30 20:49:48 lobby-terminal sshd[1154]: Accepted password for operator from 10.10.3.11 port 53360 ssh2
+Aug 30 20:49:56 lobby-terminal sshd[1154]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Aug 30 20:57:04 lobby-terminal sshd[1154]: pam_unix(sshd:session): session closed for user operator
+Aug 30 20:57:04 lobby-terminal Starting Cleanup of Temporary Directories...
+Aug 30 20:57:09 lobby-terminal sudo:  researcher : TTY=pts/1 ; PWD=/home/researcher ; USER=root ; COMMAND=/bin/journalctl -u sshd
+Aug 30 20:57:21 lobby-terminal sudo:  operator : TTY=pts/1 ; PWD=/home/operator ; USER=root ; COMMAND=/bin/journalctl -u sshd
+Aug 30 20:57:57 lobby-terminal message repeated 3 times: [ Session started for user root. ]
+Aug 30 20:58:29 lobby-terminal sshd[1159]: Failed password for researcher from 10.10.3.15 port 51431 ssh2
+Aug 30 20:58:33 lobby-terminal Finished Daily apt download activities.
+Aug 30 20:59:16 lobby-terminal message repeated 3 times: [ Session started for user root. ]
+Aug 30 20:59:52 lobby-terminal CRON[1654]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 21:00:14 lobby-terminal CRON[1654]: pam_unix(cron:session): session closed for user www-data
+Aug 30 21:00:14 lobby-terminal sshd[1163]: Failed password for archivist from 10.10.5.7 port 54559 ssh2
+Aug 30 21:00:39 lobby-terminal sshd[1164]: Failed password for invalid user user from 10.10.3.11 port 60285 ssh2
+Aug 30 21:00:58 lobby-terminal sshd[1165]: Failed password for operator from 10.10.5.18 port 62452 ssh2
+Aug 30 21:01:09 lobby-terminal sudo:  operator : TTY=pts/1 ; PWD=/home/operator ; USER=root ; COMMAND=/bin/journalctl -u sshd
+Aug 30 21:02:05 lobby-terminal CRON[7581]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 21:02:12 lobby-terminal CRON[7581]: pam_unix(cron:session): session closed for user root
+Aug 30 21:02:12 lobby-terminal CRON[3566]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 21:02:39 lobby-terminal CRON[3566]: pam_unix(cron:session): session closed for user www-data
+Aug 30 21:02:39 lobby-terminal Starting Cleanup of Temporary Directories...
+Aug 30 21:02:52 lobby-terminal sshd[1170]: Connection from 10.10.3.11 port 50847
+Aug 30 21:02:54 lobby-terminal sshd[1170]: Accepted password for compliance from 10.10.3.11 port 50847 ssh2
+Aug 30 21:02:55 lobby-terminal sshd[1170]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 21:12:38 lobby-terminal sshd[1170]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 21:12:38 lobby-terminal CRON[5567]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 21:12:42 lobby-terminal CRON[5567]: pam_unix(cron:session): session closed for user root
+Aug 30 21:12:42 lobby-terminal CRON[4855]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 21:13:02 lobby-terminal CRON[4855]: pam_unix(cron:session): session closed for user root
+Aug 30 21:13:02 lobby-terminal CRON[6421]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 21:13:08 lobby-terminal CRON[6421]: pam_unix(cron:session): session closed for user root
+Aug 30 21:13:08 lobby-terminal Starting Cleanup of Temporary Directories...
+Aug 30 21:13:39 lobby-terminal sshd[1175]: Connection from 10.10.3.11 port 57336
+Aug 30 21:13:40 lobby-terminal sshd[1175]: Accepted password for researcher from 10.10.3.11 port 57336 ssh2
+Aug 30 21:13:46 lobby-terminal sshd[1175]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 21:22:22 lobby-terminal sshd[1175]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 21:22:22 lobby-terminal Starting Daily apt download activities...
+Aug 30 21:22:58 lobby-terminal sudo:  compliance : TTY=pts/1 ; PWD=/home/compliance ; USER=root ; COMMAND=/bin/systemctl restart ssh
+Aug 30 21:23:26 lobby-terminal CRON[8131]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 21:23:38 lobby-terminal CRON[8131]: pam_unix(cron:session): session closed for user www-data
+Aug 30 21:23:38 lobby-terminal sshd[1179]: Connection from 10.10.7.3 port 59680
+Aug 30 21:23:39 lobby-terminal sshd[1179]: Accepted password for compliance from 10.10.7.3 port 59680 ssh2
+Aug 30 21:23:41 lobby-terminal sshd[1179]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 21:32:23 lobby-terminal sshd[1179]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 21:32:23 lobby-terminal sudo:  operator : TTY=pts/1 ; PWD=/home/operator ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 21:32:57 lobby-terminal CRON[8596]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 21:32:59 lobby-terminal CRON[8596]: pam_unix(cron:session): session closed for user www-data
+Aug 30 21:32:59 lobby-terminal sudo:  operator : TTY=pts/1 ; PWD=/home/operator ; USER=root ; COMMAND=/bin/systemctl restart ssh
+Aug 30 21:33:07 lobby-terminal Finished Daily apt download activities.
+Aug 30 21:33:09 lobby-terminal pam_unix(sudo:session): session closed for user root
+Aug 30 21:33:25 lobby-terminal CRON[2968]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 21:33:47 lobby-terminal CRON[2968]: pam_unix(cron:session): session closed for user www-data
+Aug 30 21:33:47 lobby-terminal sshd[1186]: Failed password for invalid user www-data from 10.10.3.15 port 57150 ssh2
+Aug 30 21:33:53 lobby-terminal sudo:  analyst : TTY=pts/1 ; PWD=/home/analyst ; USER=root ; COMMAND=/bin/systemctl restart ssh
+Aug 30 21:34:51 lobby-terminal CRON[4778]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 21:35:14 lobby-terminal CRON[4778]: pam_unix(cron:session): session closed for user root
+Aug 30 21:35:14 lobby-terminal sshd[1189]: Connection from 10.10.7.9 port 54677
+Aug 30 21:35:18 lobby-terminal sshd[1189]: Accepted password for archivist from 10.10.7.9 port 54677 ssh2
+Aug 30 21:35:25 lobby-terminal sshd[1189]: pam_unix(sshd:session): session opened for user archivist by (uid=0)
+Aug 30 21:36:25 lobby-terminal sshd[1189]: pam_unix(sshd:session): session closed for user archivist
+Aug 30 21:36:25 lobby-terminal Finished Daily apt download activities.
+Aug 30 21:37:04 lobby-terminal CRON[6955]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 21:37:07 lobby-terminal CRON[6955]: pam_unix(cron:session): session closed for user root
+Aug 30 21:37:07 lobby-terminal Finished Daily apt download activities.
+Aug 30 21:37:37 lobby-terminal CRON[2572]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 21:37:38 lobby-terminal CRON[2572]: pam_unix(cron:session): session closed for user www-data
+Aug 30 21:37:38 lobby-terminal sudo:  operator : TTY=pts/1 ; PWD=/home/operator ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Aug 30 21:37:52 lobby-terminal sshd[1195]: Connection from 10.10.5.18 port 59544
+Aug 30 21:37:54 lobby-terminal sshd[1195]: Accepted password for analyst from 10.10.5.18 port 59544 ssh2
+Aug 30 21:38:00 lobby-terminal sshd[1195]: pam_unix(sshd:session): session opened for user analyst by (uid=0)
+Aug 30 21:44:11 lobby-terminal sshd[1195]: pam_unix(sshd:session): session closed for user analyst
+Aug 30 21:44:11 lobby-terminal sshd[1196]: Failed password for analyst from 10.10.7.9 port 63486 ssh2
+Aug 30 21:44:25 lobby-terminal CRON[9996]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 21:44:39 lobby-terminal CRON[9996]: pam_unix(cron:session): session closed for user root
+Aug 30 21:44:39 lobby-terminal pam_unix(sudo:session): session closed for user root
+Aug 30 21:44:52 lobby-terminal sshd[1199]: Failed password for invalid user git from 10.10.3.11 port 63884 ssh2
+Aug 30 21:45:10 lobby-terminal sudo:  analyst : TTY=pts/1 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 21:46:06 lobby-terminal Starting Daily apt download activities...
+Aug 30 21:46:37 lobby-terminal sshd[1202]: Failed password for invalid user www-data from 10.10.5.7 port 64970 ssh2
+Aug 30 21:46:50 lobby-terminal Starting Cleanup of Temporary Directories...
+Aug 30 21:47:27 lobby-terminal sudo:  analyst : TTY=pts/1 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Aug 30 21:48:20 lobby-terminal CRON[1359]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 21:48:35 lobby-terminal CRON[1359]: pam_unix(cron:session): session closed for user www-data
+Aug 30 21:48:35 lobby-terminal CRON[3555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 21:48:47 lobby-terminal CRON[3555]: pam_unix(cron:session): session closed for user root
+Aug 30 21:48:47 lobby-terminal sudo:  researcher : TTY=pts/1 ; PWD=/home/researcher ; USER=root ; COMMAND=/bin/systemctl restart ssh
+Aug 30 21:48:59 lobby-terminal sudo:  analyst : TTY=pts/1 ; PWD=/home/analyst ; USER=root ; COMMAND=/bin/journalctl -u sshd
+Aug 30 21:49:03 lobby-terminal CRON[5794]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 21:49:28 lobby-terminal CRON[5794]: pam_unix(cron:session): session closed for user www-data
+Aug 30 21:49:28 lobby-terminal sshd[1210]: Connection from 10.10.3.20 port 65471
+Aug 30 21:49:29 lobby-terminal sshd[1210]: Accepted password for compliance from 10.10.3.20 port 65471 ssh2
+Aug 30 21:49:34 lobby-terminal sshd[1210]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 21:57:28 lobby-terminal sshd[1210]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 21:57:28 lobby-terminal sshd[1211]: Connection from 10.10.3.12 port 58113
+Aug 30 21:57:31 lobby-terminal sshd[1211]: Accepted password for archivist from 10.10.3.12 port 58113 ssh2
+Aug 30 21:57:35 lobby-terminal sshd[1211]: pam_unix(sshd:session): session opened for user archivist by (uid=0)
+Aug 30 22:01:25 lobby-terminal sshd[1211]: pam_unix(sshd:session): session closed for user archivist
+Aug 30 22:01:25 lobby-terminal CRON[5000]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 22:01:32 lobby-terminal CRON[5000]: pam_unix(cron:session): session closed for user www-data
+Aug 30 22:01:32 lobby-terminal CRON[9944]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 22:01:46 lobby-terminal CRON[9944]: pam_unix(cron:session): session closed for user www-data
+Aug 30 22:01:46 lobby-terminal sudo:  operator : TTY=pts/1 ; PWD=/home/operator ; USER=root ; COMMAND=/bin/journalctl -u sshd
+Aug 30 22:02:16 lobby-terminal sshd[1215]: Connection from 10.10.3.12 port 53365
+Aug 30 22:02:19 lobby-terminal sshd[1215]: Accepted password for researcher from 10.10.3.12 port 53365 ssh2
+Aug 30 22:02:29 lobby-terminal sshd[1215]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 22:09:45 lobby-terminal sshd[1215]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 22:09:45 lobby-terminal Starting Cleanup of Temporary Directories...
+Aug 30 22:10:30 lobby-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 30 22:10:47 lobby-terminal sshd[1218]: Connection from 10.10.7.3 port 56515
+Aug 30 22:10:48 lobby-terminal sshd[1218]: Accepted password for operator from 10.10.7.3 port 56515 ssh2
+Aug 30 22:10:57 lobby-terminal sshd[1218]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Aug 30 22:13:26 lobby-terminal sshd[1218]: pam_unix(sshd:session): session closed for user operator
+Aug 30 22:13:26 lobby-terminal pam_unix(sudo:session): session closed for user root
+Aug 30 22:13:44 lobby-terminal sshd[1220]: Failed password for invalid user www-data from 10.10.7.3 port 55376 ssh2
+Aug 30 22:13:49 lobby-terminal sshd[1221]: Connection from 10.10.5.7 port 63443
+Aug 30 22:13:54 lobby-terminal sshd[1221]: Accepted password for researcher from 10.10.5.7 port 63443 ssh2
+Aug 30 22:13:56 lobby-terminal sshd[1221]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 22:16:00 lobby-terminal sshd[1221]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 22:16:00 lobby-terminal sshd[1222]: Connection from 10.10.3.11 port 60112
+Aug 30 22:16:01 lobby-terminal sshd[1222]: Accepted password for researcher from 10.10.3.11 port 60112 ssh2
+Aug 30 22:16:11 lobby-terminal sshd[1222]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 22:19:56 lobby-terminal sshd[1222]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 22:19:56 lobby-terminal CRON[8603]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 22:20:26 lobby-terminal CRON[8603]: pam_unix(cron:session): session closed for user www-data
+Aug 30 22:20:26 lobby-terminal CRON[6713]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 22:20:48 lobby-terminal CRON[6713]: pam_unix(cron:session): session closed for user www-data
+Aug 30 22:20:48 lobby-terminal sudo:  operator : TTY=pts/1 ; PWD=/home/operator ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 22:20:56 lobby-terminal pam_unix(sudo:session): session closed for user root
+Aug 30 22:21:20 lobby-terminal sshd[1227]: Connection from 10.10.3.11 port 54114
+Aug 30 22:21:25 lobby-terminal sshd[1227]: Accepted password for operator from 10.10.3.11 port 54114 ssh2
+Aug 30 22:21:32 lobby-terminal sshd[1227]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Aug 30 22:29:05 lobby-terminal sshd[1227]: pam_unix(sshd:session): session closed for user operator
+Aug 30 22:29:05 lobby-terminal sudo:  compliance : TTY=pts/1 ; PWD=/home/compliance ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 30 22:29:41 lobby-terminal sshd[1229]: Connection from 10.10.3.20 port 59551
+Aug 30 22:29:42 lobby-terminal sshd[1229]: Accepted password for researcher from 10.10.3.20 port 59551 ssh2
+Aug 30 22:29:44 lobby-terminal sshd[1229]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 22:34:36 lobby-terminal sshd[1229]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 22:34:36 lobby-terminal message repeated 3 times: [ Session started for user root. ]
+Aug 30 22:34:55 lobby-terminal message repeated 3 times: [ Session started for user root. ]
+Aug 30 22:35:03 lobby-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 30 22:35:38 lobby-terminal Starting Daily apt download activities...
+Aug 30 22:36:21 lobby-terminal sshd[1234]: Failed password for invalid user ftp from 10.10.5.7 port 54166 ssh2
+Aug 30 22:36:24 lobby-terminal CRON[1777]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 22:36:27 lobby-terminal CRON[1777]: pam_unix(cron:session): session closed for user root
+Aug 30 22:36:27 lobby-terminal sshd[1236]: Connection from 10.10.3.15 port 58110
+Aug 30 22:36:29 lobby-terminal sshd[1236]: Accepted password for compliance from 10.10.3.15 port 58110 ssh2
+Aug 30 22:36:30 lobby-terminal sshd[1236]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 22:39:49 lobby-terminal sshd[1236]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 22:39:49 lobby-terminal Finished Daily apt download activities.
+Aug 30 22:39:52 lobby-terminal sshd[1238]: Connection from 10.10.7.3 port 52376
+Aug 30 22:39:55 lobby-terminal sshd[1238]: Accepted password for researcher from 10.10.7.3 port 52376 ssh2
+Aug 30 22:39:56 lobby-terminal sshd[1238]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 22:47:08 lobby-terminal sshd[1238]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 22:47:08 lobby-terminal sshd[1239]: Connection from 10.10.3.15 port 59409
+Aug 30 22:47:13 lobby-terminal sshd[1239]: Accepted password for compliance from 10.10.3.15 port 59409 ssh2
+Aug 30 22:47:16 lobby-terminal sshd[1239]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 22:51:35 lobby-terminal sshd[1239]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 22:51:35 lobby-terminal sshd[1240]: Connection from 10.10.5.18 port 54433
+Aug 30 22:51:36 lobby-terminal sshd[1240]: Accepted password for operator from 10.10.5.18 port 54433 ssh2
+Aug 30 22:51:44 lobby-terminal sshd[1240]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Aug 30 22:57:34 lobby-terminal sshd[1240]: pam_unix(sshd:session): session closed for user operator
+Aug 30 22:57:34 lobby-terminal sshd[1241]: Connection from 10.10.7.9 port 51008
+Aug 30 22:57:37 lobby-terminal sshd[1241]: Accepted password for archivist from 10.10.7.9 port 51008 ssh2
+Aug 30 22:57:47 lobby-terminal sshd[1241]: pam_unix(sshd:session): session opened for user archivist by (uid=0)
+Aug 30 23:05:34 lobby-terminal sshd[1241]: pam_unix(sshd:session): session closed for user archivist
+Aug 30 23:05:34 lobby-terminal CRON[8851]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 23:05:40 lobby-terminal CRON[8851]: pam_unix(cron:session): session closed for user www-data
+Aug 30 23:05:40 lobby-terminal pam_unix(sudo:session): session closed for user root
+Aug 30 23:05:54 lobby-terminal CRON[4883]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 23:06:11 lobby-terminal CRON[4883]: pam_unix(cron:session): session closed for user root
+Aug 30 23:06:11 lobby-terminal Starting Daily apt download activities...
+Aug 30 23:06:31 lobby-terminal sshd[1246]: Connection from 10.10.5.18 port 63892
+Aug 30 23:06:33 lobby-terminal sshd[1246]: Accepted password for researcher from 10.10.5.18 port 63892 ssh2
+Aug 30 23:06:38 lobby-terminal sshd[1246]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 23:11:44 lobby-terminal sshd[1246]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 23:11:44 lobby-terminal sshd[1247]: Failed password for analyst from 10.10.3.11 port 57802 ssh2
+Aug 30 23:11:49 lobby-terminal CRON[1088]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 23:12:09 lobby-terminal CRON[1088]: pam_unix(cron:session): session closed for user root
+Aug 30 23:12:09 lobby-terminal CRON[9647]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 23:12:35 lobby-terminal CRON[9647]: pam_unix(cron:session): session closed for user root
+Aug 30 23:12:35 lobby-terminal CRON[5960]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 23:12:47 lobby-terminal CRON[5960]: pam_unix(cron:session): session closed for user www-data
+Aug 30 23:12:47 lobby-terminal sshd[1251]: Connection from 10.10.3.11 port 53434
+Aug 30 23:12:51 lobby-terminal sshd[1251]: Accepted password for operator from 10.10.3.11 port 53434 ssh2
+Aug 30 23:12:59 lobby-terminal sshd[1251]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Aug 30 23:19:57 lobby-terminal sshd[1251]: pam_unix(sshd:session): session closed for user operator
+Aug 30 23:19:57 lobby-terminal CRON[8077]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 23:20:05 lobby-terminal CRON[8077]: pam_unix(cron:session): session closed for user root
+Aug 30 23:20:05 lobby-terminal pam_unix(sudo:session): session closed for user root
+Aug 30 23:20:20 lobby-terminal Starting Daily apt download activities...
+Aug 30 23:20:40 lobby-terminal sshd[1255]: Connection from 10.10.7.3 port 50963
+Aug 30 23:20:45 lobby-terminal sshd[1255]: Accepted password for compliance from 10.10.7.3 port 50963 ssh2
+Aug 30 23:20:51 lobby-terminal sshd[1255]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 23:28:03 lobby-terminal sshd[1255]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 23:28:03 lobby-terminal CRON[8248]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 23:28:20 lobby-terminal CRON[8248]: pam_unix(cron:session): session closed for user www-data
+Aug 30 23:28:20 lobby-terminal sshd[1257]: Connection from 10.10.3.12 port 60457
+Aug 30 23:28:25 lobby-terminal sshd[1257]: Accepted password for researcher from 10.10.3.12 port 60457 ssh2
+Aug 30 23:28:31 lobby-terminal sshd[1257]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 23:33:01 lobby-terminal sshd[1257]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 23:33:01 lobby-terminal Starting Cleanup of Temporary Directories...
+Aug 30 23:33:14 lobby-terminal CRON[8683]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 23:33:23 lobby-terminal CRON[8683]: pam_unix(cron:session): session closed for user www-data
+Aug 30 23:33:23 lobby-terminal sshd[1260]: Connection from 10.10.5.18 port 50101
+Aug 30 23:33:26 lobby-terminal sshd[1260]: Accepted password for operator from 10.10.5.18 port 50101 ssh2
+Aug 30 23:33:33 lobby-terminal sshd[1260]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Aug 30 23:40:09 lobby-terminal sshd[1260]: pam_unix(sshd:session): session closed for user operator
+Aug 30 23:40:09 lobby-terminal pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 30 23:40:29 lobby-terminal sshd[1262]: Failed password for invalid user su from 10.10.3.20 port 61654 ssh2
+Aug 30 23:40:30 lobby-terminal Starting Cleanup of Temporary Directories...
+Aug 30 23:40:31 lobby-terminal sshd[1264]: Connection from 10.10.3.15 port 61564
+Aug 30 23:40:34 lobby-terminal sshd[1264]: Accepted password for compliance from 10.10.3.15 port 61564 ssh2
+Aug 30 23:40:41 lobby-terminal sshd[1264]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 23:45:10 lobby-terminal sshd[1264]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 23:45:10 lobby-terminal CRON[1461]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 23:45:14 lobby-terminal CRON[1461]: pam_unix(cron:session): session closed for user www-data
+Aug 30 23:45:14 lobby-terminal CRON[5069]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 23:45:22 lobby-terminal CRON[5069]: pam_unix(cron:session): session closed for user www-data
+Aug 30 23:45:22 lobby-terminal sshd[1267]: Connection from 10.10.3.12 port 58682
+Aug 30 23:45:26 lobby-terminal sshd[1267]: Accepted password for researcher from 10.10.3.12 port 58682 ssh2
+Aug 30 23:45:36 lobby-terminal sshd[1267]: pam_unix(sshd:session): session opened for user researcher by (uid=0)
+Aug 30 23:51:51 lobby-terminal sshd[1267]: pam_unix(sshd:session): session closed for user researcher
+Aug 30 23:51:51 lobby-terminal sshd[1268]: Connection from 10.10.3.15 port 64486
+Aug 30 23:51:54 lobby-terminal sshd[1268]: Accepted password for compliance from 10.10.3.15 port 64486 ssh2
+Aug 30 23:51:55 lobby-terminal sshd[1268]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 30 23:56:50 lobby-terminal sshd[1268]: pam_unix(sshd:session): session closed for user compliance
+Aug 30 23:56:50 lobby-terminal CRON[3665]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 23:56:54 lobby-terminal CRON[3665]: pam_unix(cron:session): session closed for user www-data
+Aug 30 23:56:54 lobby-terminal sshd[1270]: Failed password for invalid user root from 10.10.3.20 port 54043 ssh2
+Aug 30 23:56:58 lobby-terminal Starting Daily apt download activities...
+Aug 30 23:57:38 lobby-terminal Starting Cleanup of Temporary Directories...
+Aug 30 23:57:41 lobby-terminal sudo:  operator : TTY=pts/1 ; PWD=/home/operator ; USER=root ; COMMAND=/bin/systemctl restart ssh
+Aug 30 23:58:01 lobby-terminal CRON[5079]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 23:58:13 lobby-terminal CRON[5079]: pam_unix(cron:session): session closed for user root
+Aug 30 23:58:13 lobby-terminal CRON[3431]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 30 23:58:14 lobby-terminal CRON[3431]: pam_unix(cron:session): session closed for user root
+Aug 30 23:58:14 lobby-terminal CRON[9943]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 30 23:58:34 lobby-terminal CRON[9943]: pam_unix(cron:session): session closed for user www-data
+Aug 30 23:58:34 lobby-terminal sshd[1277]: Connection from 10.10.3.15 port 59244
+Aug 30 23:58:38 lobby-terminal sshd[1277]: Accepted password for compliance from 10.10.3.15 port 59244 ssh2
+Aug 30 23:58:48 lobby-terminal sshd[1277]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 31 00:07:38 lobby-terminal sshd[1277]: pam_unix(sshd:session): session closed for user compliance
+Aug 31 00:07:38 lobby-terminal sudo:  researcher : TTY=pts/1 ; PWD=/home/researcher ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 31 00:08:19 lobby-terminal message repeated 3 times: [ Session started for user root. ]
+Aug 31 00:08:37 lobby-terminal CRON[4186]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 31 00:08:42 lobby-terminal CRON[4186]: pam_unix(cron:session): session closed for user root
+Aug 31 00:08:42 lobby-terminal sudo:  compliance : TTY=pts/1 ; PWD=/home/compliance ; USER=root ; COMMAND=/bin/systemctl restart ssh
+Aug 31 00:09:22 lobby-terminal sshd[1282]: Connection from 10.10.3.15 port 61123
+Aug 31 00:09:24 lobby-terminal sshd[1282]: Accepted password for analyst from 10.10.3.15 port 61123 ssh2
+Aug 31 00:09:32 lobby-terminal sshd[1282]: pam_unix(sshd:session): session opened for user analyst by (uid=0)
+Aug 31 00:19:13 lobby-terminal sshd[1282]: pam_unix(sshd:session): session closed for user analyst
+Aug 31 00:19:13 lobby-terminal CRON[9911]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 31 00:19:33 lobby-terminal CRON[9911]: pam_unix(cron:session): session closed for user www-data
+Aug 31 00:19:33 lobby-terminal sshd[1284]: Connection from 10.10.3.12 port 51726
+Aug 31 00:19:34 lobby-terminal sshd[1284]: Accepted password for compliance from 10.10.3.12 port 51726 ssh2
+Aug 31 00:19:44 lobby-terminal sshd[1284]: pam_unix(sshd:session): session opened for user compliance by (uid=0)
+Aug 31 00:21:12 lobby-terminal sshd[1284]: pam_unix(sshd:session): session closed for user compliance
+Aug 31 00:21:12 lobby-terminal sshd[1285]: Connection from 10.10.5.18 port 64669
+Aug 31 00:21:14 lobby-terminal sshd[1285]: Accepted password for archivist from 10.10.5.18 port 64669 ssh2
+Aug 31 00:21:15 lobby-terminal sshd[1285]: pam_unix(sshd:session): session opened for user archivist by (uid=0)
+Aug 31 00:28:03 lobby-terminal sshd[1285]: pam_unix(sshd:session): session closed for user archivist
+Aug 31 00:28:03 lobby-terminal CRON[3223]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 31 00:28:19 lobby-terminal CRON[3223]: pam_unix(cron:session): session closed for user root
+Aug 31 00:28:19 lobby-terminal CRON[7729]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 31 00:28:47 lobby-terminal CRON[7729]: pam_unix(cron:session): session closed for user www-data
+Aug 31 00:28:47 lobby-terminal Starting Cleanup of Temporary Directories...
+Aug 31 00:29:20 lobby-terminal CRON[8733]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 31 00:29:28 lobby-terminal CRON[8733]: pam_unix(cron:session): session closed for user www-data
+Aug 31 00:29:28 lobby-terminal CRON[2125]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 31 00:29:37 lobby-terminal CRON[2125]: pam_unix(cron:session): session closed for user www-data
+Aug 31 00:29:37 lobby-terminal CRON[1114]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 31 00:30:02 lobby-terminal CRON[1114]: pam_unix(cron:session): session closed for user root
+Aug 31 00:30:02 lobby-terminal sshd[1292]: Failed password for invalid user mysql from 10.10.7.9 port 52481 ssh2
+Aug 31 00:30:12 lobby-terminal sshd[1293]: Failed password for analyst from 10.10.5.18 port 52984 ssh2
+Aug 31 00:30:26 lobby-terminal sshd[1294]: Failed password for analyst from 10.10.3.11 port 54697 ssh2
+Aug 31 00:30:45 lobby-terminal Starting Daily apt download activities...
+Aug 31 00:31:24 lobby-terminal sshd[1296]: Failed password for compliance from 10.10.3.15 port 53529 ssh2
+Aug 31 00:31:51 lobby-terminal CRON[5520]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 31 00:32:06 lobby-terminal CRON[5520]: pam_unix(cron:session): session closed for user root
+Aug 31 00:32:06 lobby-terminal CRON[7466]: pam_unix(cron:session): session opened for user www-data by (uid=0)
+Aug 31 00:32:33 lobby-terminal CRON[7466]: pam_unix(cron:session): session closed for user www-data
+Aug 31 00:32:33 lobby-terminal CRON[3272]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 31 00:32:54 lobby-terminal CRON[3272]: pam_unix(cron:session): session closed for user root

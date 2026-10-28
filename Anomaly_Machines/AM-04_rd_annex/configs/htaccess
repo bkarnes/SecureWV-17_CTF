@@ -1,0 +1,11 @@
+# DIRECTIVE ZERO — AM-04 .htaccess (root)
+# Auth config is in the vhost; this file ensures AllowOverride picks it up.
+# The <Limit> in the vhost only protects GET/POST/HEAD — non-standard
+# verbs bypass auth entirely.
+
+AuthType Basic
+AuthName "index.php"
+AuthUserFile /var/www/html/.htpasswd
+<Limit GET POST HEAD>
+    Require valid-user
+</Limit>

@@ -1,0 +1,7 @@
+{
+  "BT-03a: What protocol is used for C2 communication?": "DZ{HTTP}",
+  "BT-03b: What is the C2 server's IP address?": "DZ{10.10.3.62}",
+  "BT-03c: What command was issued by the C2 operator?": "DZ{retrieve}",
+  "BT-03d: What data was exfiltrated? (filename)": "DZ{enrollment.dat}",
+  "BT-03e: What encoding was used to obfuscate the exfiltrated data?": "DZ{hex}"
+}

@@ -1,0 +1,1039 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Events xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T00:00:00.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">SysMain</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T00:18:46.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">BITS</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T00:55:19.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">SysMain</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T01:17:15.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">BITS</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T01:32:42.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">LanmanServer</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T02:28:47.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">LanmanServer</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T03:12:25.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">Spooler</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T03:51:30.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">wuauserv</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7045</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T04:30:53.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">DoSvc</Data>
+      <Data Name="ImagePath">C:\Windows\System32\DoSvc.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T05:51:52.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">LanmanServer</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T06:46:48.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">WinMgmt</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T07:31:00.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">SysMain</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T07:49:58.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">SysMain</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:40:10.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">wuauserv</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T08:42:26.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">wuauserv</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T09:29:50.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">WinMgmt</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Kernel-General" Guid="{A68CA8B7-004F-D7B6-A698-07E2DE0F1F0D}" />
+      <EventID>6005</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T09:40:59.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7045</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T10:48:03.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">BcastDVRUserService</Data>
+      <Data Name="ImagePath">C:\Windows\System32\BcastDVRUserService.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7045</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T12:15:05.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">DiagTrack</Data>
+      <Data Name="ImagePath">C:\Windows\System32\DiagTrack.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Kernel-General" Guid="{A68CA8B7-004F-D7B6-A698-07E2DE0F1F0D}" />
+      <EventID>6005</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T13:40:11.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T13:41:31.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">BITS</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T14:18:22.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">WdiSystemHost</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T14:53:01.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">WdiSystemHost</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T15:45:32.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">WinMgmt</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T16:01:32.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">BITS</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Kernel-General" Guid="{A68CA8B7-004F-D7B6-A698-07E2DE0F1F0D}" />
+      <EventID>6005</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T16:31:04.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Kernel-General" Guid="{A68CA8B7-004F-D7B6-A698-07E2DE0F1F0D}" />
+      <EventID>6005</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T16:35:44.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Kernel-General" Guid="{A68CA8B7-004F-D7B6-A698-07E2DE0F1F0D}" />
+      <EventID>6005</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T19:28:20.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T22:47:29.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">LanmanServer</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-12T23:40:41.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">wuauserv</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7045</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T00:13:18.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">DoSvc</Data>
+      <Data Name="ImagePath">C:\Windows\System32\DoSvc.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T02:12:46.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">SysMain</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T03:08:15.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">WinMgmt</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7045</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T03:54:38.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">DiagTrack</Data>
+      <Data Name="ImagePath">C:\Windows\System32\DiagTrack.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7045</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T05:42:42.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">BcastDVRUserService</Data>
+      <Data Name="ImagePath">C:\Windows\System32\BcastDVRUserService.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T06:56:02.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">Spooler</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Kernel-General" Guid="{A68CA8B7-004F-D7B6-A698-07E2DE0F1F0D}" />
+      <EventID>6005</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T07:09:37.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T09:04:15.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">wuauserv</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7045</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T09:36:33.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">DiagTrack</Data>
+      <Data Name="ImagePath">C:\Windows\System32\DiagTrack.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T11:30:17.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">WinMgmt</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7045</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T12:02:40.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">OneSyncSvc</Data>
+      <Data Name="ImagePath">C:\Windows\System32\OneSyncSvc.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T13:28:42.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">WdiSystemHost</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7045</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T13:59:56.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">BcastDVRUserService</Data>
+      <Data Name="ImagePath">C:\Windows\System32\BcastDVRUserService.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T15:27:27.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">wuauserv</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7045</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T16:20:28.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">OneSyncSvc</Data>
+      <Data Name="ImagePath">C:\Windows\System32\OneSyncSvc.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T17:10:15.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">wuauserv</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Kernel-General" Guid="{A68CA8B7-004F-D7B6-A698-07E2DE0F1F0D}" />
+      <EventID>6005</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T17:49:31.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T18:17:26.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">BITS</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Kernel-General" Guid="{A68CA8B7-004F-D7B6-A698-07E2DE0F1F0D}" />
+      <EventID>6005</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T18:59:22.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T21:37:50.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">SysMain</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Kernel-General" Guid="{A68CA8B7-004F-D7B6-A698-07E2DE0F1F0D}" />
+      <EventID>6005</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T22:37:19.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7045</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-13T23:45:35.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">DoSvc</Data>
+      <Data Name="ImagePath">C:\Windows\System32\DoSvc.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7045</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-14T01:11:07.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">BcastDVRUserService</Data>
+      <Data Name="ImagePath">C:\Windows\System32\BcastDVRUserService.exe</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-14T01:22:08.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">WinMgmt</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-14T01:27:52.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">LanmanServer</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-14T02:08:06.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">wuauserv</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-14T02:32:59.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">Spooler</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Kernel-General" Guid="{A68CA8B7-004F-D7B6-A698-07E2DE0F1F0D}" />
+      <EventID>6005</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-14T02:33:55.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Kernel-General" Guid="{A68CA8B7-004F-D7B6-A698-07E2DE0F1F0D}" />
+      <EventID>6005</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-14T06:27:29.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-f9c2f87a4c66}" />
+      <EventID>7036</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Channel>System</Channel>
+      <Computer>DIR-WORKSTATION</Computer>
+      <TimeCreated SystemTime="2026-08-14T06:39:17.0000000Z" />
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="0" />
+    </System>
+    <EventData>
+      <Data Name="param1">SysMain</Data>
+      <Data Name="param2">stopped</Data>
+    </EventData>
+  </Event>
+</Events>

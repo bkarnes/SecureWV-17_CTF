@@ -1,0 +1,6 @@
+{
+  "BT-02a: What type of attack is present in the logs?": "DZ{SQL injection}",
+  "BT-02b: What parameter was targeted?": "DZ{applicant_id}",
+  "BT-02c: What was the attacker's user-agent string?": "DZ{sqlmap/1.7.11#stable (http://sqlmap.org)}",
+  "BT-02d: What data did the attacker successfully extract?": "DZ{citizen_registry}"
+}

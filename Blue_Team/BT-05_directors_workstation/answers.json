@@ -1,0 +1,7 @@
+{
+  "BT-05a: What Event ID indicates the initial logon?": "DZ{4624}",
+  "BT-05b: What process was used for lateral movement?": "DZ{powershell.exe}",
+  "BT-05c: What registry key was modified for persistence?": "DZ{HKLM\\SYSTEM\\CurrentVersion\\Control\\Session Manager\\WMIConfig}",
+  "BT-05d: What tool was used to dump credentials?": "DZ{sekurlsa.exe}",
+  "BT-05e: At what time (UTC) did the attacker first access the Director's files?": "DZ{2026-08-12T01:25:34Z}"
+}

@@ -1,0 +1,69 @@
+# DIRECTIVE ZERO — AM-05: The Archive
+# Two-container topology: document service host + isolated MQ consumer.
+#
+# archive publishes SSH (2225), document service (8443, HTTPS), and
+# RabbitMQ (5672) to the host. archive-consumer is on an isolated
+# Docker network — runs the MQ consumer as root, writes to a shared
+# volume that archive can read.
+#
+# Flags are injected via env vars. AM-05 gets two flags (user, root).
+
+services:
+  archive:
+    build: ./archive
+    image: dz-am05-archive:latest
+    container_name: dz-am05-archive
+    ports:
+      - "2225:22"
+      - "8443:8443"
+      - "5672:5672"
+    networks:
+      archive_public:
+      archive_internal:
+    volumes:
+      - shared_archive:/shared_archive
+    environment:
+      - AM05_USER_FLAG=${AM05_USER_FLAG:-DZ{user_archive_PLACEHOLDER}}
+      - AM05_ROOT_FLAG=${AM05_ROOT_FLAG:-DZ{root_archive_PLACEHOLDER}}
+    restart: unless-stopped
+
+  archive-consumer:
+    build: ./archive-consumer
+    image: dz-am05-consumer:latest
+    container_name: dz-am05-consumer
+    networks:
+      archive_internal:
+    volumes:
+      - shared_archive:/shared_archive
+    environment:
+      - AM05_ROOT_FLAG=${AM05_ROOT_FLAG:-DZ{root_archive_PLACEHOLDER}}
+    depends_on:
+      - archive
+    restart: unless-stopped
+
+  # ── Test runner (optional, --profile test) ──────────────────────────────
+  test-runner:
+    profiles: ["test"]
+    build:
+      context: ../_test_runner
+    image: dz-test-runner:latest
+    container_name: dz-am05-test
+    network_mode: host
+    depends_on:
+      - archive
+    volumes:
+      - ../:/machines:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - MACHINES_ROOT=/machines
+    command: ["am-05", "localhost", "/machines/event_flags.json"]
+
+volumes:
+  shared_archive:
+
+networks:
+  archive_public:
+    driver: bridge
+  archive_internal:
+    driver: bridge
+    internal: true
