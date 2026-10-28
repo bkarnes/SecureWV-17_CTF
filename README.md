@@ -123,8 +123,6 @@ docker compose \
 ## Red Team Challenges
 Each Anomaly‑Machine (AM) contains two primary flags: a *user* flag written to `user.txt` and a *root* flag written to `root.txt`. These flags are injected via the `.env` files in each AM directory and are used for scoring the red‑team exploit chain.
 
-
-
 ### Port‑map reference
 | AM | Host ports | Service |
 |----|------------|---------|
@@ -134,7 +132,6 @@ Each Anomaly‑Machine (AM) contains two primary flags: a *user* flag written to
 | AM‑04 | 80 (HTTP), 2220 (SSH), 3000 (API) | R&D Annex |
 | AM‑05 | 2225 (SSH), 8443 (HTTPS), 5672 (RabbitMQ) | The Archive |
 | AM‑06 | 2226 (SSH), 31337 (QUORUM terminal) | QUORUM Subsystem Alpha |
-| AM‑KoTH | 80 (HTTP), 2227 (SSH), 127.0.0.1:8081 (webhook) | QUORUM Core |
 
 ## Red Team Challenges
 
