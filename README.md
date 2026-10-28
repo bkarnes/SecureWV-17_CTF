@@ -102,7 +102,7 @@ sudo docker compose \
   -f Anomaly_Machines/AM-05_archive/docker-compose.yml \
   -f Anomaly_Machines/AM-06_quorum_alpha/docker-compose.yml \
   -f Anomaly_Machines/AM-KoTH_quorum_core/docker-compose.yml \
-   up -d --build
+   up -d
 ```
 
 ### 4. Stop everything
