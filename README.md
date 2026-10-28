@@ -52,7 +52,7 @@ Paranoia_CTF/
 ### Clone the repository
 
 ```bash
-# 1. Clone the project (replace <your‑username> with the GitHub owner)
+# 1. Clone the project:
 git clone https://github.com/bkarnes/SecureWV-17_CTF.git
 
 # 2. Change into the project directory
