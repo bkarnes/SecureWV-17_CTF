@@ -3,8 +3,7 @@
 A Dystopian future setting, hybrid CTF platform for cybersecurity classes, conferences, and expos.
 
 **Theme:** Satirical dystopian surveillance Construct run by an all-knowing AI called QUORUM.  
-**Format:** Hybrid Red Team (boot-to-root) + Blue Team (log analysis Jeopardy), unified scoring.  
-**Scales:** Classroom (1–2hr) → Conference (4–6hr) → Multi-day.
+**Format:** Hybrid Red Team (docker containers) + Blue Team (log analysis Jeopardy), unified scoring.  
 
 ---
 
@@ -96,6 +95,11 @@ docker compose \
   -f Anomaly_Machines/AM-KoTH_quorum_core/docker-compose.yml \
   down
 ```
+
+## Red Team Challenges
+Each Anomaly‑Machine (AM) contains two primary flags: a *user* flag written to `user.txt` and a *root* flag written to `root.txt`. These flags are injected via the `.env` files in each AM directory and are used for scoring the red‑team exploit chain.
+
+
 
 ## Blue Team Challenges
 
