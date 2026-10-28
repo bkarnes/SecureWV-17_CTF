@@ -7,7 +7,7 @@ A Dystopian future setting, hybrid CTF platform for cybersecurity classes, confe
 
 This is the SecureWV 17 (https://www.securewv.org/) CTF which was played Oct. 22 - 23, 2026 in Charleston, WV.
 
-The Winners are:
+The SecureWV 17 CTF winners are:
 ```
 1st. Place: CN Solo
 2nd Place: Transportation Gurus
