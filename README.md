@@ -5,6 +5,13 @@ A Dystopian future setting, hybrid CTF platform for cybersecurity classes, confe
 **Theme:** Satirical dystopian surveillance Construct run by an all-knowing AI called QUORUM.  
 **Format:** Hybrid Red Team (docker containers) + Blue Team (log analysis Jeopardy), unified scoring.  
 
+This is the SecureWV 17 (https://www.securewv.org/) CTF which was played Oct. 22 - 23, 2026 in Charleston, WV.
+
+The Winners are:
+1st. Place: CN Solo
+2nd Place: Transportation Gurus
+3rd place: PHP 5.2.4 is secure right
+
 ---
 
 ## File Map
