@@ -1,4 +1,4 @@
-# DIRECTIVE ZERO
+# SecureWV 17 CTF - DIRECTIVE ZERO 
 
 A Dystopian future setting, hybrid CTF platform for cybersecurity classes, conferences, and expos.
 
