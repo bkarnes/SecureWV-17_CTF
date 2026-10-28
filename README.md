@@ -97,7 +97,7 @@ docker compose \
   down
 ```
 
-## Blue Team Flags
+## Blue Team Challenges
 
 | ID | Name | Description | CP | Category |
 |----|------|-------------|----|----------|
