@@ -112,6 +112,25 @@ Each Anomaly‑Machine (AM) contains two primary flags: a *user* flag written to
 | AM‑06 | 2226 (SSH), 31337 (QUORUM terminal) | QUORUM Subsystem Alpha |
 | AM‑KoTH | 80 (HTTP), 2227 (SSH), 127.0.0.1:8081 (webhook) | QUORUM Core |
 
+## Red Team Challenges
+
+| ID | Name                                                   | Description                                           | CP  | Category   |
+|----|--------------------------------------------------------|-------------------------------------------------------|-----|------------|
+| 1  | AM‑01: The Lobby Terminal — User Flag                  | AM‑01: The Lobby Terminal — User Flag                | 100 | PROVISIONAL |
+| 2  | AM‑01: The Lobby Terminal — Root Flag                  | AM‑01: The Lobby Terminal — Root Flag                | 200 | PROVISIONAL |
+| 3  | AM‑02: Wellness Observation Center — User Flag        | AM‑02: Wellness Observation Center — User Flag        | 300 | PROVISIONAL |
+| 4  | AM‑02: Wellness Observation Center — Root Flag        | AM‑02: Wellness Observation Center — Root Flag        | 400 | PROVISIONAL |
+| 5  | AM‑03: Network Junction 7 — User Flag                 | AM‑03: Network Junction 7 — User Flag                 | 500 | AMBER |
+| 6  | AM‑03: Network Junction 7 — Root Flag                 | AM‑03: Network Junction 7 — Root Flag                 | 600 | AMBER |
+| 7  | AM‑03: Network Junction 7 — Internal User Flag        | AM‑03: Network Junction 7 — Internal User Flag        | 700 | AMBER |
+| 8  | AM‑03: Network Junction 7 — Internal Root Flag        | AM‑03: Network Junction 7 — Internal Root Flag        | 800 | AMBER |
+| 9  | AM‑04: R&D Annex (Provisional) — User Flag           | AM‑04: R&D Annex (Provisional) — User Flag           | 900 | TEAL |
+| 10 | AM‑04: R&D Annex (Provisional) — Root Flag           | AM‑04: R&D Annex (Provisional) — Root Flag           | 1000| TEAL |
+| 11 | AM‑05: The Archive — User Flag                         | AM‑05: The Archive — User Flag                         | 1500| CRIMSON |
+| 12 | AM‑05: The Archive — Root Flag                         | AM‑05: The Archive — Root Flag                         | 2000| CRIMSON |
+| 13 | AM‑06: QUORUM Subsystem Alpha — User Flag             | AM‑06: QUORUM Subsystem Alpha — User Flag             | 2500| IVORY |
+| 14 | AM‑06: QUORUM Subsystem Alpha — Root Flag             | AM‑06: QUORUM Subsystem Alpha — Root Flag             | 3000| IVORY |
+
 ## Blue Team Challenges
 
 | ID | Name | Description | CP | Category |
