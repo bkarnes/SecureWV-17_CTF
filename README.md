@@ -1,13 +1,9 @@
 # SecureWV 17 CTF - DIRECTIVE ZERO 
 
-A Dystopian future setting, hybrid CTF platform for cybersecurity classes, conferences, and expos.
+A satirical dystopian‑surveillance CTF where an all‑knowing AI, **QUORUM**, challenges participants in both Red‑Team (exploitation) and Blue‑Team (log analysis) tracks.
 
-**Theme:** Satirical dystopian surveillance Construct run by an all-knowing AI called QUORUM.  
-**Format:** Hybrid Red Team (docker containers) + Blue Team (log analysis Jeopardy), unified scoring.  
-
-This is the SecureWV 17 (https://www.securewv.org/) CTF which was played Oct. 22 - 23, 2026 in Charleston, WV.
-
-The SecureWV 17 CTF winners are:
+**Event:** [SecureWV 17](https://www.securewv.org/) – Oct 22‑23 2026, Charleston, WV  
+**Winners:** 
 ```
 1st. Place: CN Solo
 2nd Place: Transportation Gurus
@@ -19,7 +15,7 @@ The SecureWV 17 CTF winners are:
 ## File Map
 
 ```
-Paranoia_CTF/
+SecureWV-17_CTF/
 ├── README.md
 ├── Blue_Team/
 │   ├── BT-01_unauthorized_login/
@@ -44,10 +40,11 @@ Paranoia_CTF/
 ## Quick Start
 
 ### Prerequisites
+- Git (≥ 2.30)
 - Docker Engine (>=20.10) and Docker Compose plugin
 - Bash (or any POSIX‑compatible shell)
-- The repository root (this README) is assumed to be `/home/dude/Work/SecureWV-17_CTF`
-- **Note:** If your Docker setup requires root privileges, prepend `sudo` to the Docker commands; otherwise you can run them without `sudo`.
+
+**Note:** If your Docker setup requires root privileges, prepend `sudo` to the Docker commands; otherwise you can run them without `sudo`.
 
 ### Clone the repository
 
@@ -71,14 +68,14 @@ Each Anomaly‑Machine directory ships a ready‑made `.env` file containing the
 You will need to build the docker containers to ensure the flags are pulled into each docker image.  The docker containers will also build the first time you run a **docker compose up -d command**:
 ```bash
 cd Anomaly_Machines/AM-01_lobby_terminal
-sudo docker compose up -d --build
+docker compose up -d --build
 ```
 
 #### 1.2 Spin up the docker containers (after the build phase):
 After the initial build phase, you can run each container by:
 ```bash
 cd Anomaly_Machines/AM-01_lobby_terminal
-sudo docker compose up -d
+docker compose up -d
 ```
 
 Repeat the `cd` step for any other machine you wish to start.
@@ -87,41 +84,15 @@ Repeat the `cd` step for any other machine you wish to start.
 You can stop each docker container by:
 ```bash
 cd Anomaly_Machines/AM-01_lobby_terminal
-sudo docker compose down
+docker compose down
 ```
 
 Repeat the `cd` step for any other machine you wish to stop.
 
-### 3. Start all machines at once
-```bash
-sudo docker compose \
-  -f Anomaly_Machines/AM-01_lobby_terminal/docker-compose.yml \
-  -f Anomaly_Machines/AM-02_wellness/docker-compose.yml \
-  -f Anomaly_Machines/AM-03_junction7/docker-compose.yml \
-  -f Anomaly_Machines/AM-04_rd_annex/docker-compose.yml \
-  -f Anomaly_Machines/AM-05_archive/docker-compose.yml \
-  -f Anomaly_Machines/AM-06_quorum_alpha/docker-compose.yml \
-  -f Anomaly_Machines/AM-KoTH_quorum_core/docker-compose.yml \
-   up -d
-```
+## Recreating the CTF / Hacking Lab:
+Please note that if you run multiple instances at the same time on the same machine, there could be conflicting ports per machine and they may not work correctly.  For example, if  you run AM-01 and AM-03 at the same time, they will conflict on port 80 (see Port-map Reference below)
 
-### 4. Stop everything
-```bash
-sudo docker compose down   # from a single machine folder
-# or, for the multi‑file launch:
-docker compose \
-  -f Anomaly_Machines/AM-01_lobby_terminal/docker-compose.yml \
-  -f Anomaly_Machines/AM-02_wellness/docker-compose.yml \
-  -f Anomaly_Machines/AM-03_junction7/docker-compose.yml \
-  -f Anomaly_Machines/AM-04_rd_annex/docker-compose.yml \
-  -f Anomaly_Machines/AM-05_archive/docker-compose.yml \
-  -f Anomaly_Machines/AM-06_quorum_alpha/docker-compose.yml \
-  -f Anomaly_Machines/AM-KoTH_quorum_core/docker-compose.yml \
-  down
-```
-
-## Red Team Challenges
-Each Anomaly‑Machine (AM) contains two primary flags: a *user* flag written to `user.txt` and a *root* flag written to `root.txt`. These flags are injected via the `.env` files in each AM directory and are used for scoring the red‑team exploit chain.
+The CTF was designed to have all 6 containers on 6 different VMs/servers.  If you would like to recreate the CTF environment or are setting up a Hacking Lab, we recommend setting up multiple basic VMs (2GB RAM, 40 - 80 GB HDs each) and put 1 AM container on each of them.  This can be accomplished in VirtualBox or in similar Virtualization solutions. 
 
 ### Port‑map reference
 | AM | Host ports | Service |
@@ -134,6 +105,7 @@ Each Anomaly‑Machine (AM) contains two primary flags: a *user* flag written to
 | AM‑06 | 2226 (SSH), 31337 (QUORUM terminal) | QUORUM Subsystem Alpha |
 
 ## Red Team Challenges
+Each Anomaly‑Machine (AM) contains two primary flags: a *user* flag written to `user.txt` and a *root* flag written to `root.txt`. These flags are injected via the `.env` files in each AM directory and are used for scoring the red‑team exploit chain.
 
 | ID | Name                                                   | Description                                           | CP  | Category   |
 |----|--------------------------------------------------------|-------------------------------------------------------|-----|------------|
